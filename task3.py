@@ -14,7 +14,7 @@ to help make it easier to show only the relevant information you need.
 A sample run of the program might look like this:
 Choose a pokemon by
 1. ID
-2. English Name
+2. EN Name
 
 Choice: 1
 
@@ -36,14 +36,14 @@ If it starts spending more time lying in the sunlight, it’s a sign that the bu
 
 Choose a pokemon by
 1. ID
-2. English Name
+2. EN Name
 
 Choice: 2
 
-Enter the English Name of your Pokemon: Mr. Yang
+Enter the EN Name of your Pokemon: Mr. Yang
 
 I'm sorry, I can't find the name of the Pokemon. Did you spell it correctly?
-Enter the English Name of your Pokemon: Charmander
+Enter the EN Name of your Pokemon: Charmander
 
 CHARMANDER! I CHOOSE YOU!
 Charmander is a Fire type Pokemon
@@ -67,10 +67,10 @@ pokemon = [
   {
     "id": 1,
     "name": {
-      "english": "Bulbasaur",
-      "japanese": "フシギダネ",
-      "chinese": "妙蛙种子",
-      "french": "Bulbizarre"
+      "EN": "Bulbasaur",
+      "JP": "フシギダネ",
+      "ZH": "妙蛙种子",
+      "FR": "Bulbizarre"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -103,10 +103,10 @@ pokemon = [
   {
     "id": 2,
     "name": {
-      "english": "Ivysaur",
-      "japanese": "フシギソウ",
-      "chinese": "妙蛙草",
-      "french": "Herbizarre"
+      "EN": "Ivysaur",
+      "JP": "フシギソウ",
+      "ZH": "妙蛙草",
+      "FR": "Herbizarre"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -139,10 +139,10 @@ pokemon = [
   {
     "id": 3,
     "name": {
-      "english": "Venusaur",
-      "japanese": "フシギバナ",
-      "chinese": "妙蛙花",
-      "french": "Florizarre"
+      "EN": "Venusaur",
+      "JP": "フシギバナ",
+      "ZH": "妙蛙花",
+      "FR": "Florizarre"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -175,10 +175,10 @@ pokemon = [
   {
     "id": 4,
     "name": {
-      "english": "Charmander",
-      "japanese": "ヒトカゲ",
-      "chinese": "小火龙",
-      "french": "Salamèche"
+      "EN": "Charmander",
+      "JP": "ヒトカゲ",
+      "ZH": "小火龙",
+      "FR": "Salamèche"
     },
     "type": ["Fire"],
     "base": {
@@ -211,10 +211,10 @@ pokemon = [
   {
     "id": 5,
     "name": {
-      "english": "Charmeleon",
-      "japanese": "リザード",
-      "chinese": "火恐龙",
-      "french": "Reptincel"
+      "EN": "Charmeleon",
+      "JP": "リザード",
+      "ZH": "火恐龙",
+      "FR": "Reptincel"
     },
     "type": ["Fire"],
     "base": {
@@ -247,10 +247,10 @@ pokemon = [
   {
     "id": 6,
     "name": {
-      "english": "Charizard",
-      "japanese": "リザードン",
-      "chinese": "喷火龙",
-      "french": "Dracaufeu"
+      "EN": "Charizard",
+      "JP": "リザードン",
+      "ZH": "喷火龙",
+      "FR": "Dracaufeu"
     },
     "type": ["Fire", "Flying"],
     "base": {
@@ -283,10 +283,10 @@ pokemon = [
   {
     "id": 7,
     "name": {
-      "english": "Squirtle",
-      "japanese": "ゼニガメ",
-      "chinese": "杰尼龟",
-      "french": "Carapuce"
+      "EN": "Squirtle",
+      "JP": "ゼニガメ",
+      "ZH": "杰尼龟",
+      "FR": "Carapuce"
     },
     "type": ["Water"],
     "base": {
@@ -319,10 +319,10 @@ pokemon = [
   {
     "id": 8,
     "name": {
-      "english": "Wartortle",
-      "japanese": "カメール",
-      "chinese": "卡咪龟",
-      "french": "Carabaffe"
+      "EN": "Wartortle",
+      "JP": "カメール",
+      "ZH": "卡咪龟",
+      "FR": "Carabaffe"
     },
     "type": ["Water"],
     "base": {
@@ -355,10 +355,10 @@ pokemon = [
   {
     "id": 9,
     "name": {
-      "english": "Blastoise",
-      "japanese": "カメックス",
-      "chinese": "水箭龟",
-      "french": "Tortank"
+      "EN": "Blastoise",
+      "JP": "カメックス",
+      "ZH": "水箭龟",
+      "FR": "Tortank"
     },
     "type": ["Water"],
     "base": {
@@ -391,10 +391,10 @@ pokemon = [
   {
     "id": 10,
     "name": {
-      "english": "Caterpie",
-      "japanese": "キャタピー",
-      "chinese": "绿毛虫",
-      "french": "Chenipan"
+      "EN": "Caterpie",
+      "JP": "キャタピー",
+      "ZH": "绿毛虫",
+      "FR": "Chenipan"
     },
     "type": ["Bug"],
     "base": {
@@ -427,10 +427,10 @@ pokemon = [
   {
     "id": 11,
     "name": {
-      "english": "Metapod",
-      "japanese": "トランセル",
-      "chinese": "铁甲蛹",
-      "french": "Chrysacier"
+      "EN": "Metapod",
+      "JP": "トランセル",
+      "ZH": "铁甲蛹",
+      "FR": "Chrysacier"
     },
     "type": ["Bug"],
     "base": {
@@ -460,10 +460,10 @@ pokemon = [
   {
     "id": 12,
     "name": {
-      "english": "Butterfree",
-      "japanese": "バタフリー",
-      "chinese": "巴大蝶",
-      "french": "Papilusion"
+      "EN": "Butterfree",
+      "JP": "バタフリー",
+      "ZH": "巴大蝶",
+      "FR": "Papilusion"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -496,10 +496,10 @@ pokemon = [
   {
     "id": 13,
     "name": {
-      "english": "Weedle",
-      "japanese": "ビードル",
-      "chinese": "独角虫",
-      "french": "Aspicot"
+      "EN": "Weedle",
+      "JP": "ビードル",
+      "ZH": "独角虫",
+      "FR": "Aspicot"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -532,10 +532,10 @@ pokemon = [
   {
     "id": 14,
     "name": {
-      "english": "Kakuna",
-      "japanese": "コクーン",
-      "chinese": "铁壳蛹",
-      "french": "Coconfort"
+      "EN": "Kakuna",
+      "JP": "コクーン",
+      "ZH": "铁壳蛹",
+      "FR": "Coconfort"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -565,10 +565,10 @@ pokemon = [
   {
     "id": 15,
     "name": {
-      "english": "Beedrill",
-      "japanese": "スピアー",
-      "chinese": "大针蜂",
-      "french": "Dardargnan"
+      "EN": "Beedrill",
+      "JP": "スピアー",
+      "ZH": "大针蜂",
+      "FR": "Dardargnan"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -601,10 +601,10 @@ pokemon = [
   {
     "id": 16,
     "name": {
-      "english": "Pidgey",
-      "japanese": "ポッポ",
-      "chinese": "波波",
-      "french": "Roucool"
+      "EN": "Pidgey",
+      "JP": "ポッポ",
+      "ZH": "波波",
+      "FR": "Roucool"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -638,10 +638,10 @@ pokemon = [
   {
     "id": 17,
     "name": {
-      "english": "Pidgeotto",
-      "japanese": "ピジョン",
-      "chinese": "比比鸟",
-      "french": "Roucoups"
+      "EN": "Pidgeotto",
+      "JP": "ピジョン",
+      "ZH": "比比鸟",
+      "FR": "Roucoups"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -675,10 +675,10 @@ pokemon = [
   {
     "id": 18,
     "name": {
-      "english": "Pidgeot",
-      "japanese": "ピジョット",
-      "chinese": "大比鸟",
-      "french": "Roucarnage"
+      "EN": "Pidgeot",
+      "JP": "ピジョット",
+      "ZH": "大比鸟",
+      "FR": "Roucarnage"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -712,10 +712,10 @@ pokemon = [
   {
     "id": 19,
     "name": {
-      "english": "Rattata",
-      "japanese": "コラッタ",
-      "chinese": "小拉达",
-      "french": "Rattata"
+      "EN": "Rattata",
+      "JP": "コラッタ",
+      "ZH": "小拉达",
+      "FR": "Rattata"
     },
     "type": ["Normal"],
     "base": {
@@ -749,10 +749,10 @@ pokemon = [
   {
     "id": 20,
     "name": {
-      "english": "Raticate",
-      "japanese": "ラッタ",
-      "chinese": "拉达",
-      "french": "Rattatac"
+      "EN": "Raticate",
+      "JP": "ラッタ",
+      "ZH": "拉达",
+      "FR": "Rattatac"
     },
     "type": ["Normal"],
     "base": {
@@ -786,10 +786,10 @@ pokemon = [
   {
     "id": 21,
     "name": {
-      "english": "Spearow",
-      "japanese": "オニスズメ",
-      "chinese": "烈雀",
-      "french": "Piafabec"
+      "EN": "Spearow",
+      "JP": "オニスズメ",
+      "ZH": "烈雀",
+      "FR": "Piafabec"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -822,10 +822,10 @@ pokemon = [
   {
     "id": 22,
     "name": {
-      "english": "Fearow",
-      "japanese": "オニドリル",
-      "chinese": "大嘴雀",
-      "french": "Rapasdepic"
+      "EN": "Fearow",
+      "JP": "オニドリル",
+      "ZH": "大嘴雀",
+      "FR": "Rapasdepic"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -858,10 +858,10 @@ pokemon = [
   {
     "id": 23,
     "name": {
-      "english": "Ekans",
-      "japanese": "アーボ",
-      "chinese": "阿柏蛇",
-      "french": "Abo"
+      "EN": "Ekans",
+      "JP": "アーボ",
+      "ZH": "阿柏蛇",
+      "FR": "Abo"
     },
     "type": ["Poison"],
     "base": {
@@ -895,10 +895,10 @@ pokemon = [
   {
     "id": 24,
     "name": {
-      "english": "Arbok",
-      "japanese": "アーボック",
-      "chinese": "阿柏怪",
-      "french": "Arbok"
+      "EN": "Arbok",
+      "JP": "アーボック",
+      "ZH": "阿柏怪",
+      "FR": "Arbok"
     },
     "type": ["Poison"],
     "base": {
@@ -932,10 +932,10 @@ pokemon = [
   {
     "id": 25,
     "name": {
-      "english": "Pikachu",
-      "japanese": "ピカチュウ",
-      "chinese": "皮卡丘",
-      "french": "Pikachu"
+      "EN": "Pikachu",
+      "JP": "ピカチュウ",
+      "ZH": "皮卡丘",
+      "FR": "Pikachu"
     },
     "type": ["Electric"],
     "base": {
@@ -971,10 +971,10 @@ pokemon = [
   {
     "id": 26,
     "name": {
-      "english": "Raichu",
-      "japanese": "ライチュウ",
-      "chinese": "雷丘",
-      "french": "Raichu"
+      "EN": "Raichu",
+      "JP": "ライチュウ",
+      "ZH": "雷丘",
+      "FR": "Raichu"
     },
     "type": ["Electric"],
     "base": {
@@ -1007,10 +1007,10 @@ pokemon = [
   {
     "id": 27,
     "name": {
-      "english": "Sandshrew",
-      "japanese": "サンド",
-      "chinese": "穿山鼠",
-      "french": "Sabelette"
+      "EN": "Sandshrew",
+      "JP": "サンド",
+      "ZH": "穿山鼠",
+      "FR": "Sabelette"
     },
     "type": ["Ground"],
     "base": {
@@ -1043,10 +1043,10 @@ pokemon = [
   {
     "id": 28,
     "name": {
-      "english": "Sandslash",
-      "japanese": "サンドパン",
-      "chinese": "穿山王",
-      "french": "Sablaireau"
+      "EN": "Sandslash",
+      "JP": "サンドパン",
+      "ZH": "穿山王",
+      "FR": "Sablaireau"
     },
     "type": ["Ground"],
     "base": {
@@ -1079,10 +1079,10 @@ pokemon = [
   {
     "id": 29,
     "name": {
-      "english": "Nidoran♀",
-      "japanese": "ニドラン♀",
-      "chinese": "尼多兰",
-      "french": "Nidoran♀"
+      "EN": "Nidoran♀",
+      "JP": "ニドラン♀",
+      "ZH": "尼多兰",
+      "FR": "Nidoran♀"
     },
     "type": ["Poison"],
     "base": {
@@ -1116,10 +1116,10 @@ pokemon = [
   {
     "id": 30,
     "name": {
-      "english": "Nidorina",
-      "japanese": "ニドリーナ",
-      "chinese": "尼多娜",
-      "french": "Nidorina"
+      "EN": "Nidorina",
+      "JP": "ニドリーナ",
+      "ZH": "尼多娜",
+      "FR": "Nidorina"
     },
     "type": ["Poison"],
     "base": {
@@ -1156,10 +1156,10 @@ pokemon = [
   {
     "id": 31,
     "name": {
-      "english": "Nidoqueen",
-      "japanese": "ニドクイン",
-      "chinese": "尼多后",
-      "french": "Nidoqueen"
+      "EN": "Nidoqueen",
+      "JP": "ニドクイン",
+      "ZH": "尼多后",
+      "FR": "Nidoqueen"
     },
     "type": ["Poison", "Ground"],
     "base": {
@@ -1193,10 +1193,10 @@ pokemon = [
   {
     "id": 32,
     "name": {
-      "english": "Nidoran♂",
-      "japanese": "ニドラン♂",
-      "chinese": "尼多朗",
-      "french": "Nidoran♂"
+      "EN": "Nidoran♂",
+      "JP": "ニドラン♂",
+      "ZH": "尼多朗",
+      "FR": "Nidoran♂"
     },
     "type": ["Poison"],
     "base": {
@@ -1230,10 +1230,10 @@ pokemon = [
   {
     "id": 33,
     "name": {
-      "english": "Nidorino",
-      "japanese": "ニドリーノ",
-      "chinese": "尼多力诺",
-      "french": "Nidorino"
+      "EN": "Nidorino",
+      "JP": "ニドリーノ",
+      "ZH": "尼多力诺",
+      "FR": "Nidorino"
     },
     "type": ["Poison"],
     "base": {
@@ -1270,10 +1270,10 @@ pokemon = [
   {
     "id": 34,
     "name": {
-      "english": "Nidoking",
-      "japanese": "ニドキング",
-      "chinese": "尼多王",
-      "french": "Nidoking"
+      "EN": "Nidoking",
+      "JP": "ニドキング",
+      "ZH": "尼多王",
+      "FR": "Nidoking"
     },
     "type": ["Poison", "Ground"],
     "base": {
@@ -1307,10 +1307,10 @@ pokemon = [
   {
     "id": 35,
     "name": {
-      "english": "Clefairy",
-      "japanese": "ピッピ",
-      "chinese": "皮皮",
-      "french": "Mélofée"
+      "EN": "Clefairy",
+      "JP": "ピッピ",
+      "ZH": "皮皮",
+      "FR": "Mélofée"
     },
     "type": ["Fairy"],
     "base": {
@@ -1347,10 +1347,10 @@ pokemon = [
   {
     "id": 36,
     "name": {
-      "english": "Clefable",
-      "japanese": "ピクシー",
-      "chinese": "皮可西",
-      "french": "Mélodelfe"
+      "EN": "Clefable",
+      "JP": "ピクシー",
+      "ZH": "皮可西",
+      "FR": "Mélodelfe"
     },
     "type": ["Fairy"],
     "base": {
@@ -1384,10 +1384,10 @@ pokemon = [
   {
     "id": 37,
     "name": {
-      "english": "Vulpix",
-      "japanese": "ロコン",
-      "chinese": "六尾",
-      "french": "Goupix"
+      "EN": "Vulpix",
+      "JP": "ロコン",
+      "ZH": "六尾",
+      "FR": "Goupix"
     },
     "type": ["Fire"],
     "base": {
@@ -1420,10 +1420,10 @@ pokemon = [
   {
     "id": 38,
     "name": {
-      "english": "Ninetales",
-      "japanese": "キュウコン",
-      "chinese": "九尾",
-      "french": "Feunard"
+      "EN": "Ninetales",
+      "JP": "キュウコン",
+      "ZH": "九尾",
+      "FR": "Feunard"
     },
     "type": ["Fire"],
     "base": {
@@ -1456,10 +1456,10 @@ pokemon = [
   {
     "id": 39,
     "name": {
-      "english": "Jigglypuff",
-      "japanese": "プリン",
-      "chinese": "胖丁",
-      "french": "Rondoudou"
+      "EN": "Jigglypuff",
+      "JP": "プリン",
+      "ZH": "胖丁",
+      "FR": "Rondoudou"
     },
     "type": ["Normal", "Fairy"],
     "base": {
@@ -1496,10 +1496,10 @@ pokemon = [
   {
     "id": 40,
     "name": {
-      "english": "Wigglytuff",
-      "japanese": "プクリン",
-      "chinese": "胖可丁",
-      "french": "Grodoudou"
+      "EN": "Wigglytuff",
+      "JP": "プクリン",
+      "ZH": "胖可丁",
+      "FR": "Grodoudou"
     },
     "type": ["Normal", "Fairy"],
     "base": {
@@ -1533,10 +1533,10 @@ pokemon = [
   {
     "id": 41,
     "name": {
-      "english": "Zubat",
-      "japanese": "ズバット",
-      "chinese": "超音蝠",
-      "french": "Nosferapti"
+      "EN": "Zubat",
+      "JP": "ズバット",
+      "ZH": "超音蝠",
+      "FR": "Nosferapti"
     },
     "type": ["Poison", "Flying"],
     "base": {
@@ -1569,10 +1569,10 @@ pokemon = [
   {
     "id": 42,
     "name": {
-      "english": "Golbat",
-      "japanese": "ゴルバット",
-      "chinese": "大嘴蝠",
-      "french": "Nosferalto"
+      "EN": "Golbat",
+      "JP": "ゴルバット",
+      "ZH": "大嘴蝠",
+      "FR": "Nosferalto"
     },
     "type": ["Poison", "Flying"],
     "base": {
@@ -1608,10 +1608,10 @@ pokemon = [
   {
     "id": 43,
     "name": {
-      "english": "Oddish",
-      "japanese": "ナゾノクサ",
-      "chinese": "走路草",
-      "french": "Mystherbe"
+      "EN": "Oddish",
+      "JP": "ナゾノクサ",
+      "ZH": "走路草",
+      "FR": "Mystherbe"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -1644,10 +1644,10 @@ pokemon = [
   {
     "id": 44,
     "name": {
-      "english": "Gloom",
-      "japanese": "クサイハナ",
-      "chinese": "臭臭花",
-      "french": "Ortide"
+      "EN": "Gloom",
+      "JP": "クサイハナ",
+      "ZH": "臭臭花",
+      "FR": "Ortide"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -1686,10 +1686,10 @@ pokemon = [
   {
     "id": 45,
     "name": {
-      "english": "Vileplume",
-      "japanese": "ラフレシア",
-      "chinese": "霸王花",
-      "french": "Rafflesia"
+      "EN": "Vileplume",
+      "JP": "ラフレシア",
+      "ZH": "霸王花",
+      "FR": "Rafflesia"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -1722,10 +1722,10 @@ pokemon = [
   {
     "id": 46,
     "name": {
-      "english": "Paras",
-      "japanese": "パラス",
-      "chinese": "派拉斯",
-      "french": "Paras"
+      "EN": "Paras",
+      "JP": "パラス",
+      "ZH": "派拉斯",
+      "FR": "Paras"
     },
     "type": ["Bug", "Grass"],
     "base": {
@@ -1759,10 +1759,10 @@ pokemon = [
   {
     "id": 47,
     "name": {
-      "english": "Parasect",
-      "japanese": "パラセクト",
-      "chinese": "派拉斯特",
-      "french": "Parasect"
+      "EN": "Parasect",
+      "JP": "パラセクト",
+      "ZH": "派拉斯特",
+      "FR": "Parasect"
     },
     "type": ["Bug", "Grass"],
     "base": {
@@ -1796,10 +1796,10 @@ pokemon = [
   {
     "id": 48,
     "name": {
-      "english": "Venonat",
-      "japanese": "コンパン",
-      "chinese": "毛球",
-      "french": "Mimitoss"
+      "EN": "Venonat",
+      "JP": "コンパン",
+      "ZH": "毛球",
+      "FR": "Mimitoss"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -1833,10 +1833,10 @@ pokemon = [
   {
     "id": 49,
     "name": {
-      "english": "Venomoth",
-      "japanese": "モルフォン",
-      "chinese": "摩鲁蛾",
-      "french": "Aéromite"
+      "EN": "Venomoth",
+      "JP": "モルフォン",
+      "ZH": "摩鲁蛾",
+      "FR": "Aéromite"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -1870,10 +1870,10 @@ pokemon = [
   {
     "id": 50,
     "name": {
-      "english": "Diglett",
-      "japanese": "ディグダ",
-      "chinese": "地鼠",
-      "french": "Taupiqueur"
+      "EN": "Diglett",
+      "JP": "ディグダ",
+      "ZH": "地鼠",
+      "FR": "Taupiqueur"
     },
     "type": ["Ground"],
     "base": {
@@ -1907,10 +1907,10 @@ pokemon = [
   {
     "id": 51,
     "name": {
-      "english": "Dugtrio",
-      "japanese": "ダグトリオ",
-      "chinese": "三地鼠",
-      "french": "Triopikeur"
+      "EN": "Dugtrio",
+      "JP": "ダグトリオ",
+      "ZH": "三地鼠",
+      "FR": "Triopikeur"
     },
     "type": ["Ground"],
     "base": {
@@ -1944,10 +1944,10 @@ pokemon = [
   {
     "id": 52,
     "name": {
-      "english": "Meowth",
-      "japanese": "ニャース",
-      "chinese": "喵喵",
-      "french": "Miaouss"
+      "EN": "Meowth",
+      "JP": "ニャース",
+      "ZH": "喵喵",
+      "FR": "Miaouss"
     },
     "type": ["Normal"],
     "base": {
@@ -1981,10 +1981,10 @@ pokemon = [
   {
     "id": 53,
     "name": {
-      "english": "Persian",
-      "japanese": "ペルシアン",
-      "chinese": "猫老大",
-      "french": "Persian"
+      "EN": "Persian",
+      "JP": "ペルシアン",
+      "ZH": "猫老大",
+      "FR": "Persian"
     },
     "type": ["Normal"],
     "base": {
@@ -2018,10 +2018,10 @@ pokemon = [
   {
     "id": 54,
     "name": {
-      "english": "Psyduck",
-      "japanese": "コダック",
-      "chinese": "可达鸭",
-      "french": "Psykokwak"
+      "EN": "Psyduck",
+      "JP": "コダック",
+      "ZH": "可达鸭",
+      "FR": "Psykokwak"
     },
     "type": ["Water"],
     "base": {
@@ -2055,10 +2055,10 @@ pokemon = [
   {
     "id": 55,
     "name": {
-      "english": "Golduck",
-      "japanese": "ゴルダック",
-      "chinese": "哥达鸭",
-      "french": "Akwakwak"
+      "EN": "Golduck",
+      "JP": "ゴルダック",
+      "ZH": "哥达鸭",
+      "FR": "Akwakwak"
     },
     "type": ["Water"],
     "base": {
@@ -2092,10 +2092,10 @@ pokemon = [
   {
     "id": 56,
     "name": {
-      "english": "Mankey",
-      "japanese": "マンキー",
-      "chinese": "猴怪",
-      "french": "Férosinge"
+      "EN": "Mankey",
+      "JP": "マンキー",
+      "ZH": "猴怪",
+      "FR": "Férosinge"
     },
     "type": ["Fighting"],
     "base": {
@@ -2129,10 +2129,10 @@ pokemon = [
   {
     "id": 57,
     "name": {
-      "english": "Primeape",
-      "japanese": "オコリザル",
-      "chinese": "火暴猴",
-      "french": "Colossinge"
+      "EN": "Primeape",
+      "JP": "オコリザル",
+      "ZH": "火暴猴",
+      "FR": "Colossinge"
     },
     "type": ["Fighting"],
     "base": {
@@ -2166,10 +2166,10 @@ pokemon = [
   {
     "id": 58,
     "name": {
-      "english": "Growlithe",
-      "japanese": "ガーディ",
-      "chinese": "卡蒂狗",
-      "french": "Caninos"
+      "EN": "Growlithe",
+      "JP": "ガーディ",
+      "ZH": "卡蒂狗",
+      "FR": "Caninos"
     },
     "type": ["Fire"],
     "base": {
@@ -2203,10 +2203,10 @@ pokemon = [
   {
     "id": 59,
     "name": {
-      "english": "Arcanine",
-      "japanese": "ウインディ",
-      "chinese": "风速狗",
-      "french": "Arcanin"
+      "EN": "Arcanine",
+      "JP": "ウインディ",
+      "ZH": "风速狗",
+      "FR": "Arcanin"
     },
     "type": ["Fire"],
     "base": {
@@ -2240,10 +2240,10 @@ pokemon = [
   {
     "id": 60,
     "name": {
-      "english": "Poliwag",
-      "japanese": "ニョロモ",
-      "chinese": "蚊香蝌蚪",
-      "french": "Ptitard"
+      "EN": "Poliwag",
+      "JP": "ニョロモ",
+      "ZH": "蚊香蝌蚪",
+      "FR": "Ptitard"
     },
     "type": ["Water"],
     "base": {
@@ -2277,10 +2277,10 @@ pokemon = [
   {
     "id": 61,
     "name": {
-      "english": "Poliwhirl",
-      "japanese": "ニョロゾ",
-      "chinese": "蚊香君",
-      "french": "Têtarte"
+      "EN": "Poliwhirl",
+      "JP": "ニョロゾ",
+      "ZH": "蚊香君",
+      "FR": "Têtarte"
     },
     "type": ["Water"],
     "base": {
@@ -2320,10 +2320,10 @@ pokemon = [
   {
     "id": 62,
     "name": {
-      "english": "Poliwrath",
-      "japanese": "ニョロボン",
-      "chinese": "蚊香泳士",
-      "french": "Tartard"
+      "EN": "Poliwrath",
+      "JP": "ニョロボン",
+      "ZH": "蚊香泳士",
+      "FR": "Tartard"
     },
     "type": ["Water", "Fighting"],
     "base": {
@@ -2357,10 +2357,10 @@ pokemon = [
   {
     "id": 63,
     "name": {
-      "english": "Abra",
-      "japanese": "ケーシィ",
-      "chinese": "凯西",
-      "french": "Abra"
+      "EN": "Abra",
+      "JP": "ケーシィ",
+      "ZH": "凯西",
+      "FR": "Abra"
     },
     "type": ["Psychic"],
     "base": {
@@ -2394,10 +2394,10 @@ pokemon = [
   {
     "id": 64,
     "name": {
-      "english": "Kadabra",
-      "japanese": "ユンゲラー",
-      "chinese": "勇基拉",
-      "french": "Kadabra"
+      "EN": "Kadabra",
+      "JP": "ユンゲラー",
+      "ZH": "勇基拉",
+      "FR": "Kadabra"
     },
     "type": ["Psychic"],
     "base": {
@@ -2431,10 +2431,10 @@ pokemon = [
   {
     "id": 65,
     "name": {
-      "english": "Alakazam",
-      "japanese": "フーディン",
-      "chinese": "胡地",
-      "french": "Alakazam"
+      "EN": "Alakazam",
+      "JP": "フーディン",
+      "ZH": "胡地",
+      "FR": "Alakazam"
     },
     "type": ["Psychic"],
     "base": {
@@ -2468,10 +2468,10 @@ pokemon = [
   {
     "id": 66,
     "name": {
-      "english": "Machop",
-      "japanese": "ワンリキー",
-      "chinese": "腕力",
-      "french": "Machoc"
+      "EN": "Machop",
+      "JP": "ワンリキー",
+      "ZH": "腕力",
+      "FR": "Machoc"
     },
     "type": ["Fighting"],
     "base": {
@@ -2505,10 +2505,10 @@ pokemon = [
   {
     "id": 67,
     "name": {
-      "english": "Machoke",
-      "japanese": "ゴーリキー",
-      "chinese": "豪力",
-      "french": "Machopeur"
+      "EN": "Machoke",
+      "JP": "ゴーリキー",
+      "ZH": "豪力",
+      "FR": "Machopeur"
     },
     "type": ["Fighting"],
     "base": {
@@ -2542,10 +2542,10 @@ pokemon = [
   {
     "id": 68,
     "name": {
-      "english": "Machamp",
-      "japanese": "カイリキー",
-      "chinese": "怪力",
-      "french": "Mackogneur"
+      "EN": "Machamp",
+      "JP": "カイリキー",
+      "ZH": "怪力",
+      "FR": "Mackogneur"
     },
     "type": ["Fighting"],
     "base": {
@@ -2579,10 +2579,10 @@ pokemon = [
   {
     "id": 69,
     "name": {
-      "english": "Bellsprout",
-      "japanese": "マダツボミ",
-      "chinese": "喇叭芽",
-      "french": "Chétiflor"
+      "EN": "Bellsprout",
+      "JP": "マダツボミ",
+      "ZH": "喇叭芽",
+      "FR": "Chétiflor"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -2615,10 +2615,10 @@ pokemon = [
   {
     "id": 70,
     "name": {
-      "english": "Weepinbell",
-      "japanese": "ウツドン",
-      "chinese": "口呆花",
-      "french": "Boustiflor"
+      "EN": "Weepinbell",
+      "JP": "ウツドン",
+      "ZH": "口呆花",
+      "FR": "Boustiflor"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -2654,10 +2654,10 @@ pokemon = [
   {
     "id": 71,
     "name": {
-      "english": "Victreebel",
-      "japanese": "ウツボット",
-      "chinese": "大食花",
-      "french": "Empiflor"
+      "EN": "Victreebel",
+      "JP": "ウツボット",
+      "ZH": "大食花",
+      "FR": "Empiflor"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -2690,10 +2690,10 @@ pokemon = [
   {
     "id": 72,
     "name": {
-      "english": "Tentacool",
-      "japanese": "メノクラゲ",
-      "chinese": "玛瑙水母",
-      "french": "Tentacool"
+      "EN": "Tentacool",
+      "JP": "メノクラゲ",
+      "ZH": "玛瑙水母",
+      "FR": "Tentacool"
     },
     "type": ["Water", "Poison"],
     "base": {
@@ -2727,10 +2727,10 @@ pokemon = [
   {
     "id": 73,
     "name": {
-      "english": "Tentacruel",
-      "japanese": "ドククラゲ",
-      "chinese": "毒刺水母",
-      "french": "Tentacruel"
+      "EN": "Tentacruel",
+      "JP": "ドククラゲ",
+      "ZH": "毒刺水母",
+      "FR": "Tentacruel"
     },
     "type": ["Water", "Poison"],
     "base": {
@@ -2764,10 +2764,10 @@ pokemon = [
   {
     "id": 74,
     "name": {
-      "english": "Geodude",
-      "japanese": "イシツブテ",
-      "chinese": "小拳石",
-      "french": "Racaillou"
+      "EN": "Geodude",
+      "JP": "イシツブテ",
+      "ZH": "小拳石",
+      "FR": "Racaillou"
     },
     "type": ["Rock", "Ground"],
     "base": {
@@ -2801,10 +2801,10 @@ pokemon = [
   {
     "id": 75,
     "name": {
-      "english": "Graveler",
-      "japanese": "ゴローン",
-      "chinese": "隆隆石",
-      "french": "Gravalanch"
+      "EN": "Graveler",
+      "JP": "ゴローン",
+      "ZH": "隆隆石",
+      "FR": "Gravalanch"
     },
     "type": ["Rock", "Ground"],
     "base": {
@@ -2838,10 +2838,10 @@ pokemon = [
   {
     "id": 76,
     "name": {
-      "english": "Golem",
-      "japanese": "ゴローニャ",
-      "chinese": "隆隆岩",
-      "french": "Grolem"
+      "EN": "Golem",
+      "JP": "ゴローニャ",
+      "ZH": "隆隆岩",
+      "FR": "Grolem"
     },
     "type": ["Rock", "Ground"],
     "base": {
@@ -2875,10 +2875,10 @@ pokemon = [
   {
     "id": 77,
     "name": {
-      "english": "Ponyta",
-      "japanese": "ポニータ",
-      "chinese": "小火马",
-      "french": "Ponyta"
+      "EN": "Ponyta",
+      "JP": "ポニータ",
+      "ZH": "小火马",
+      "FR": "Ponyta"
     },
     "type": ["Fire"],
     "base": {
@@ -2912,10 +2912,10 @@ pokemon = [
   {
     "id": 78,
     "name": {
-      "english": "Rapidash",
-      "japanese": "ギャロップ",
-      "chinese": "烈焰马",
-      "french": "Galopa"
+      "EN": "Rapidash",
+      "JP": "ギャロップ",
+      "ZH": "烈焰马",
+      "FR": "Galopa"
     },
     "type": ["Fire"],
     "base": {
@@ -2949,10 +2949,10 @@ pokemon = [
   {
     "id": 79,
     "name": {
-      "english": "Slowpoke",
-      "japanese": "ヤドン",
-      "chinese": "呆呆兽",
-      "french": "Ramoloss"
+      "EN": "Slowpoke",
+      "JP": "ヤドン",
+      "ZH": "呆呆兽",
+      "FR": "Ramoloss"
     },
     "type": ["Water", "Psychic"],
     "base": {
@@ -2991,10 +2991,10 @@ pokemon = [
   {
     "id": 80,
     "name": {
-      "english": "Slowbro",
-      "japanese": "ヤドラン",
-      "chinese": "呆壳兽",
-      "french": "Flagadoss"
+      "EN": "Slowbro",
+      "JP": "ヤドラン",
+      "ZH": "呆壳兽",
+      "FR": "Flagadoss"
     },
     "type": ["Water", "Psychic"],
     "base": {
@@ -3028,10 +3028,10 @@ pokemon = [
   {
     "id": 81,
     "name": {
-      "english": "Magnemite",
-      "japanese": "コイル",
-      "chinese": "小磁怪",
-      "french": "Magnéti"
+      "EN": "Magnemite",
+      "JP": "コイル",
+      "ZH": "小磁怪",
+      "FR": "Magnéti"
     },
     "type": ["Electric", "Steel"],
     "base": {
@@ -3065,10 +3065,10 @@ pokemon = [
   {
     "id": 82,
     "name": {
-      "english": "Magneton",
-      "japanese": "レアコイル",
-      "chinese": "三合一磁怪",
-      "french": "Magnéton"
+      "EN": "Magneton",
+      "JP": "レアコイル",
+      "ZH": "三合一磁怪",
+      "FR": "Magnéton"
     },
     "type": ["Electric", "Steel"],
     "base": {
@@ -3105,10 +3105,10 @@ pokemon = [
   {
     "id": 83,
     "name": {
-      "english": "Farfetch'd",
-      "japanese": "カモネギ",
-      "chinese": "大葱鸭",
-      "french": "Canarticho"
+      "EN": "Farfetch'd",
+      "JP": "カモネギ",
+      "ZH": "大葱鸭",
+      "FR": "Canarticho"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -3142,10 +3142,10 @@ pokemon = [
   {
     "id": 84,
     "name": {
-      "english": "Doduo",
-      "japanese": "ドードー",
-      "chinese": "嘟嘟",
-      "french": "Doduo"
+      "EN": "Doduo",
+      "JP": "ドードー",
+      "ZH": "嘟嘟",
+      "FR": "Doduo"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -3179,10 +3179,10 @@ pokemon = [
   {
     "id": 85,
     "name": {
-      "english": "Dodrio",
-      "japanese": "ドードリオ",
-      "chinese": "嘟嘟利",
-      "french": "Dodrio"
+      "EN": "Dodrio",
+      "JP": "ドードリオ",
+      "ZH": "嘟嘟利",
+      "FR": "Dodrio"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -3216,10 +3216,10 @@ pokemon = [
   {
     "id": 86,
     "name": {
-      "english": "Seel",
-      "japanese": "パウワウ",
-      "chinese": "小海狮",
-      "french": "Otaria"
+      "EN": "Seel",
+      "JP": "パウワウ",
+      "ZH": "小海狮",
+      "FR": "Otaria"
     },
     "type": ["Water"],
     "base": {
@@ -3253,10 +3253,10 @@ pokemon = [
   {
     "id": 87,
     "name": {
-      "english": "Dewgong",
-      "japanese": "ジュゴン",
-      "chinese": "白海狮",
-      "french": "Lamantine"
+      "EN": "Dewgong",
+      "JP": "ジュゴン",
+      "ZH": "白海狮",
+      "FR": "Lamantine"
     },
     "type": ["Water", "Ice"],
     "base": {
@@ -3290,10 +3290,10 @@ pokemon = [
   {
     "id": 88,
     "name": {
-      "english": "Grimer",
-      "japanese": "ベトベター",
-      "chinese": "臭泥",
-      "french": "Tadmorv"
+      "EN": "Grimer",
+      "JP": "ベトベター",
+      "ZH": "臭泥",
+      "FR": "Tadmorv"
     },
     "type": ["Poison"],
     "base": {
@@ -3327,10 +3327,10 @@ pokemon = [
   {
     "id": 89,
     "name": {
-      "english": "Muk",
-      "japanese": "ベトベトン",
-      "chinese": "臭臭泥",
-      "french": "Grotadmorv"
+      "EN": "Muk",
+      "JP": "ベトベトン",
+      "ZH": "臭臭泥",
+      "FR": "Grotadmorv"
     },
     "type": ["Poison"],
     "base": {
@@ -3364,10 +3364,10 @@ pokemon = [
   {
     "id": 90,
     "name": {
-      "english": "Shellder",
-      "japanese": "シェルダー",
-      "chinese": "大舌贝",
-      "french": "Kokiyas"
+      "EN": "Shellder",
+      "JP": "シェルダー",
+      "ZH": "大舌贝",
+      "FR": "Kokiyas"
     },
     "type": ["Water"],
     "base": {
@@ -3401,10 +3401,10 @@ pokemon = [
   {
     "id": 91,
     "name": {
-      "english": "Cloyster",
-      "japanese": "パルシェン",
-      "chinese": "刺甲贝",
-      "french": "Crustabri"
+      "EN": "Cloyster",
+      "JP": "パルシェン",
+      "ZH": "刺甲贝",
+      "FR": "Crustabri"
     },
     "type": ["Water", "Ice"],
     "base": {
@@ -3438,10 +3438,10 @@ pokemon = [
   {
     "id": 92,
     "name": {
-      "english": "Gastly",
-      "japanese": "ゴース",
-      "chinese": "鬼斯",
-      "french": "Fantominus"
+      "EN": "Gastly",
+      "JP": "ゴース",
+      "ZH": "鬼斯",
+      "FR": "Fantominus"
     },
     "type": ["Ghost", "Poison"],
     "base": {
@@ -3471,10 +3471,10 @@ pokemon = [
   {
     "id": 93,
     "name": {
-      "english": "Haunter",
-      "japanese": "ゴースト",
-      "chinese": "鬼斯通",
-      "french": "Spectrum"
+      "EN": "Haunter",
+      "JP": "ゴースト",
+      "ZH": "鬼斯通",
+      "FR": "Spectrum"
     },
     "type": ["Ghost", "Poison"],
     "base": {
@@ -3504,10 +3504,10 @@ pokemon = [
   {
     "id": 94,
     "name": {
-      "english": "Gengar",
-      "japanese": "ゲンガー",
-      "chinese": "耿鬼",
-      "french": "Ectoplasma"
+      "EN": "Gengar",
+      "JP": "ゲンガー",
+      "ZH": "耿鬼",
+      "FR": "Ectoplasma"
     },
     "type": ["Ghost", "Poison"],
     "base": {
@@ -3537,10 +3537,10 @@ pokemon = [
   {
     "id": 95,
     "name": {
-      "english": "Onix",
-      "japanese": "イワーク",
-      "chinese": "大岩蛇",
-      "french": "Onix"
+      "EN": "Onix",
+      "JP": "イワーク",
+      "ZH": "大岩蛇",
+      "FR": "Onix"
     },
     "type": ["Rock", "Ground"],
     "base": {
@@ -3574,10 +3574,10 @@ pokemon = [
   {
     "id": 96,
     "name": {
-      "english": "Drowzee",
-      "japanese": "スリープ",
-      "chinese": "催眠貘",
-      "french": "Soporifik"
+      "EN": "Drowzee",
+      "JP": "スリープ",
+      "ZH": "催眠貘",
+      "FR": "Soporifik"
     },
     "type": ["Psychic"],
     "base": {
@@ -3611,10 +3611,10 @@ pokemon = [
   {
     "id": 97,
     "name": {
-      "english": "Hypno",
-      "japanese": "スリーパー",
-      "chinese": "引梦貘人",
-      "french": "Hypnomade"
+      "EN": "Hypno",
+      "JP": "スリーパー",
+      "ZH": "引梦貘人",
+      "FR": "Hypnomade"
     },
     "type": ["Psychic"],
     "base": {
@@ -3648,10 +3648,10 @@ pokemon = [
   {
     "id": 98,
     "name": {
-      "english": "Krabby",
-      "japanese": "クラブ",
-      "chinese": "大钳蟹",
-      "french": "Krabby"
+      "EN": "Krabby",
+      "JP": "クラブ",
+      "ZH": "大钳蟹",
+      "FR": "Krabby"
     },
     "type": ["Water"],
     "base": {
@@ -3685,10 +3685,10 @@ pokemon = [
   {
     "id": 99,
     "name": {
-      "english": "Kingler",
-      "japanese": "キングラー",
-      "chinese": "巨钳蟹",
-      "french": "Krabboss"
+      "EN": "Kingler",
+      "JP": "キングラー",
+      "ZH": "巨钳蟹",
+      "FR": "Krabboss"
     },
     "type": ["Water"],
     "base": {
@@ -3722,10 +3722,10 @@ pokemon = [
   {
     "id": 100,
     "name": {
-      "english": "Voltorb",
-      "japanese": "ビリリダマ",
-      "chinese": "霹雳电球",
-      "french": "Voltorbe"
+      "EN": "Voltorb",
+      "JP": "ビリリダマ",
+      "ZH": "霹雳电球",
+      "FR": "Voltorbe"
     },
     "type": ["Electric"],
     "base": {
@@ -3759,10 +3759,10 @@ pokemon = [
   {
     "id": 101,
     "name": {
-      "english": "Electrode",
-      "japanese": "マルマイン",
-      "chinese": "顽皮雷弹",
-      "french": "Électrode"
+      "EN": "Electrode",
+      "JP": "マルマイン",
+      "ZH": "顽皮雷弹",
+      "FR": "Électrode"
     },
     "type": ["Electric"],
     "base": {
@@ -3796,10 +3796,10 @@ pokemon = [
   {
     "id": 102,
     "name": {
-      "english": "Exeggcute",
-      "japanese": "タマタマ",
-      "chinese": "蛋蛋",
-      "french": "Noeunoeuf"
+      "EN": "Exeggcute",
+      "JP": "タマタマ",
+      "ZH": "蛋蛋",
+      "FR": "Noeunoeuf"
     },
     "type": ["Grass", "Psychic"],
     "base": {
@@ -3832,10 +3832,10 @@ pokemon = [
   {
     "id": 103,
     "name": {
-      "english": "Exeggutor",
-      "japanese": "ナッシー",
-      "chinese": "椰蛋树",
-      "french": "Noadkoko"
+      "EN": "Exeggutor",
+      "JP": "ナッシー",
+      "ZH": "椰蛋树",
+      "FR": "Noadkoko"
     },
     "type": ["Grass", "Psychic"],
     "base": {
@@ -3868,10 +3868,10 @@ pokemon = [
   {
     "id": 104,
     "name": {
-      "english": "Cubone",
-      "japanese": "カラカラ",
-      "chinese": "卡拉卡拉",
-      "french": "Osselait"
+      "EN": "Cubone",
+      "JP": "カラカラ",
+      "ZH": "卡拉卡拉",
+      "FR": "Osselait"
     },
     "type": ["Ground"],
     "base": {
@@ -3905,10 +3905,10 @@ pokemon = [
   {
     "id": 105,
     "name": {
-      "english": "Marowak",
-      "japanese": "ガラガラ",
-      "chinese": "嘎啦嘎啦",
-      "french": "Ossatueur"
+      "EN": "Marowak",
+      "JP": "ガラガラ",
+      "ZH": "嘎啦嘎啦",
+      "FR": "Ossatueur"
     },
     "type": ["Ground"],
     "base": {
@@ -3942,10 +3942,10 @@ pokemon = [
   {
     "id": 106,
     "name": {
-      "english": "Hitmonlee",
-      "japanese": "サワムラー",
-      "chinese": "飞腿郎",
-      "french": "Kicklee"
+      "EN": "Hitmonlee",
+      "JP": "サワムラー",
+      "ZH": "飞腿郎",
+      "FR": "Kicklee"
     },
     "type": ["Fighting"],
     "base": {
@@ -3979,10 +3979,10 @@ pokemon = [
   {
     "id": 107,
     "name": {
-      "english": "Hitmonchan",
-      "japanese": "エビワラー",
-      "chinese": "快拳郎",
-      "french": "Tygnon"
+      "EN": "Hitmonchan",
+      "JP": "エビワラー",
+      "ZH": "快拳郎",
+      "FR": "Tygnon"
     },
     "type": ["Fighting"],
     "base": {
@@ -4016,10 +4016,10 @@ pokemon = [
   {
     "id": 108,
     "name": {
-      "english": "Lickitung",
-      "japanese": "ベロリンガ",
-      "chinese": "大舌头",
-      "french": "Excelangue"
+      "EN": "Lickitung",
+      "JP": "ベロリンガ",
+      "ZH": "大舌头",
+      "FR": "Excelangue"
     },
     "type": ["Normal"],
     "base": {
@@ -4053,10 +4053,10 @@ pokemon = [
   {
     "id": 109,
     "name": {
-      "english": "Koffing",
-      "japanese": "ドガース",
-      "chinese": "瓦斯弹",
-      "french": "Smogo"
+      "EN": "Koffing",
+      "JP": "ドガース",
+      "ZH": "瓦斯弹",
+      "FR": "Smogo"
     },
     "type": ["Poison"],
     "base": {
@@ -4086,10 +4086,10 @@ pokemon = [
   {
     "id": 110,
     "name": {
-      "english": "Weezing",
-      "japanese": "マタドガス",
-      "chinese": "双弹瓦斯",
-      "french": "Smogogo"
+      "EN": "Weezing",
+      "JP": "マタドガス",
+      "ZH": "双弹瓦斯",
+      "FR": "Smogogo"
     },
     "type": ["Poison"],
     "base": {
@@ -4119,10 +4119,10 @@ pokemon = [
   {
     "id": 111,
     "name": {
-      "english": "Rhyhorn",
-      "japanese": "サイホーン",
-      "chinese": "独角犀牛",
-      "french": "Rhinocorne"
+      "EN": "Rhyhorn",
+      "JP": "サイホーン",
+      "ZH": "独角犀牛",
+      "FR": "Rhinocorne"
     },
     "type": ["Ground", "Rock"],
     "base": {
@@ -4156,10 +4156,10 @@ pokemon = [
   {
     "id": 112,
     "name": {
-      "english": "Rhydon",
-      "japanese": "サイドン",
-      "chinese": "钻角犀兽",
-      "french": "Rhinoféros"
+      "EN": "Rhydon",
+      "JP": "サイドン",
+      "ZH": "钻角犀兽",
+      "FR": "Rhinoféros"
     },
     "type": ["Ground", "Rock"],
     "base": {
@@ -4196,10 +4196,10 @@ pokemon = [
   {
     "id": 113,
     "name": {
-      "english": "Chansey",
-      "japanese": "ラッキー",
-      "chinese": "吉利蛋",
-      "french": "Leveinard"
+      "EN": "Chansey",
+      "JP": "ラッキー",
+      "ZH": "吉利蛋",
+      "FR": "Leveinard"
     },
     "type": ["Normal"],
     "base": {
@@ -4236,10 +4236,10 @@ pokemon = [
   {
     "id": 114,
     "name": {
-      "english": "Tangela",
-      "japanese": "モンジャラ",
-      "chinese": "蔓藤怪",
-      "french": "Saquedeneu"
+      "EN": "Tangela",
+      "JP": "モンジャラ",
+      "ZH": "蔓藤怪",
+      "FR": "Saquedeneu"
     },
     "type": ["Grass"],
     "base": {
@@ -4273,10 +4273,10 @@ pokemon = [
   {
     "id": 115,
     "name": {
-      "english": "Kangaskhan",
-      "japanese": "ガルーラ",
-      "chinese": "袋兽",
-      "french": "Kangourex"
+      "EN": "Kangaskhan",
+      "JP": "ガルーラ",
+      "ZH": "袋兽",
+      "FR": "Kangourex"
     },
     "type": ["Normal"],
     "base": {
@@ -4310,10 +4310,10 @@ pokemon = [
   {
     "id": 116,
     "name": {
-      "english": "Horsea",
-      "japanese": "タッツー",
-      "chinese": "墨海马",
-      "french": "Hypotrempe"
+      "EN": "Horsea",
+      "JP": "タッツー",
+      "ZH": "墨海马",
+      "FR": "Hypotrempe"
     },
     "type": ["Water"],
     "base": {
@@ -4347,10 +4347,10 @@ pokemon = [
   {
     "id": 117,
     "name": {
-      "english": "Seadra",
-      "japanese": "シードラ",
-      "chinese": "海刺龙",
-      "french": "Hypocéan"
+      "EN": "Seadra",
+      "JP": "シードラ",
+      "ZH": "海刺龙",
+      "FR": "Hypocéan"
     },
     "type": ["Water"],
     "base": {
@@ -4387,10 +4387,10 @@ pokemon = [
   {
     "id": 118,
     "name": {
-      "english": "Goldeen",
-      "japanese": "トサキント",
-      "chinese": "角金鱼",
-      "french": "Poissirène"
+      "EN": "Goldeen",
+      "JP": "トサキント",
+      "ZH": "角金鱼",
+      "FR": "Poissirène"
     },
     "type": ["Water"],
     "base": {
@@ -4424,10 +4424,10 @@ pokemon = [
   {
     "id": 119,
     "name": {
-      "english": "Seaking",
-      "japanese": "アズマオウ",
-      "chinese": "金鱼王",
-      "french": "Poissoroy"
+      "EN": "Seaking",
+      "JP": "アズマオウ",
+      "ZH": "金鱼王",
+      "FR": "Poissoroy"
     },
     "type": ["Water"],
     "base": {
@@ -4461,10 +4461,10 @@ pokemon = [
   {
     "id": 120,
     "name": {
-      "english": "Staryu",
-      "japanese": "ヒトデマン",
-      "chinese": "海星星",
-      "french": "Stari"
+      "EN": "Staryu",
+      "JP": "ヒトデマン",
+      "ZH": "海星星",
+      "FR": "Stari"
     },
     "type": ["Water"],
     "base": {
@@ -4498,10 +4498,10 @@ pokemon = [
   {
     "id": 121,
     "name": {
-      "english": "Starmie",
-      "japanese": "スターミー",
-      "chinese": "宝石海星",
-      "french": "Staross"
+      "EN": "Starmie",
+      "JP": "スターミー",
+      "ZH": "宝石海星",
+      "FR": "Staross"
     },
     "type": ["Water", "Psychic"],
     "base": {
@@ -4535,10 +4535,10 @@ pokemon = [
   {
     "id": 122,
     "name": {
-      "english": "Mr. Mime",
-      "japanese": "バリヤード",
-      "chinese": "魔墙人偶",
-      "french": "M. Mime"
+      "EN": "Mr. Mime",
+      "JP": "バリヤード",
+      "ZH": "魔墙人偶",
+      "FR": "M. Mime"
     },
     "type": ["Psychic", "Fairy"],
     "base": {
@@ -4572,10 +4572,10 @@ pokemon = [
   {
     "id": 123,
     "name": {
-      "english": "Scyther",
-      "japanese": "ストライク",
-      "chinese": "飞天螳螂",
-      "french": "Insécateur"
+      "EN": "Scyther",
+      "JP": "ストライク",
+      "ZH": "飞天螳螂",
+      "FR": "Insécateur"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -4609,10 +4609,10 @@ pokemon = [
   {
     "id": 124,
     "name": {
-      "english": "Jynx",
-      "japanese": "ルージュラ",
-      "chinese": "迷唇姐",
-      "french": "Lippoutou"
+      "EN": "Jynx",
+      "JP": "ルージュラ",
+      "ZH": "迷唇姐",
+      "FR": "Lippoutou"
     },
     "type": ["Ice", "Psychic"],
     "base": {
@@ -4646,10 +4646,10 @@ pokemon = [
   {
     "id": 125,
     "name": {
-      "english": "Electabuzz",
-      "japanese": "エレブー",
-      "chinese": "电击兽",
-      "french": "Élektek"
+      "EN": "Electabuzz",
+      "JP": "エレブー",
+      "ZH": "电击兽",
+      "FR": "Élektek"
     },
     "type": ["Electric"],
     "base": {
@@ -4685,10 +4685,10 @@ pokemon = [
   {
     "id": 126,
     "name": {
-      "english": "Magmar",
-      "japanese": "ブーバー",
-      "chinese": "鸭嘴火兽",
-      "french": "Magmar"
+      "EN": "Magmar",
+      "JP": "ブーバー",
+      "ZH": "鸭嘴火兽",
+      "FR": "Magmar"
     },
     "type": ["Fire"],
     "base": {
@@ -4724,10 +4724,10 @@ pokemon = [
   {
     "id": 127,
     "name": {
-      "english": "Pinsir",
-      "japanese": "カイロス",
-      "chinese": "凯罗斯",
-      "french": "Scarabrute"
+      "EN": "Pinsir",
+      "JP": "カイロス",
+      "ZH": "凯罗斯",
+      "FR": "Scarabrute"
     },
     "type": ["Bug"],
     "base": {
@@ -4761,10 +4761,10 @@ pokemon = [
   {
     "id": 128,
     "name": {
-      "english": "Tauros",
-      "japanese": "ケンタロス",
-      "chinese": "肯泰罗",
-      "french": "Tauros"
+      "EN": "Tauros",
+      "JP": "ケンタロス",
+      "ZH": "肯泰罗",
+      "FR": "Tauros"
     },
     "type": ["Normal"],
     "base": {
@@ -4798,10 +4798,10 @@ pokemon = [
   {
     "id": 129,
     "name": {
-      "english": "Magikarp",
-      "japanese": "コイキング",
-      "chinese": "鲤鱼王",
-      "french": "Magicarpe"
+      "EN": "Magikarp",
+      "JP": "コイキング",
+      "ZH": "鲤鱼王",
+      "FR": "Magicarpe"
     },
     "type": ["Water"],
     "base": {
@@ -4834,10 +4834,10 @@ pokemon = [
   {
     "id": 130,
     "name": {
-      "english": "Gyarados",
-      "japanese": "ギャラドス",
-      "chinese": "暴鲤龙",
-      "french": "Léviator"
+      "EN": "Gyarados",
+      "JP": "ギャラドス",
+      "ZH": "暴鲤龙",
+      "FR": "Léviator"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -4870,10 +4870,10 @@ pokemon = [
   {
     "id": 131,
     "name": {
-      "english": "Lapras",
-      "japanese": "ラプラス",
-      "chinese": "拉普拉斯",
-      "french": "Lokhlass"
+      "EN": "Lapras",
+      "JP": "ラプラス",
+      "ZH": "拉普拉斯",
+      "FR": "Lokhlass"
     },
     "type": ["Water", "Ice"],
     "base": {
@@ -4907,10 +4907,10 @@ pokemon = [
   {
     "id": 132,
     "name": {
-      "english": "Ditto",
-      "japanese": "メタモン",
-      "chinese": "百变怪",
-      "french": "Métamorph"
+      "EN": "Ditto",
+      "JP": "メタモン",
+      "ZH": "百变怪",
+      "FR": "Métamorph"
     },
     "type": ["Normal"],
     "base": {
@@ -4943,10 +4943,10 @@ pokemon = [
   {
     "id": 133,
     "name": {
-      "english": "Eevee",
-      "japanese": "イーブイ",
-      "chinese": "伊布",
-      "french": "Évoli"
+      "EN": "Eevee",
+      "JP": "イーブイ",
+      "ZH": "伊布",
+      "FR": "Évoli"
     },
     "type": ["Normal"],
     "base": {
@@ -4991,10 +4991,10 @@ pokemon = [
   {
     "id": 134,
     "name": {
-      "english": "Vaporeon",
-      "japanese": "シャワーズ",
-      "chinese": "水伊布",
-      "french": "Aquali"
+      "EN": "Vaporeon",
+      "JP": "シャワーズ",
+      "ZH": "水伊布",
+      "FR": "Aquali"
     },
     "type": ["Water"],
     "base": {
@@ -5027,10 +5027,10 @@ pokemon = [
   {
     "id": 135,
     "name": {
-      "english": "Jolteon",
-      "japanese": "サンダース",
-      "chinese": "雷伊布",
-      "french": "Voltali"
+      "EN": "Jolteon",
+      "JP": "サンダース",
+      "ZH": "雷伊布",
+      "FR": "Voltali"
     },
     "type": ["Electric"],
     "base": {
@@ -5063,10 +5063,10 @@ pokemon = [
   {
     "id": 136,
     "name": {
-      "english": "Flareon",
-      "japanese": "ブースター",
-      "chinese": "火伊布",
-      "french": "Pyroli"
+      "EN": "Flareon",
+      "JP": "ブースター",
+      "ZH": "火伊布",
+      "FR": "Pyroli"
     },
     "type": ["Fire"],
     "base": {
@@ -5099,10 +5099,10 @@ pokemon = [
   {
     "id": 137,
     "name": {
-      "english": "Porygon",
-      "japanese": "ポリゴン",
-      "chinese": "多边兽",
-      "french": "Porygon"
+      "EN": "Porygon",
+      "JP": "ポリゴン",
+      "ZH": "多边兽",
+      "FR": "Porygon"
     },
     "type": ["Normal"],
     "base": {
@@ -5136,10 +5136,10 @@ pokemon = [
   {
     "id": 138,
     "name": {
-      "english": "Omanyte",
-      "japanese": "オムナイト",
-      "chinese": "菊石兽",
-      "french": "Amonita"
+      "EN": "Omanyte",
+      "JP": "オムナイト",
+      "ZH": "菊石兽",
+      "FR": "Amonita"
     },
     "type": ["Rock", "Water"],
     "base": {
@@ -5173,10 +5173,10 @@ pokemon = [
   {
     "id": 139,
     "name": {
-      "english": "Omastar",
-      "japanese": "オムスター",
-      "chinese": "多刺菊石兽",
-      "french": "Amonistar"
+      "EN": "Omastar",
+      "JP": "オムスター",
+      "ZH": "多刺菊石兽",
+      "FR": "Amonistar"
     },
     "type": ["Rock", "Water"],
     "base": {
@@ -5210,10 +5210,10 @@ pokemon = [
   {
     "id": 140,
     "name": {
-      "english": "Kabuto",
-      "japanese": "カブト",
-      "chinese": "化石盔",
-      "french": "Kabuto"
+      "EN": "Kabuto",
+      "JP": "カブト",
+      "ZH": "化石盔",
+      "FR": "Kabuto"
     },
     "type": ["Rock", "Water"],
     "base": {
@@ -5247,10 +5247,10 @@ pokemon = [
   {
     "id": 141,
     "name": {
-      "english": "Kabutops",
-      "japanese": "カブトプス",
-      "chinese": "镰刀盔",
-      "french": "Kabutops"
+      "EN": "Kabutops",
+      "JP": "カブトプス",
+      "ZH": "镰刀盔",
+      "FR": "Kabutops"
     },
     "type": ["Rock", "Water"],
     "base": {
@@ -5284,10 +5284,10 @@ pokemon = [
   {
     "id": 142,
     "name": {
-      "english": "Aerodactyl",
-      "japanese": "プテラ",
-      "chinese": "化石翼龙",
-      "french": "Ptéra"
+      "EN": "Aerodactyl",
+      "JP": "プテラ",
+      "ZH": "化石翼龙",
+      "FR": "Ptéra"
     },
     "type": ["Rock", "Flying"],
     "base": {
@@ -5321,10 +5321,10 @@ pokemon = [
   {
     "id": 143,
     "name": {
-      "english": "Snorlax",
-      "japanese": "カビゴン",
-      "chinese": "卡比兽",
-      "french": "Ronflex"
+      "EN": "Snorlax",
+      "JP": "カビゴン",
+      "ZH": "卡比兽",
+      "FR": "Ronflex"
     },
     "type": ["Normal"],
     "base": {
@@ -5358,10 +5358,10 @@ pokemon = [
   {
     "id": 144,
     "name": {
-      "english": "Articuno",
-      "japanese": "フリーザー",
-      "chinese": "急冻鸟",
-      "french": "Artikodin"
+      "EN": "Articuno",
+      "JP": "フリーザー",
+      "ZH": "急冻鸟",
+      "FR": "Artikodin"
     },
     "type": ["Ice", "Flying"],
     "base": {
@@ -5394,10 +5394,10 @@ pokemon = [
   {
     "id": 145,
     "name": {
-      "english": "Zapdos",
-      "japanese": "サンダー",
-      "chinese": "闪电鸟",
-      "french": "Électhor"
+      "EN": "Zapdos",
+      "JP": "サンダー",
+      "ZH": "闪电鸟",
+      "FR": "Électhor"
     },
     "type": ["Electric", "Flying"],
     "base": {
@@ -5430,10 +5430,10 @@ pokemon = [
   {
     "id": 146,
     "name": {
-      "english": "Moltres",
-      "japanese": "ファイヤー",
-      "chinese": "火焰鸟",
-      "french": "Sulfura"
+      "EN": "Moltres",
+      "JP": "ファイヤー",
+      "ZH": "火焰鸟",
+      "FR": "Sulfura"
     },
     "type": ["Fire", "Flying"],
     "base": {
@@ -5466,10 +5466,10 @@ pokemon = [
   {
     "id": 147,
     "name": {
-      "english": "Dratini",
-      "japanese": "ミニリュウ",
-      "chinese": "迷你龙",
-      "french": "Minidraco"
+      "EN": "Dratini",
+      "JP": "ミニリュウ",
+      "ZH": "迷你龙",
+      "FR": "Minidraco"
     },
     "type": ["Dragon"],
     "base": {
@@ -5502,10 +5502,10 @@ pokemon = [
   {
     "id": 148,
     "name": {
-      "english": "Dragonair",
-      "japanese": "ハクリュー",
-      "chinese": "哈克龙",
-      "french": "Draco"
+      "EN": "Dragonair",
+      "JP": "ハクリュー",
+      "ZH": "哈克龙",
+      "FR": "Draco"
     },
     "type": ["Dragon"],
     "base": {
@@ -5538,10 +5538,10 @@ pokemon = [
   {
     "id": 149,
     "name": {
-      "english": "Dragonite",
-      "japanese": "カイリュー",
-      "chinese": "快龙",
-      "french": "Dracolosse"
+      "EN": "Dragonite",
+      "JP": "カイリュー",
+      "ZH": "快龙",
+      "FR": "Dracolosse"
     },
     "type": ["Dragon", "Flying"],
     "base": {
@@ -5574,10 +5574,10 @@ pokemon = [
   {
     "id": 150,
     "name": {
-      "english": "Mewtwo",
-      "japanese": "ミュウツー",
-      "chinese": "超梦",
-      "french": "Mewtwo"
+      "EN": "Mewtwo",
+      "JP": "ミュウツー",
+      "ZH": "超梦",
+      "FR": "Mewtwo"
     },
     "type": ["Psychic"],
     "base": {
@@ -5610,10 +5610,10 @@ pokemon = [
   {
     "id": 151,
     "name": {
-      "english": "Mew",
-      "japanese": "ミュウ",
-      "chinese": "梦幻",
-      "french": "Mew"
+      "EN": "Mew",
+      "JP": "ミュウ",
+      "ZH": "梦幻",
+      "FR": "Mew"
     },
     "type": ["Psychic"],
     "base": {
@@ -5643,10 +5643,10 @@ pokemon = [
   {
     "id": 152,
     "name": {
-      "english": "Chikorita",
-      "japanese": "チコリータ",
-      "chinese": "菊草叶",
-      "french": "Germignon"
+      "EN": "Chikorita",
+      "JP": "チコリータ",
+      "ZH": "菊草叶",
+      "FR": "Germignon"
     },
     "type": ["Grass"],
     "base": {
@@ -5679,10 +5679,10 @@ pokemon = [
   {
     "id": 153,
     "name": {
-      "english": "Bayleef",
-      "japanese": "ベイリーフ",
-      "chinese": "月桂叶",
-      "french": "Macronium"
+      "EN": "Bayleef",
+      "JP": "ベイリーフ",
+      "ZH": "月桂叶",
+      "FR": "Macronium"
     },
     "type": ["Grass"],
     "base": {
@@ -5715,10 +5715,10 @@ pokemon = [
   {
     "id": 154,
     "name": {
-      "english": "Meganium",
-      "japanese": "メガニウム",
-      "chinese": "大竺葵",
-      "french": "Méganium"
+      "EN": "Meganium",
+      "JP": "メガニウム",
+      "ZH": "大竺葵",
+      "FR": "Méganium"
     },
     "type": ["Grass"],
     "base": {
@@ -5751,10 +5751,10 @@ pokemon = [
   {
     "id": 155,
     "name": {
-      "english": "Cyndaquil",
-      "japanese": "ヒノアラシ",
-      "chinese": "火球鼠",
-      "french": "Héricendre"
+      "EN": "Cyndaquil",
+      "JP": "ヒノアラシ",
+      "ZH": "火球鼠",
+      "FR": "Héricendre"
     },
     "type": ["Fire"],
     "base": {
@@ -5787,10 +5787,10 @@ pokemon = [
   {
     "id": 156,
     "name": {
-      "english": "Quilava",
-      "japanese": "マグマラシ",
-      "chinese": "火岩鼠",
-      "french": "Feurisson"
+      "EN": "Quilava",
+      "JP": "マグマラシ",
+      "ZH": "火岩鼠",
+      "FR": "Feurisson"
     },
     "type": ["Fire"],
     "base": {
@@ -5823,10 +5823,10 @@ pokemon = [
   {
     "id": 157,
     "name": {
-      "english": "Typhlosion",
-      "japanese": "バクフーン",
-      "chinese": "火暴兽",
-      "french": "Typhlosion"
+      "EN": "Typhlosion",
+      "JP": "バクフーン",
+      "ZH": "火暴兽",
+      "FR": "Typhlosion"
     },
     "type": ["Fire"],
     "base": {
@@ -5859,10 +5859,10 @@ pokemon = [
   {
     "id": 158,
     "name": {
-      "english": "Totodile",
-      "japanese": "ワニノコ",
-      "chinese": "小锯鳄",
-      "french": "Kaiminus"
+      "EN": "Totodile",
+      "JP": "ワニノコ",
+      "ZH": "小锯鳄",
+      "FR": "Kaiminus"
     },
     "type": ["Water"],
     "base": {
@@ -5895,10 +5895,10 @@ pokemon = [
   {
     "id": 159,
     "name": {
-      "english": "Croconaw",
-      "japanese": "アリゲイツ",
-      "chinese": "蓝鳄",
-      "french": "Crocrodil"
+      "EN": "Croconaw",
+      "JP": "アリゲイツ",
+      "ZH": "蓝鳄",
+      "FR": "Crocrodil"
     },
     "type": ["Water"],
     "base": {
@@ -5931,10 +5931,10 @@ pokemon = [
   {
     "id": 160,
     "name": {
-      "english": "Feraligatr",
-      "japanese": "オーダイル",
-      "chinese": "大力鳄",
-      "french": "Aligatueur"
+      "EN": "Feraligatr",
+      "JP": "オーダイル",
+      "ZH": "大力鳄",
+      "FR": "Aligatueur"
     },
     "type": ["Water"],
     "base": {
@@ -5967,10 +5967,10 @@ pokemon = [
   {
     "id": 161,
     "name": {
-      "english": "Sentret",
-      "japanese": "オタチ",
-      "chinese": "尾立",
-      "french": "Fouinette"
+      "EN": "Sentret",
+      "JP": "オタチ",
+      "ZH": "尾立",
+      "FR": "Fouinette"
     },
     "type": ["Normal"],
     "base": {
@@ -6004,10 +6004,10 @@ pokemon = [
   {
     "id": 162,
     "name": {
-      "english": "Furret",
-      "japanese": "オオタチ",
-      "chinese": "大尾立",
-      "french": "Fouinar"
+      "EN": "Furret",
+      "JP": "オオタチ",
+      "ZH": "大尾立",
+      "FR": "Fouinar"
     },
     "type": ["Normal"],
     "base": {
@@ -6041,10 +6041,10 @@ pokemon = [
   {
     "id": 163,
     "name": {
-      "english": "Hoothoot",
-      "japanese": "ホーホー",
-      "chinese": "咕咕",
-      "french": "Hoothoot"
+      "EN": "Hoothoot",
+      "JP": "ホーホー",
+      "ZH": "咕咕",
+      "FR": "Hoothoot"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -6078,10 +6078,10 @@ pokemon = [
   {
     "id": 164,
     "name": {
-      "english": "Noctowl",
-      "japanese": "ヨルノズク",
-      "chinese": "猫头夜鹰",
-      "french": "Noarfang"
+      "EN": "Noctowl",
+      "JP": "ヨルノズク",
+      "ZH": "猫头夜鹰",
+      "FR": "Noarfang"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -6115,10 +6115,10 @@ pokemon = [
   {
     "id": 165,
     "name": {
-      "english": "Ledyba",
-      "japanese": "レディバ",
-      "chinese": "芭瓢虫",
-      "french": "Coxy"
+      "EN": "Ledyba",
+      "JP": "レディバ",
+      "ZH": "芭瓢虫",
+      "FR": "Coxy"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -6152,10 +6152,10 @@ pokemon = [
   {
     "id": 166,
     "name": {
-      "english": "Ledian",
-      "japanese": "レディアン",
-      "chinese": "安瓢虫",
-      "french": "Coxyclaque"
+      "EN": "Ledian",
+      "JP": "レディアン",
+      "ZH": "安瓢虫",
+      "FR": "Coxyclaque"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -6189,10 +6189,10 @@ pokemon = [
   {
     "id": 167,
     "name": {
-      "english": "Spinarak",
-      "japanese": "イトマル",
-      "chinese": "圆丝蛛",
-      "french": "Mimigal"
+      "EN": "Spinarak",
+      "JP": "イトマル",
+      "ZH": "圆丝蛛",
+      "FR": "Mimigal"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -6226,10 +6226,10 @@ pokemon = [
   {
     "id": 168,
     "name": {
-      "english": "Ariados",
-      "japanese": "アリアドス",
-      "chinese": "阿利多斯",
-      "french": "Migalos"
+      "EN": "Ariados",
+      "JP": "アリアドス",
+      "ZH": "阿利多斯",
+      "FR": "Migalos"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -6263,10 +6263,10 @@ pokemon = [
   {
     "id": 169,
     "name": {
-      "english": "Crobat",
-      "japanese": "クロバット",
-      "chinese": "叉字蝠",
-      "french": "Nostenfer"
+      "EN": "Crobat",
+      "JP": "クロバット",
+      "ZH": "叉字蝠",
+      "FR": "Nostenfer"
     },
     "type": ["Poison", "Flying"],
     "base": {
@@ -6299,10 +6299,10 @@ pokemon = [
   {
     "id": 170,
     "name": {
-      "english": "Chinchou",
-      "japanese": "チョンチー",
-      "chinese": "灯笼鱼",
-      "french": "Loupio"
+      "EN": "Chinchou",
+      "JP": "チョンチー",
+      "ZH": "灯笼鱼",
+      "FR": "Loupio"
     },
     "type": ["Water", "Electric"],
     "base": {
@@ -6336,10 +6336,10 @@ pokemon = [
   {
     "id": 171,
     "name": {
-      "english": "Lanturn",
-      "japanese": "ランターン",
-      "chinese": "电灯怪",
-      "french": "Lanturn"
+      "EN": "Lanturn",
+      "JP": "ランターン",
+      "ZH": "电灯怪",
+      "FR": "Lanturn"
     },
     "type": ["Water", "Electric"],
     "base": {
@@ -6373,10 +6373,10 @@ pokemon = [
   {
     "id": 172,
     "name": {
-      "english": "Pichu",
-      "japanese": "ピチュー",
-      "chinese": "皮丘",
-      "french": "Pichu"
+      "EN": "Pichu",
+      "JP": "ピチュー",
+      "ZH": "皮丘",
+      "FR": "Pichu"
     },
     "type": ["Electric"],
     "base": {
@@ -6409,10 +6409,10 @@ pokemon = [
   {
     "id": 173,
     "name": {
-      "english": "Cleffa",
-      "japanese": "ピィ",
-      "chinese": "皮宝宝",
-      "french": "Mélo"
+      "EN": "Cleffa",
+      "JP": "ピィ",
+      "ZH": "皮宝宝",
+      "FR": "Mélo"
     },
     "type": ["Fairy"],
     "base": {
@@ -6446,10 +6446,10 @@ pokemon = [
   {
     "id": 174,
     "name": {
-      "english": "Igglybuff",
-      "japanese": "ププリン",
-      "chinese": "宝宝丁",
-      "french": "Toudoudou"
+      "EN": "Igglybuff",
+      "JP": "ププリン",
+      "ZH": "宝宝丁",
+      "FR": "Toudoudou"
     },
     "type": ["Normal", "Fairy"],
     "base": {
@@ -6483,10 +6483,10 @@ pokemon = [
   {
     "id": 175,
     "name": {
-      "english": "Togepi",
-      "japanese": "トゲピー",
-      "chinese": "波克比",
-      "french": "Togepi"
+      "EN": "Togepi",
+      "JP": "トゲピー",
+      "ZH": "波克比",
+      "FR": "Togepi"
     },
     "type": ["Fairy"],
     "base": {
@@ -6520,10 +6520,10 @@ pokemon = [
   {
     "id": 176,
     "name": {
-      "english": "Togetic",
-      "japanese": "トゲチック",
-      "chinese": "波克基古",
-      "french": "Togetic"
+      "EN": "Togetic",
+      "JP": "トゲチック",
+      "ZH": "波克基古",
+      "FR": "Togetic"
     },
     "type": ["Fairy", "Flying"],
     "base": {
@@ -6560,10 +6560,10 @@ pokemon = [
   {
     "id": 177,
     "name": {
-      "english": "Natu",
-      "japanese": "ネイティ",
-      "chinese": "天然雀",
-      "french": "Natu"
+      "EN": "Natu",
+      "JP": "ネイティ",
+      "ZH": "天然雀",
+      "FR": "Natu"
     },
     "type": ["Psychic", "Flying"],
     "base": {
@@ -6597,10 +6597,10 @@ pokemon = [
   {
     "id": 178,
     "name": {
-      "english": "Xatu",
-      "japanese": "ネイティオ",
-      "chinese": "天然鸟",
-      "french": "Xatu"
+      "EN": "Xatu",
+      "JP": "ネイティオ",
+      "ZH": "天然鸟",
+      "FR": "Xatu"
     },
     "type": ["Psychic", "Flying"],
     "base": {
@@ -6634,10 +6634,10 @@ pokemon = [
   {
     "id": 179,
     "name": {
-      "english": "Mareep",
-      "japanese": "メリープ",
-      "chinese": "咩利羊",
-      "french": "Wattouat"
+      "EN": "Mareep",
+      "JP": "メリープ",
+      "ZH": "咩利羊",
+      "FR": "Wattouat"
     },
     "type": ["Electric"],
     "base": {
@@ -6670,10 +6670,10 @@ pokemon = [
   {
     "id": 180,
     "name": {
-      "english": "Flaaffy",
-      "japanese": "モココ",
-      "chinese": "茸茸羊",
-      "french": "Lainergie"
+      "EN": "Flaaffy",
+      "JP": "モココ",
+      "ZH": "茸茸羊",
+      "FR": "Lainergie"
     },
     "type": ["Electric"],
     "base": {
@@ -6706,10 +6706,10 @@ pokemon = [
   {
     "id": 181,
     "name": {
-      "english": "Ampharos",
-      "japanese": "デンリュウ",
-      "chinese": "电龙",
-      "french": "Pharamp"
+      "EN": "Ampharos",
+      "JP": "デンリュウ",
+      "ZH": "电龙",
+      "FR": "Pharamp"
     },
     "type": ["Electric"],
     "base": {
@@ -6742,10 +6742,10 @@ pokemon = [
   {
     "id": 182,
     "name": {
-      "english": "Bellossom",
-      "japanese": "キレイハナ",
-      "chinese": "美丽花",
-      "french": "Joliflor"
+      "EN": "Bellossom",
+      "JP": "キレイハナ",
+      "ZH": "美丽花",
+      "FR": "Joliflor"
     },
     "type": ["Grass"],
     "base": {
@@ -6778,10 +6778,10 @@ pokemon = [
   {
     "id": 183,
     "name": {
-      "english": "Marill",
-      "japanese": "マリル",
-      "chinese": "玛力露",
-      "french": "Marill"
+      "EN": "Marill",
+      "JP": "マリル",
+      "ZH": "玛力露",
+      "FR": "Marill"
     },
     "type": ["Water", "Fairy"],
     "base": {
@@ -6818,10 +6818,10 @@ pokemon = [
   {
     "id": 184,
     "name": {
-      "english": "Azumarill",
-      "japanese": "マリルリ",
-      "chinese": "玛力露丽",
-      "french": "Azumarill"
+      "EN": "Azumarill",
+      "JP": "マリルリ",
+      "ZH": "玛力露丽",
+      "FR": "Azumarill"
     },
     "type": ["Water", "Fairy"],
     "base": {
@@ -6855,10 +6855,10 @@ pokemon = [
   {
     "id": 185,
     "name": {
-      "english": "Sudowoodo",
-      "japanese": "ウソッキー",
-      "chinese": "树才怪‎",
-      "french": "Simularbre"
+      "EN": "Sudowoodo",
+      "JP": "ウソッキー",
+      "ZH": "树才怪‎",
+      "FR": "Simularbre"
     },
     "type": ["Rock"],
     "base": {
@@ -6892,10 +6892,10 @@ pokemon = [
   {
     "id": 186,
     "name": {
-      "english": "Politoed",
-      "japanese": "ニョロトノ",
-      "chinese": "蚊香蛙皇",
-      "french": "Tarpaud"
+      "EN": "Politoed",
+      "JP": "ニョロトノ",
+      "ZH": "蚊香蛙皇",
+      "FR": "Tarpaud"
     },
     "type": ["Water"],
     "base": {
@@ -6929,10 +6929,10 @@ pokemon = [
   {
     "id": 187,
     "name": {
-      "english": "Hoppip",
-      "japanese": "ハネッコ",
-      "chinese": "毽子草",
-      "french": "Granivol"
+      "EN": "Hoppip",
+      "JP": "ハネッコ",
+      "ZH": "毽子草",
+      "FR": "Granivol"
     },
     "type": ["Grass", "Flying"],
     "base": {
@@ -6966,10 +6966,10 @@ pokemon = [
   {
     "id": 188,
     "name": {
-      "english": "Skiploom",
-      "japanese": "ポポッコ",
-      "chinese": "毽子花",
-      "french": "Floravol"
+      "EN": "Skiploom",
+      "JP": "ポポッコ",
+      "ZH": "毽子花",
+      "FR": "Floravol"
     },
     "type": ["Grass", "Flying"],
     "base": {
@@ -7003,10 +7003,10 @@ pokemon = [
   {
     "id": 189,
     "name": {
-      "english": "Jumpluff",
-      "japanese": "ワタッコ",
-      "chinese": "毽子棉",
-      "french": "Cotovol"
+      "EN": "Jumpluff",
+      "JP": "ワタッコ",
+      "ZH": "毽子棉",
+      "FR": "Cotovol"
     },
     "type": ["Grass", "Flying"],
     "base": {
@@ -7040,10 +7040,10 @@ pokemon = [
   {
     "id": 190,
     "name": {
-      "english": "Aipom",
-      "japanese": "エイパム",
-      "chinese": "长尾怪手",
-      "french": "Capumain"
+      "EN": "Aipom",
+      "JP": "エイパム",
+      "ZH": "长尾怪手",
+      "FR": "Capumain"
     },
     "type": ["Normal"],
     "base": {
@@ -7077,10 +7077,10 @@ pokemon = [
   {
     "id": 191,
     "name": {
-      "english": "Sunkern",
-      "japanese": "ヒマナッツ",
-      "chinese": "向日种子",
-      "french": "Tournegrin"
+      "EN": "Sunkern",
+      "JP": "ヒマナッツ",
+      "ZH": "向日种子",
+      "FR": "Tournegrin"
     },
     "type": ["Grass"],
     "base": {
@@ -7114,10 +7114,10 @@ pokemon = [
   {
     "id": 192,
     "name": {
-      "english": "Sunflora",
-      "japanese": "キマワリ",
-      "chinese": "向日花怪",
-      "french": "Héliatronc"
+      "EN": "Sunflora",
+      "JP": "キマワリ",
+      "ZH": "向日花怪",
+      "FR": "Héliatronc"
     },
     "type": ["Grass"],
     "base": {
@@ -7151,10 +7151,10 @@ pokemon = [
   {
     "id": 193,
     "name": {
-      "english": "Yanma",
-      "japanese": "ヤンヤンマ",
-      "chinese": "蜻蜻蜓",
-      "french": "Yanma"
+      "EN": "Yanma",
+      "JP": "ヤンヤンマ",
+      "ZH": "蜻蜻蜓",
+      "FR": "Yanma"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -7188,10 +7188,10 @@ pokemon = [
   {
     "id": 194,
     "name": {
-      "english": "Wooper",
-      "japanese": "ウパー",
-      "chinese": "乌波",
-      "french": "Axoloto"
+      "EN": "Wooper",
+      "JP": "ウパー",
+      "ZH": "乌波",
+      "FR": "Axoloto"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -7225,10 +7225,10 @@ pokemon = [
   {
     "id": 195,
     "name": {
-      "english": "Quagsire",
-      "japanese": "ヌオー",
-      "chinese": "沼王",
-      "french": "Maraiste"
+      "EN": "Quagsire",
+      "JP": "ヌオー",
+      "ZH": "沼王",
+      "FR": "Maraiste"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -7262,10 +7262,10 @@ pokemon = [
   {
     "id": 196,
     "name": {
-      "english": "Espeon",
-      "japanese": "エーフィ",
-      "chinese": "太阳伊布",
-      "french": "Mentali"
+      "EN": "Espeon",
+      "JP": "エーフィ",
+      "ZH": "太阳伊布",
+      "FR": "Mentali"
     },
     "type": ["Psychic"],
     "base": {
@@ -7298,10 +7298,10 @@ pokemon = [
   {
     "id": 197,
     "name": {
-      "english": "Umbreon",
-      "japanese": "ブラッキー",
-      "chinese": "月亮伊布",
-      "french": "Noctali"
+      "EN": "Umbreon",
+      "JP": "ブラッキー",
+      "ZH": "月亮伊布",
+      "FR": "Noctali"
     },
     "type": ["Dark"],
     "base": {
@@ -7334,10 +7334,10 @@ pokemon = [
   {
     "id": 198,
     "name": {
-      "english": "Murkrow",
-      "japanese": "ヤミカラス",
-      "chinese": "黑暗鸦",
-      "french": "Cornèbre"
+      "EN": "Murkrow",
+      "JP": "ヤミカラス",
+      "ZH": "黑暗鸦",
+      "FR": "Cornèbre"
     },
     "type": ["Dark", "Flying"],
     "base": {
@@ -7371,10 +7371,10 @@ pokemon = [
   {
     "id": 199,
     "name": {
-      "english": "Slowking",
-      "japanese": "ヤドキング",
-      "chinese": "呆呆王",
-      "french": "Roigada"
+      "EN": "Slowking",
+      "JP": "ヤドキング",
+      "ZH": "呆呆王",
+      "FR": "Roigada"
     },
     "type": ["Water", "Psychic"],
     "base": {
@@ -7408,10 +7408,10 @@ pokemon = [
   {
     "id": 200,
     "name": {
-      "english": "Misdreavus",
-      "japanese": "ムウマ",
-      "chinese": "梦妖",
-      "french": "Feuforêve"
+      "EN": "Misdreavus",
+      "JP": "ムウマ",
+      "ZH": "梦妖",
+      "FR": "Feuforêve"
     },
     "type": ["Ghost"],
     "base": {
@@ -7441,10 +7441,10 @@ pokemon = [
   {
     "id": 201,
     "name": {
-      "english": "Unown",
-      "japanese": "アンノーン",
-      "chinese": "未知图腾",
-      "french": "Zarbi"
+      "EN": "Unown",
+      "JP": "アンノーン",
+      "ZH": "未知图腾",
+      "FR": "Zarbi"
     },
     "type": ["Psychic"],
     "base": {
@@ -7474,10 +7474,10 @@ pokemon = [
   {
     "id": 202,
     "name": {
-      "english": "Wobbuffet",
-      "japanese": "ソーナンス",
-      "chinese": "果然翁",
-      "french": "Qulbutoké"
+      "EN": "Wobbuffet",
+      "JP": "ソーナンス",
+      "ZH": "果然翁",
+      "FR": "Qulbutoké"
     },
     "type": ["Psychic"],
     "base": {
@@ -7510,10 +7510,10 @@ pokemon = [
   {
     "id": 203,
     "name": {
-      "english": "Girafarig",
-      "japanese": "キリンリキ",
-      "chinese": "麒麟奇",
-      "french": "Girafarig"
+      "EN": "Girafarig",
+      "JP": "キリンリキ",
+      "ZH": "麒麟奇",
+      "FR": "Girafarig"
     },
     "type": ["Normal", "Psychic"],
     "base": {
@@ -7547,10 +7547,10 @@ pokemon = [
   {
     "id": 204,
     "name": {
-      "english": "Pineco",
-      "japanese": "クヌギダマ",
-      "chinese": "榛果球",
-      "french": "Pomdepik"
+      "EN": "Pineco",
+      "JP": "クヌギダマ",
+      "ZH": "榛果球",
+      "FR": "Pomdepik"
     },
     "type": ["Bug"],
     "base": {
@@ -7583,10 +7583,10 @@ pokemon = [
   {
     "id": 205,
     "name": {
-      "english": "Forretress",
-      "japanese": "フォレトス",
-      "chinese": "佛烈托斯",
-      "french": "Foretress"
+      "EN": "Forretress",
+      "JP": "フォレトス",
+      "ZH": "佛烈托斯",
+      "FR": "Foretress"
     },
     "type": ["Bug", "Steel"],
     "base": {
@@ -7619,10 +7619,10 @@ pokemon = [
   {
     "id": 206,
     "name": {
-      "english": "Dunsparce",
-      "japanese": "ノコッチ",
-      "chinese": "土龙弟弟",
-      "french": "Insolourdo"
+      "EN": "Dunsparce",
+      "JP": "ノコッチ",
+      "ZH": "土龙弟弟",
+      "FR": "Insolourdo"
     },
     "type": ["Normal"],
     "base": {
@@ -7656,10 +7656,10 @@ pokemon = [
   {
     "id": 207,
     "name": {
-      "english": "Gligar",
-      "japanese": "グライガー",
-      "chinese": "天蝎",
-      "french": "Scorplane"
+      "EN": "Gligar",
+      "JP": "グライガー",
+      "ZH": "天蝎",
+      "FR": "Scorplane"
     },
     "type": ["Ground", "Flying"],
     "base": {
@@ -7693,10 +7693,10 @@ pokemon = [
   {
     "id": 208,
     "name": {
-      "english": "Steelix",
-      "japanese": "ハガネール",
-      "chinese": "大钢蛇",
-      "french": "Steelix"
+      "EN": "Steelix",
+      "JP": "ハガネール",
+      "ZH": "大钢蛇",
+      "FR": "Steelix"
     },
     "type": ["Steel", "Ground"],
     "base": {
@@ -7730,10 +7730,10 @@ pokemon = [
   {
     "id": 209,
     "name": {
-      "english": "Snubbull",
-      "japanese": "ブルー",
-      "chinese": "布鲁",
-      "french": "Snubbull"
+      "EN": "Snubbull",
+      "JP": "ブルー",
+      "ZH": "布鲁",
+      "FR": "Snubbull"
     },
     "type": ["Fairy"],
     "base": {
@@ -7767,10 +7767,10 @@ pokemon = [
   {
     "id": 210,
     "name": {
-      "english": "Granbull",
-      "japanese": "グランブル",
-      "chinese": "布鲁皇",
-      "french": "Granbull"
+      "EN": "Granbull",
+      "JP": "グランブル",
+      "ZH": "布鲁皇",
+      "FR": "Granbull"
     },
     "type": ["Fairy"],
     "base": {
@@ -7804,10 +7804,10 @@ pokemon = [
   {
     "id": 211,
     "name": {
-      "english": "Qwilfish",
-      "japanese": "ハリーセン",
-      "chinese": "千针鱼",
-      "french": "Qwilfish"
+      "EN": "Qwilfish",
+      "JP": "ハリーセン",
+      "ZH": "千针鱼",
+      "FR": "Qwilfish"
     },
     "type": ["Water", "Poison"],
     "base": {
@@ -7841,10 +7841,10 @@ pokemon = [
   {
     "id": 212,
     "name": {
-      "english": "Scizor",
-      "japanese": "ハッサム",
-      "chinese": "巨钳螳螂",
-      "french": "Cizayox"
+      "EN": "Scizor",
+      "JP": "ハッサム",
+      "ZH": "巨钳螳螂",
+      "FR": "Cizayox"
     },
     "type": ["Bug", "Steel"],
     "base": {
@@ -7878,10 +7878,10 @@ pokemon = [
   {
     "id": 213,
     "name": {
-      "english": "Shuckle",
-      "japanese": "ツボツボ",
-      "chinese": "壶壶",
-      "french": "Caratroc"
+      "EN": "Shuckle",
+      "JP": "ツボツボ",
+      "ZH": "壶壶",
+      "FR": "Caratroc"
     },
     "type": ["Bug", "Rock"],
     "base": {
@@ -7915,10 +7915,10 @@ pokemon = [
   {
     "id": 214,
     "name": {
-      "english": "Heracross",
-      "japanese": "ヘラクロス",
-      "chinese": "赫拉克罗斯",
-      "french": "Scarhino"
+      "EN": "Heracross",
+      "JP": "ヘラクロス",
+      "ZH": "赫拉克罗斯",
+      "FR": "Scarhino"
     },
     "type": ["Bug", "Fighting"],
     "base": {
@@ -7952,10 +7952,10 @@ pokemon = [
   {
     "id": 215,
     "name": {
-      "english": "Sneasel",
-      "japanese": "ニューラ",
-      "chinese": "狃拉",
-      "french": "Farfuret"
+      "EN": "Sneasel",
+      "JP": "ニューラ",
+      "ZH": "狃拉",
+      "FR": "Farfuret"
     },
     "type": ["Dark", "Ice"],
     "base": {
@@ -7989,10 +7989,10 @@ pokemon = [
   {
     "id": 216,
     "name": {
-      "english": "Teddiursa",
-      "japanese": "ヒメグマ",
-      "chinese": "熊宝宝",
-      "french": "Teddiursa"
+      "EN": "Teddiursa",
+      "JP": "ヒメグマ",
+      "ZH": "熊宝宝",
+      "FR": "Teddiursa"
     },
     "type": ["Normal"],
     "base": {
@@ -8026,10 +8026,10 @@ pokemon = [
   {
     "id": 217,
     "name": {
-      "english": "Ursaring",
-      "japanese": "リングマ",
-      "chinese": "圈圈熊",
-      "french": "Ursaring"
+      "EN": "Ursaring",
+      "JP": "リングマ",
+      "ZH": "圈圈熊",
+      "FR": "Ursaring"
     },
     "type": ["Normal"],
     "base": {
@@ -8063,10 +8063,10 @@ pokemon = [
   {
     "id": 218,
     "name": {
-      "english": "Slugma",
-      "japanese": "マグマッグ",
-      "chinese": "熔岩虫",
-      "french": "Limagma"
+      "EN": "Slugma",
+      "JP": "マグマッグ",
+      "ZH": "熔岩虫",
+      "FR": "Limagma"
     },
     "type": ["Fire"],
     "base": {
@@ -8100,10 +8100,10 @@ pokemon = [
   {
     "id": 219,
     "name": {
-      "english": "Magcargo",
-      "japanese": "マグカルゴ",
-      "chinese": "熔岩蜗牛",
-      "french": "Volcaropod"
+      "EN": "Magcargo",
+      "JP": "マグカルゴ",
+      "ZH": "熔岩蜗牛",
+      "FR": "Volcaropod"
     },
     "type": ["Fire", "Rock"],
     "base": {
@@ -8137,10 +8137,10 @@ pokemon = [
   {
     "id": 220,
     "name": {
-      "english": "Swinub",
-      "japanese": "ウリムー",
-      "chinese": "小山猪",
-      "french": "Marcacrin"
+      "EN": "Swinub",
+      "JP": "ウリムー",
+      "ZH": "小山猪",
+      "FR": "Marcacrin"
     },
     "type": ["Ice", "Ground"],
     "base": {
@@ -8174,10 +8174,10 @@ pokemon = [
   {
     "id": 221,
     "name": {
-      "english": "Piloswine",
-      "japanese": "イノムー",
-      "chinese": "长毛猪",
-      "french": "Cochignon"
+      "EN": "Piloswine",
+      "JP": "イノムー",
+      "ZH": "长毛猪",
+      "FR": "Cochignon"
     },
     "type": ["Ice", "Ground"],
     "base": {
@@ -8214,10 +8214,10 @@ pokemon = [
   {
     "id": 222,
     "name": {
-      "english": "Corsola",
-      "japanese": "サニーゴ",
-      "chinese": "太阳珊瑚",
-      "french": "Corayon"
+      "EN": "Corsola",
+      "JP": "サニーゴ",
+      "ZH": "太阳珊瑚",
+      "FR": "Corayon"
     },
     "type": ["Water", "Rock"],
     "base": {
@@ -8251,10 +8251,10 @@ pokemon = [
   {
     "id": 223,
     "name": {
-      "english": "Remoraid",
-      "japanese": "テッポウオ",
-      "chinese": "铁炮鱼",
-      "french": "Rémoraid"
+      "EN": "Remoraid",
+      "JP": "テッポウオ",
+      "ZH": "铁炮鱼",
+      "FR": "Rémoraid"
     },
     "type": ["Water"],
     "base": {
@@ -8288,10 +8288,10 @@ pokemon = [
   {
     "id": 224,
     "name": {
-      "english": "Octillery",
-      "japanese": "オクタン",
-      "chinese": "章鱼桶",
-      "french": "Octillery"
+      "EN": "Octillery",
+      "JP": "オクタン",
+      "ZH": "章鱼桶",
+      "FR": "Octillery"
     },
     "type": ["Water"],
     "base": {
@@ -8325,10 +8325,10 @@ pokemon = [
   {
     "id": 225,
     "name": {
-      "english": "Delibird",
-      "japanese": "デリバード",
-      "chinese": "信使鸟",
-      "french": "Cadoizo"
+      "EN": "Delibird",
+      "JP": "デリバード",
+      "ZH": "信使鸟",
+      "FR": "Cadoizo"
     },
     "type": ["Ice", "Flying"],
     "base": {
@@ -8362,10 +8362,10 @@ pokemon = [
   {
     "id": 226,
     "name": {
-      "english": "Mantine",
-      "japanese": "マンタイン",
-      "chinese": "巨翅飞鱼",
-      "french": "Démanta"
+      "EN": "Mantine",
+      "JP": "マンタイン",
+      "ZH": "巨翅飞鱼",
+      "FR": "Démanta"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -8399,10 +8399,10 @@ pokemon = [
   {
     "id": 227,
     "name": {
-      "english": "Skarmory",
-      "japanese": "エアームド",
-      "chinese": "盔甲鸟",
-      "french": "Airmure"
+      "EN": "Skarmory",
+      "JP": "エアームド",
+      "ZH": "盔甲鸟",
+      "FR": "Airmure"
     },
     "type": ["Steel", "Flying"],
     "base": {
@@ -8436,10 +8436,10 @@ pokemon = [
   {
     "id": 228,
     "name": {
-      "english": "Houndour",
-      "japanese": "デルビル",
-      "chinese": "戴鲁比",
-      "french": "Malosse"
+      "EN": "Houndour",
+      "JP": "デルビル",
+      "ZH": "戴鲁比",
+      "FR": "Malosse"
     },
     "type": ["Dark", "Fire"],
     "base": {
@@ -8473,10 +8473,10 @@ pokemon = [
   {
     "id": 229,
     "name": {
-      "english": "Houndoom",
-      "japanese": "ヘルガー",
-      "chinese": "黑鲁加",
-      "french": "Démolosse"
+      "EN": "Houndoom",
+      "JP": "ヘルガー",
+      "ZH": "黑鲁加",
+      "FR": "Démolosse"
     },
     "type": ["Dark", "Fire"],
     "base": {
@@ -8510,10 +8510,10 @@ pokemon = [
   {
     "id": 230,
     "name": {
-      "english": "Kingdra",
-      "japanese": "キングドラ",
-      "chinese": "刺龙王",
-      "french": "Hyporoi"
+      "EN": "Kingdra",
+      "JP": "キングドラ",
+      "ZH": "刺龙王",
+      "FR": "Hyporoi"
     },
     "type": ["Water", "Dragon"],
     "base": {
@@ -8547,10 +8547,10 @@ pokemon = [
   {
     "id": 231,
     "name": {
-      "english": "Phanpy",
-      "japanese": "ゴマゾウ",
-      "chinese": "小小象",
-      "french": "Phanpy"
+      "EN": "Phanpy",
+      "JP": "ゴマゾウ",
+      "ZH": "小小象",
+      "FR": "Phanpy"
     },
     "type": ["Ground"],
     "base": {
@@ -8583,10 +8583,10 @@ pokemon = [
   {
     "id": 232,
     "name": {
-      "english": "Donphan",
-      "japanese": "ドンファン",
-      "chinese": "顿甲",
-      "french": "Donphan"
+      "EN": "Donphan",
+      "JP": "ドンファン",
+      "ZH": "顿甲",
+      "FR": "Donphan"
     },
     "type": ["Ground"],
     "base": {
@@ -8619,10 +8619,10 @@ pokemon = [
   {
     "id": 233,
     "name": {
-      "english": "Porygon2",
-      "japanese": "ポリゴン２",
-      "chinese": "多边兽Ⅱ",
-      "french": "Porygon2"
+      "EN": "Porygon2",
+      "JP": "ポリゴン２",
+      "ZH": "多边兽Ⅱ",
+      "FR": "Porygon2"
     },
     "type": ["Normal"],
     "base": {
@@ -8659,10 +8659,10 @@ pokemon = [
   {
     "id": 234,
     "name": {
-      "english": "Stantler",
-      "japanese": "オドシシ",
-      "chinese": "惊角鹿",
-      "french": "Cerfrousse"
+      "EN": "Stantler",
+      "JP": "オドシシ",
+      "ZH": "惊角鹿",
+      "FR": "Cerfrousse"
     },
     "type": ["Normal"],
     "base": {
@@ -8696,10 +8696,10 @@ pokemon = [
   {
     "id": 235,
     "name": {
-      "english": "Smeargle",
-      "japanese": "ドーブル",
-      "chinese": "图图犬",
-      "french": "Queulorior"
+      "EN": "Smeargle",
+      "JP": "ドーブル",
+      "ZH": "图图犬",
+      "FR": "Queulorior"
     },
     "type": ["Normal"],
     "base": {
@@ -8733,10 +8733,10 @@ pokemon = [
   {
     "id": 236,
     "name": {
-      "english": "Tyrogue",
-      "japanese": "バルキー",
-      "chinese": "无畏小子",
-      "french": "Debugant"
+      "EN": "Tyrogue",
+      "JP": "バルキー",
+      "ZH": "无畏小子",
+      "FR": "Debugant"
     },
     "type": ["Fighting"],
     "base": {
@@ -8776,10 +8776,10 @@ pokemon = [
   {
     "id": 237,
     "name": {
-      "english": "Hitmontop",
-      "japanese": "カポエラー",
-      "chinese": "战舞郎",
-      "french": "Kapoera"
+      "EN": "Hitmontop",
+      "JP": "カポエラー",
+      "ZH": "战舞郎",
+      "FR": "Kapoera"
     },
     "type": ["Fighting"],
     "base": {
@@ -8813,10 +8813,10 @@ pokemon = [
   {
     "id": 238,
     "name": {
-      "english": "Smoochum",
-      "japanese": "ムチュール",
-      "chinese": "迷唇娃",
-      "french": "Lippouti"
+      "EN": "Smoochum",
+      "JP": "ムチュール",
+      "ZH": "迷唇娃",
+      "FR": "Lippouti"
     },
     "type": ["Ice", "Psychic"],
     "base": {
@@ -8850,10 +8850,10 @@ pokemon = [
   {
     "id": 239,
     "name": {
-      "english": "Elekid",
-      "japanese": "エレキッド",
-      "chinese": "电击怪",
-      "french": "Élekid"
+      "EN": "Elekid",
+      "JP": "エレキッド",
+      "ZH": "电击怪",
+      "FR": "Élekid"
     },
     "type": ["Electric"],
     "base": {
@@ -8886,10 +8886,10 @@ pokemon = [
   {
     "id": 240,
     "name": {
-      "english": "Magby",
-      "japanese": "ブビィ",
-      "chinese": "鸭嘴宝宝",
-      "french": "Magby"
+      "EN": "Magby",
+      "JP": "ブビィ",
+      "ZH": "鸭嘴宝宝",
+      "FR": "Magby"
     },
     "type": ["Fire"],
     "base": {
@@ -8922,10 +8922,10 @@ pokemon = [
   {
     "id": 241,
     "name": {
-      "english": "Miltank",
-      "japanese": "ミルタンク",
-      "chinese": "大奶罐",
-      "french": "Écrémeuh"
+      "EN": "Miltank",
+      "JP": "ミルタンク",
+      "ZH": "大奶罐",
+      "FR": "Écrémeuh"
     },
     "type": ["Normal"],
     "base": {
@@ -8959,10 +8959,10 @@ pokemon = [
   {
     "id": 242,
     "name": {
-      "english": "Blissey",
-      "japanese": "ハピナス",
-      "chinese": "幸福蛋",
-      "french": "Leuphorie"
+      "EN": "Blissey",
+      "JP": "ハピナス",
+      "ZH": "幸福蛋",
+      "FR": "Leuphorie"
     },
     "type": ["Normal"],
     "base": {
@@ -8996,10 +8996,10 @@ pokemon = [
   {
     "id": 243,
     "name": {
-      "english": "Raikou",
-      "japanese": "ライコウ",
-      "chinese": "雷公",
-      "french": "Raikou"
+      "EN": "Raikou",
+      "JP": "ライコウ",
+      "ZH": "雷公",
+      "FR": "Raikou"
     },
     "type": ["Electric"],
     "base": {
@@ -9032,10 +9032,10 @@ pokemon = [
   {
     "id": 244,
     "name": {
-      "english": "Entei",
-      "japanese": "エンテイ",
-      "chinese": "炎帝",
-      "french": "Entei"
+      "EN": "Entei",
+      "JP": "エンテイ",
+      "ZH": "炎帝",
+      "FR": "Entei"
     },
     "type": ["Fire"],
     "base": {
@@ -9068,10 +9068,10 @@ pokemon = [
   {
     "id": 245,
     "name": {
-      "english": "Suicune",
-      "japanese": "スイクン",
-      "chinese": "水君",
-      "french": "Suicune"
+      "EN": "Suicune",
+      "JP": "スイクン",
+      "ZH": "水君",
+      "FR": "Suicune"
     },
     "type": ["Water"],
     "base": {
@@ -9104,10 +9104,10 @@ pokemon = [
   {
     "id": 246,
     "name": {
-      "english": "Larvitar",
-      "japanese": "ヨーギラス",
-      "chinese": "幼基拉斯",
-      "french": "Embrylex"
+      "EN": "Larvitar",
+      "JP": "ヨーギラス",
+      "ZH": "幼基拉斯",
+      "FR": "Embrylex"
     },
     "type": ["Rock", "Ground"],
     "base": {
@@ -9140,10 +9140,10 @@ pokemon = [
   {
     "id": 247,
     "name": {
-      "english": "Pupitar",
-      "japanese": "サナギラス",
-      "chinese": "沙基拉斯",
-      "french": "Ymphect"
+      "EN": "Pupitar",
+      "JP": "サナギラス",
+      "ZH": "沙基拉斯",
+      "FR": "Ymphect"
     },
     "type": ["Rock", "Ground"],
     "base": {
@@ -9173,10 +9173,10 @@ pokemon = [
   {
     "id": 248,
     "name": {
-      "english": "Tyranitar",
-      "japanese": "バンギラス",
-      "chinese": "班基拉斯",
-      "french": "Tyranocif"
+      "EN": "Tyranitar",
+      "JP": "バンギラス",
+      "ZH": "班基拉斯",
+      "FR": "Tyranocif"
     },
     "type": ["Rock", "Dark"],
     "base": {
@@ -9209,10 +9209,10 @@ pokemon = [
   {
     "id": 249,
     "name": {
-      "english": "Lugia",
-      "japanese": "ルギア",
-      "chinese": "洛奇亚",
-      "french": "Lugia"
+      "EN": "Lugia",
+      "JP": "ルギア",
+      "ZH": "洛奇亚",
+      "FR": "Lugia"
     },
     "type": ["Psychic", "Flying"],
     "base": {
@@ -9245,10 +9245,10 @@ pokemon = [
   {
     "id": 250,
     "name": {
-      "english": "Ho-Oh",
-      "japanese": "ホウオウ",
-      "chinese": "凤王",
-      "french": "Ho-Oh"
+      "EN": "Ho-Oh",
+      "JP": "ホウオウ",
+      "ZH": "凤王",
+      "FR": "Ho-Oh"
     },
     "type": ["Fire", "Flying"],
     "base": {
@@ -9281,10 +9281,10 @@ pokemon = [
   {
     "id": 251,
     "name": {
-      "english": "Celebi",
-      "japanese": "セレビィ",
-      "chinese": "时拉比",
-      "french": "Celebi"
+      "EN": "Celebi",
+      "JP": "セレビィ",
+      "ZH": "时拉比",
+      "FR": "Celebi"
     },
     "type": ["Psychic", "Grass"],
     "base": {
@@ -9314,10 +9314,10 @@ pokemon = [
   {
     "id": 252,
     "name": {
-      "english": "Treecko",
-      "japanese": "キモリ",
-      "chinese": "木守宫",
-      "french": "Arcko"
+      "EN": "Treecko",
+      "JP": "キモリ",
+      "ZH": "木守宫",
+      "FR": "Arcko"
     },
     "type": ["Grass"],
     "base": {
@@ -9350,10 +9350,10 @@ pokemon = [
   {
     "id": 253,
     "name": {
-      "english": "Grovyle",
-      "japanese": "ジュプトル",
-      "chinese": "森林蜥蜴",
-      "french": "Massko"
+      "EN": "Grovyle",
+      "JP": "ジュプトル",
+      "ZH": "森林蜥蜴",
+      "FR": "Massko"
     },
     "type": ["Grass"],
     "base": {
@@ -9386,10 +9386,10 @@ pokemon = [
   {
     "id": 254,
     "name": {
-      "english": "Sceptile",
-      "japanese": "ジュカイン",
-      "chinese": "蜥蜴王",
-      "french": "Jungko"
+      "EN": "Sceptile",
+      "JP": "ジュカイン",
+      "ZH": "蜥蜴王",
+      "FR": "Jungko"
     },
     "type": ["Grass"],
     "base": {
@@ -9422,10 +9422,10 @@ pokemon = [
   {
     "id": 255,
     "name": {
-      "english": "Torchic",
-      "japanese": "アチャモ",
-      "chinese": "火稚鸡",
-      "french": "Poussifeu"
+      "EN": "Torchic",
+      "JP": "アチャモ",
+      "ZH": "火稚鸡",
+      "FR": "Poussifeu"
     },
     "type": ["Fire"],
     "base": {
@@ -9458,10 +9458,10 @@ pokemon = [
   {
     "id": 256,
     "name": {
-      "english": "Combusken",
-      "japanese": "ワカシャモ",
-      "chinese": "力壮鸡",
-      "french": "Galifeu"
+      "EN": "Combusken",
+      "JP": "ワカシャモ",
+      "ZH": "力壮鸡",
+      "FR": "Galifeu"
     },
     "type": ["Fire", "Fighting"],
     "base": {
@@ -9494,10 +9494,10 @@ pokemon = [
   {
     "id": 257,
     "name": {
-      "english": "Blaziken",
-      "japanese": "バシャーモ",
-      "chinese": "火焰鸡",
-      "french": "Braségali"
+      "EN": "Blaziken",
+      "JP": "バシャーモ",
+      "ZH": "火焰鸡",
+      "FR": "Braségali"
     },
     "type": ["Fire", "Fighting"],
     "base": {
@@ -9530,10 +9530,10 @@ pokemon = [
   {
     "id": 258,
     "name": {
-      "english": "Mudkip",
-      "japanese": "ミズゴロウ",
-      "chinese": "水跃鱼",
-      "french": "Gobou"
+      "EN": "Mudkip",
+      "JP": "ミズゴロウ",
+      "ZH": "水跃鱼",
+      "FR": "Gobou"
     },
     "type": ["Water"],
     "base": {
@@ -9566,10 +9566,10 @@ pokemon = [
   {
     "id": 259,
     "name": {
-      "english": "Marshtomp",
-      "japanese": "ヌマクロー",
-      "chinese": "沼跃鱼",
-      "french": "Flobio"
+      "EN": "Marshtomp",
+      "JP": "ヌマクロー",
+      "ZH": "沼跃鱼",
+      "FR": "Flobio"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -9602,10 +9602,10 @@ pokemon = [
   {
     "id": 260,
     "name": {
-      "english": "Swampert",
-      "japanese": "ラグラージ",
-      "chinese": "巨沼怪",
-      "french": "Laggron"
+      "EN": "Swampert",
+      "JP": "ラグラージ",
+      "ZH": "巨沼怪",
+      "FR": "Laggron"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -9638,10 +9638,10 @@ pokemon = [
   {
     "id": 261,
     "name": {
-      "english": "Poochyena",
-      "japanese": "ポチエナ",
-      "chinese": "土狼犬",
-      "french": "Medhyèna"
+      "EN": "Poochyena",
+      "JP": "ポチエナ",
+      "ZH": "土狼犬",
+      "FR": "Medhyèna"
     },
     "type": ["Dark"],
     "base": {
@@ -9675,10 +9675,10 @@ pokemon = [
   {
     "id": 262,
     "name": {
-      "english": "Mightyena",
-      "japanese": "グラエナ",
-      "chinese": "大狼犬",
-      "french": "Grahyèna"
+      "EN": "Mightyena",
+      "JP": "グラエナ",
+      "ZH": "大狼犬",
+      "FR": "Grahyèna"
     },
     "type": ["Dark"],
     "base": {
@@ -9712,10 +9712,10 @@ pokemon = [
   {
     "id": 263,
     "name": {
-      "english": "Zigzagoon",
-      "japanese": "ジグザグマ",
-      "chinese": "蛇纹熊",
-      "french": "Zigzaton"
+      "EN": "Zigzagoon",
+      "JP": "ジグザグマ",
+      "ZH": "蛇纹熊",
+      "FR": "Zigzaton"
     },
     "type": ["Normal"],
     "base": {
@@ -9749,10 +9749,10 @@ pokemon = [
   {
     "id": 264,
     "name": {
-      "english": "Linoone",
-      "japanese": "マッスグマ",
-      "chinese": "直冲熊",
-      "french": "Linéon"
+      "EN": "Linoone",
+      "JP": "マッスグマ",
+      "ZH": "直冲熊",
+      "FR": "Linéon"
     },
     "type": ["Normal"],
     "base": {
@@ -9789,10 +9789,10 @@ pokemon = [
   {
     "id": 265,
     "name": {
-      "english": "Wurmple",
-      "japanese": "ケムッソ",
-      "chinese": "刺尾虫",
-      "french": "Chenipotte"
+      "EN": "Wurmple",
+      "JP": "ケムッソ",
+      "ZH": "刺尾虫",
+      "FR": "Chenipotte"
     },
     "type": ["Bug"],
     "base": {
@@ -9830,10 +9830,10 @@ pokemon = [
   {
     "id": 266,
     "name": {
-      "english": "Silcoon",
-      "japanese": "カラサリス",
-      "chinese": "甲壳茧",
-      "french": "Armulys"
+      "EN": "Silcoon",
+      "JP": "カラサリス",
+      "ZH": "甲壳茧",
+      "FR": "Armulys"
     },
     "type": ["Bug"],
     "base": {
@@ -9866,10 +9866,10 @@ pokemon = [
   {
     "id": 267,
     "name": {
-      "english": "Beautifly",
-      "japanese": "アゲハント",
-      "chinese": "狩猎凤蝶",
-      "french": "Charmillon"
+      "EN": "Beautifly",
+      "JP": "アゲハント",
+      "ZH": "狩猎凤蝶",
+      "FR": "Charmillon"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -9902,10 +9902,10 @@ pokemon = [
   {
     "id": 268,
     "name": {
-      "english": "Cascoon",
-      "japanese": "マユルド",
-      "chinese": "盾甲茧",
-      "french": "Blindalys"
+      "EN": "Cascoon",
+      "JP": "マユルド",
+      "ZH": "盾甲茧",
+      "FR": "Blindalys"
     },
     "type": ["Bug"],
     "base": {
@@ -9938,10 +9938,10 @@ pokemon = [
   {
     "id": 269,
     "name": {
-      "english": "Dustox",
-      "japanese": "ドクケイル",
-      "chinese": "毒粉蛾",
-      "french": "Papinox"
+      "EN": "Dustox",
+      "JP": "ドクケイル",
+      "ZH": "毒粉蛾",
+      "FR": "Papinox"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -9974,10 +9974,10 @@ pokemon = [
   {
     "id": 270,
     "name": {
-      "english": "Lotad",
-      "japanese": "ハスボー",
-      "chinese": "莲叶童子",
-      "french": "Nénupiot"
+      "EN": "Lotad",
+      "JP": "ハスボー",
+      "ZH": "莲叶童子",
+      "FR": "Nénupiot"
     },
     "type": ["Water", "Grass"],
     "base": {
@@ -10011,10 +10011,10 @@ pokemon = [
   {
     "id": 271,
     "name": {
-      "english": "Lombre",
-      "japanese": "ハスブレロ",
-      "chinese": "莲帽小童",
-      "french": "Lombre"
+      "EN": "Lombre",
+      "JP": "ハスブレロ",
+      "ZH": "莲帽小童",
+      "FR": "Lombre"
     },
     "type": ["Water", "Grass"],
     "base": {
@@ -10051,10 +10051,10 @@ pokemon = [
   {
     "id": 272,
     "name": {
-      "english": "Ludicolo",
-      "japanese": "ルンパッパ",
-      "chinese": "乐天河童",
-      "french": "Ludicolo"
+      "EN": "Ludicolo",
+      "JP": "ルンパッパ",
+      "ZH": "乐天河童",
+      "FR": "Ludicolo"
     },
     "type": ["Water", "Grass"],
     "base": {
@@ -10088,10 +10088,10 @@ pokemon = [
   {
     "id": 273,
     "name": {
-      "english": "Seedot",
-      "japanese": "タネボー",
-      "chinese": "橡实果",
-      "french": "Grainipiot"
+      "EN": "Seedot",
+      "JP": "タネボー",
+      "ZH": "橡实果",
+      "FR": "Grainipiot"
     },
     "type": ["Grass"],
     "base": {
@@ -10125,10 +10125,10 @@ pokemon = [
   {
     "id": 274,
     "name": {
-      "english": "Nuzleaf",
-      "japanese": "コノハナ",
-      "chinese": "长鼻叶",
-      "french": "Pifeuil"
+      "EN": "Nuzleaf",
+      "JP": "コノハナ",
+      "ZH": "长鼻叶",
+      "FR": "Pifeuil"
     },
     "type": ["Grass", "Dark"],
     "base": {
@@ -10165,10 +10165,10 @@ pokemon = [
   {
     "id": 275,
     "name": {
-      "english": "Shiftry",
-      "japanese": "ダーテング",
-      "chinese": "狡猾天狗",
-      "french": "Tengalice"
+      "EN": "Shiftry",
+      "JP": "ダーテング",
+      "ZH": "狡猾天狗",
+      "FR": "Tengalice"
     },
     "type": ["Grass", "Dark"],
     "base": {
@@ -10202,10 +10202,10 @@ pokemon = [
   {
     "id": 276,
     "name": {
-      "english": "Taillow",
-      "japanese": "スバメ",
-      "chinese": "傲骨燕",
-      "french": "Nirondelle"
+      "EN": "Taillow",
+      "JP": "スバメ",
+      "ZH": "傲骨燕",
+      "FR": "Nirondelle"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -10238,10 +10238,10 @@ pokemon = [
   {
     "id": 277,
     "name": {
-      "english": "Swellow",
-      "japanese": "オオスバメ",
-      "chinese": "大王燕",
-      "french": "Hélédelle"
+      "EN": "Swellow",
+      "JP": "オオスバメ",
+      "ZH": "大王燕",
+      "FR": "Hélédelle"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -10274,10 +10274,10 @@ pokemon = [
   {
     "id": 278,
     "name": {
-      "english": "Wingull",
-      "japanese": "キャモメ",
-      "chinese": "长翅鸥",
-      "french": "Goélise"
+      "EN": "Wingull",
+      "JP": "キャモメ",
+      "ZH": "长翅鸥",
+      "FR": "Goélise"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -10311,10 +10311,10 @@ pokemon = [
   {
     "id": 279,
     "name": {
-      "english": "Pelipper",
-      "japanese": "ペリッパー",
-      "chinese": "大嘴鸥",
-      "french": "Bekipan"
+      "EN": "Pelipper",
+      "JP": "ペリッパー",
+      "ZH": "大嘴鸥",
+      "FR": "Bekipan"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -10348,10 +10348,10 @@ pokemon = [
   {
     "id": 280,
     "name": {
-      "english": "Ralts",
-      "japanese": "ラルトス",
-      "chinese": "拉鲁拉丝",
-      "french": "Tarsal"
+      "EN": "Ralts",
+      "JP": "ラルトス",
+      "ZH": "拉鲁拉丝",
+      "FR": "Tarsal"
     },
     "type": ["Psychic", "Fairy"],
     "base": {
@@ -10385,10 +10385,10 @@ pokemon = [
   {
     "id": 281,
     "name": {
-      "english": "Kirlia",
-      "japanese": "キルリア",
-      "chinese": "奇鲁莉安",
-      "french": "Kirlia"
+      "EN": "Kirlia",
+      "JP": "キルリア",
+      "ZH": "奇鲁莉安",
+      "FR": "Kirlia"
     },
     "type": ["Psychic", "Fairy"],
     "base": {
@@ -10422,10 +10422,10 @@ pokemon = [
   {
     "id": 282,
     "name": {
-      "english": "Gardevoir",
-      "japanese": "サーナイト",
-      "chinese": "沙奈朵",
-      "french": "Gardevoir"
+      "EN": "Gardevoir",
+      "JP": "サーナイト",
+      "ZH": "沙奈朵",
+      "FR": "Gardevoir"
     },
     "type": ["Psychic", "Fairy"],
     "base": {
@@ -10459,10 +10459,10 @@ pokemon = [
   {
     "id": 283,
     "name": {
-      "english": "Surskit",
-      "japanese": "アメタマ",
-      "chinese": "溜溜糖球",
-      "french": "Arakdo"
+      "EN": "Surskit",
+      "JP": "アメタマ",
+      "ZH": "溜溜糖球",
+      "FR": "Arakdo"
     },
     "type": ["Bug", "Water"],
     "base": {
@@ -10495,10 +10495,10 @@ pokemon = [
   {
     "id": 284,
     "name": {
-      "english": "Masquerain",
-      "japanese": "アメモース",
-      "chinese": "雨翅蛾",
-      "french": "Maskadra"
+      "EN": "Masquerain",
+      "JP": "アメモース",
+      "ZH": "雨翅蛾",
+      "FR": "Maskadra"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -10531,10 +10531,10 @@ pokemon = [
   {
     "id": 285,
     "name": {
-      "english": "Shroomish",
-      "japanese": "キノココ",
-      "chinese": "蘑蘑菇",
-      "french": "Balignon"
+      "EN": "Shroomish",
+      "JP": "キノココ",
+      "ZH": "蘑蘑菇",
+      "FR": "Balignon"
     },
     "type": ["Grass"],
     "base": {
@@ -10568,10 +10568,10 @@ pokemon = [
   {
     "id": 286,
     "name": {
-      "english": "Breloom",
-      "japanese": "キノガッサ",
-      "chinese": "斗笠菇",
-      "french": "Chapignon"
+      "EN": "Breloom",
+      "JP": "キノガッサ",
+      "ZH": "斗笠菇",
+      "FR": "Chapignon"
     },
     "type": ["Grass", "Fighting"],
     "base": {
@@ -10605,10 +10605,10 @@ pokemon = [
   {
     "id": 287,
     "name": {
-      "english": "Slakoth",
-      "japanese": "ナマケロ",
-      "chinese": "懒人獭",
-      "french": "Parecool"
+      "EN": "Slakoth",
+      "JP": "ナマケロ",
+      "ZH": "懒人獭",
+      "FR": "Parecool"
     },
     "type": ["Normal"],
     "base": {
@@ -10638,10 +10638,10 @@ pokemon = [
   {
     "id": 288,
     "name": {
-      "english": "Vigoroth",
-      "japanese": "ヤルキモノ",
-      "chinese": "过动猿",
-      "french": "Vigoroth"
+      "EN": "Vigoroth",
+      "JP": "ヤルキモノ",
+      "ZH": "过动猿",
+      "FR": "Vigoroth"
     },
     "type": ["Normal"],
     "base": {
@@ -10671,10 +10671,10 @@ pokemon = [
   {
     "id": 289,
     "name": {
-      "english": "Slaking",
-      "japanese": "ケッキング",
-      "chinese": "请假王",
-      "french": "Monaflèmit"
+      "EN": "Slaking",
+      "JP": "ケッキング",
+      "ZH": "请假王",
+      "FR": "Monaflèmit"
     },
     "type": ["Normal"],
     "base": {
@@ -10704,10 +10704,10 @@ pokemon = [
   {
     "id": 290,
     "name": {
-      "english": "Nincada",
-      "japanese": "ツチニン",
-      "chinese": "土居忍士",
-      "french": "Ningale"
+      "EN": "Nincada",
+      "JP": "ツチニン",
+      "ZH": "土居忍士",
+      "FR": "Ningale"
     },
     "type": ["Bug", "Ground"],
     "base": {
@@ -10745,10 +10745,10 @@ pokemon = [
   {
     "id": 291,
     "name": {
-      "english": "Ninjask",
-      "japanese": "テッカニン",
-      "chinese": "铁面忍者",
-      "french": "Ninjask"
+      "EN": "Ninjask",
+      "JP": "テッカニン",
+      "ZH": "铁面忍者",
+      "FR": "Ninjask"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -10781,10 +10781,10 @@ pokemon = [
   {
     "id": 292,
     "name": {
-      "english": "Shedinja",
-      "japanese": "ヌケニン",
-      "chinese": "脱壳忍者",
-      "french": "Munja"
+      "EN": "Shedinja",
+      "JP": "ヌケニン",
+      "ZH": "脱壳忍者",
+      "FR": "Munja"
     },
     "type": ["Bug", "Ghost"],
     "base": {
@@ -10816,10 +10816,10 @@ pokemon = [
   {
     "id": 293,
     "name": {
-      "english": "Whismur",
-      "japanese": "ゴニョニョ",
-      "chinese": "咕妞妞",
-      "french": "Chuchmur"
+      "EN": "Whismur",
+      "JP": "ゴニョニョ",
+      "ZH": "咕妞妞",
+      "FR": "Chuchmur"
     },
     "type": ["Normal"],
     "base": {
@@ -10852,10 +10852,10 @@ pokemon = [
   {
     "id": 294,
     "name": {
-      "english": "Loudred",
-      "japanese": "ドゴーム",
-      "chinese": "吼爆弹",
-      "french": "Ramboum"
+      "EN": "Loudred",
+      "JP": "ドゴーム",
+      "ZH": "吼爆弹",
+      "FR": "Ramboum"
     },
     "type": ["Normal"],
     "base": {
@@ -10888,10 +10888,10 @@ pokemon = [
   {
     "id": 295,
     "name": {
-      "english": "Exploud",
-      "japanese": "バクオング",
-      "chinese": "爆音怪",
-      "french": "Brouhabam"
+      "EN": "Exploud",
+      "JP": "バクオング",
+      "ZH": "爆音怪",
+      "FR": "Brouhabam"
     },
     "type": ["Normal"],
     "base": {
@@ -10924,10 +10924,10 @@ pokemon = [
   {
     "id": 296,
     "name": {
-      "english": "Makuhita",
-      "japanese": "マクノシタ",
-      "chinese": "幕下力士",
-      "french": "Makuhita"
+      "EN": "Makuhita",
+      "JP": "マクノシタ",
+      "ZH": "幕下力士",
+      "FR": "Makuhita"
     },
     "type": ["Fighting"],
     "base": {
@@ -10961,10 +10961,10 @@ pokemon = [
   {
     "id": 297,
     "name": {
-      "english": "Hariyama",
-      "japanese": "ハリテヤマ",
-      "chinese": "铁掌力士",
-      "french": "Hariyama"
+      "EN": "Hariyama",
+      "JP": "ハリテヤマ",
+      "ZH": "铁掌力士",
+      "FR": "Hariyama"
     },
     "type": ["Fighting"],
     "base": {
@@ -10998,10 +10998,10 @@ pokemon = [
   {
     "id": 298,
     "name": {
-      "english": "Azurill",
-      "japanese": "ルリリ",
-      "chinese": "露力丽",
-      "french": "Azurill"
+      "EN": "Azurill",
+      "JP": "ルリリ",
+      "ZH": "露力丽",
+      "FR": "Azurill"
     },
     "type": ["Normal", "Fairy"],
     "base": {
@@ -11035,10 +11035,10 @@ pokemon = [
   {
     "id": 299,
     "name": {
-      "english": "Nosepass",
-      "japanese": "ノズパス",
-      "chinese": "朝北鼻",
-      "french": "Tarinor"
+      "EN": "Nosepass",
+      "JP": "ノズパス",
+      "ZH": "朝北鼻",
+      "FR": "Tarinor"
     },
     "type": ["Rock"],
     "base": {
@@ -11072,10 +11072,10 @@ pokemon = [
   {
     "id": 300,
     "name": {
-      "english": "Skitty",
-      "japanese": "エネコ",
-      "chinese": "向尾喵",
-      "french": "Skitty"
+      "EN": "Skitty",
+      "JP": "エネコ",
+      "ZH": "向尾喵",
+      "FR": "Skitty"
     },
     "type": ["Normal"],
     "base": {
@@ -11109,10 +11109,10 @@ pokemon = [
   {
     "id": 301,
     "name": {
-      "english": "Delcatty",
-      "japanese": "エネコロロ",
-      "chinese": "优雅猫",
-      "french": "Delcatty"
+      "EN": "Delcatty",
+      "JP": "エネコロロ",
+      "ZH": "优雅猫",
+      "FR": "Delcatty"
     },
     "type": ["Normal"],
     "base": {
@@ -11146,10 +11146,10 @@ pokemon = [
   {
     "id": 302,
     "name": {
-      "english": "Sableye",
-      "japanese": "ヤミラミ",
-      "chinese": "勾魂眼",
-      "french": "Ténéfix"
+      "EN": "Sableye",
+      "JP": "ヤミラミ",
+      "ZH": "勾魂眼",
+      "FR": "Ténéfix"
     },
     "type": ["Dark", "Ghost"],
     "base": {
@@ -11183,10 +11183,10 @@ pokemon = [
   {
     "id": 303,
     "name": {
-      "english": "Mawile",
-      "japanese": "クチート",
-      "chinese": "大嘴娃",
-      "french": "Mysdibule"
+      "EN": "Mawile",
+      "JP": "クチート",
+      "ZH": "大嘴娃",
+      "FR": "Mysdibule"
     },
     "type": ["Steel", "Fairy"],
     "base": {
@@ -11220,10 +11220,10 @@ pokemon = [
   {
     "id": 304,
     "name": {
-      "english": "Aron",
-      "japanese": "ココドラ",
-      "chinese": "可可多拉",
-      "french": "Galekid"
+      "EN": "Aron",
+      "JP": "ココドラ",
+      "ZH": "可可多拉",
+      "FR": "Galekid"
     },
     "type": ["Steel", "Rock"],
     "base": {
@@ -11257,10 +11257,10 @@ pokemon = [
   {
     "id": 305,
     "name": {
-      "english": "Lairon",
-      "japanese": "コドラ",
-      "chinese": "可多拉",
-      "french": "Galegon"
+      "EN": "Lairon",
+      "JP": "コドラ",
+      "ZH": "可多拉",
+      "FR": "Galegon"
     },
     "type": ["Steel", "Rock"],
     "base": {
@@ -11294,10 +11294,10 @@ pokemon = [
   {
     "id": 306,
     "name": {
-      "english": "Aggron",
-      "japanese": "ボスゴドラ",
-      "chinese": "波士可多拉",
-      "french": "Galeking"
+      "EN": "Aggron",
+      "JP": "ボスゴドラ",
+      "ZH": "波士可多拉",
+      "FR": "Galeking"
     },
     "type": ["Steel", "Rock"],
     "base": {
@@ -11331,10 +11331,10 @@ pokemon = [
   {
     "id": 307,
     "name": {
-      "english": "Meditite",
-      "japanese": "アサナン",
-      "chinese": "玛沙那",
-      "french": "Méditikka"
+      "EN": "Meditite",
+      "JP": "アサナン",
+      "ZH": "玛沙那",
+      "FR": "Méditikka"
     },
     "type": ["Fighting", "Psychic"],
     "base": {
@@ -11367,10 +11367,10 @@ pokemon = [
   {
     "id": 308,
     "name": {
-      "english": "Medicham",
-      "japanese": "チャーレム",
-      "chinese": "恰雷姆",
-      "french": "Charmina"
+      "EN": "Medicham",
+      "JP": "チャーレム",
+      "ZH": "恰雷姆",
+      "FR": "Charmina"
     },
     "type": ["Fighting", "Psychic"],
     "base": {
@@ -11403,10 +11403,10 @@ pokemon = [
   {
     "id": 309,
     "name": {
-      "english": "Electrike",
-      "japanese": "ラクライ",
-      "chinese": "落雷兽",
-      "french": "Dynavolt"
+      "EN": "Electrike",
+      "JP": "ラクライ",
+      "ZH": "落雷兽",
+      "FR": "Dynavolt"
     },
     "type": ["Electric"],
     "base": {
@@ -11440,10 +11440,10 @@ pokemon = [
   {
     "id": 310,
     "name": {
-      "english": "Manectric",
-      "japanese": "ライボルト",
-      "chinese": "雷电兽",
-      "french": "Élecsprint"
+      "EN": "Manectric",
+      "JP": "ライボルト",
+      "ZH": "雷电兽",
+      "FR": "Élecsprint"
     },
     "type": ["Electric"],
     "base": {
@@ -11477,10 +11477,10 @@ pokemon = [
   {
     "id": 311,
     "name": {
-      "english": "Plusle",
-      "japanese": "プラスル",
-      "chinese": "正电拍拍",
-      "french": "Posipi"
+      "EN": "Plusle",
+      "JP": "プラスル",
+      "ZH": "正电拍拍",
+      "FR": "Posipi"
     },
     "type": ["Electric"],
     "base": {
@@ -11513,10 +11513,10 @@ pokemon = [
   {
     "id": 312,
     "name": {
-      "english": "Minun",
-      "japanese": "マイナン",
-      "chinese": "负电拍拍",
-      "french": "Négapi"
+      "EN": "Minun",
+      "JP": "マイナン",
+      "ZH": "负电拍拍",
+      "FR": "Négapi"
     },
     "type": ["Electric"],
     "base": {
@@ -11549,10 +11549,10 @@ pokemon = [
   {
     "id": 313,
     "name": {
-      "english": "Volbeat",
-      "japanese": "バルビート",
-      "chinese": "电萤虫",
-      "french": "Muciole"
+      "EN": "Volbeat",
+      "JP": "バルビート",
+      "ZH": "电萤虫",
+      "FR": "Muciole"
     },
     "type": ["Bug"],
     "base": {
@@ -11586,10 +11586,10 @@ pokemon = [
   {
     "id": 314,
     "name": {
-      "english": "Illumise",
-      "japanese": "イルミーゼ",
-      "chinese": "甜甜萤",
-      "french": "Lumivole"
+      "EN": "Illumise",
+      "JP": "イルミーゼ",
+      "ZH": "甜甜萤",
+      "FR": "Lumivole"
     },
     "type": ["Bug"],
     "base": {
@@ -11623,10 +11623,10 @@ pokemon = [
   {
     "id": 315,
     "name": {
-      "english": "Roselia",
-      "japanese": "ロゼリア",
-      "chinese": "毒蔷薇",
-      "french": "Rosélia"
+      "EN": "Roselia",
+      "JP": "ロゼリア",
+      "ZH": "毒蔷薇",
+      "FR": "Rosélia"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -11663,10 +11663,10 @@ pokemon = [
   {
     "id": 316,
     "name": {
-      "english": "Gulpin",
-      "japanese": "ゴクリン",
-      "chinese": "溶食兽",
-      "french": "Gloupti"
+      "EN": "Gulpin",
+      "JP": "ゴクリン",
+      "ZH": "溶食兽",
+      "FR": "Gloupti"
     },
     "type": ["Poison"],
     "base": {
@@ -11700,10 +11700,10 @@ pokemon = [
   {
     "id": 317,
     "name": {
-      "english": "Swalot",
-      "japanese": "マルノーム",
-      "chinese": "吞食兽",
-      "french": "Avaltout"
+      "EN": "Swalot",
+      "JP": "マルノーム",
+      "ZH": "吞食兽",
+      "FR": "Avaltout"
     },
     "type": ["Poison"],
     "base": {
@@ -11737,10 +11737,10 @@ pokemon = [
   {
     "id": 318,
     "name": {
-      "english": "Carvanha",
-      "japanese": "キバニア",
-      "chinese": "利牙鱼",
-      "french": "Carvanha"
+      "EN": "Carvanha",
+      "JP": "キバニア",
+      "ZH": "利牙鱼",
+      "FR": "Carvanha"
     },
     "type": ["Water", "Dark"],
     "base": {
@@ -11773,10 +11773,10 @@ pokemon = [
   {
     "id": 319,
     "name": {
-      "english": "Sharpedo",
-      "japanese": "サメハダー",
-      "chinese": "巨牙鲨",
-      "french": "Sharpedo"
+      "EN": "Sharpedo",
+      "JP": "サメハダー",
+      "ZH": "巨牙鲨",
+      "FR": "Sharpedo"
     },
     "type": ["Water", "Dark"],
     "base": {
@@ -11809,10 +11809,10 @@ pokemon = [
   {
     "id": 320,
     "name": {
-      "english": "Wailmer",
-      "japanese": "ホエルコ",
-      "chinese": "吼吼鲸",
-      "french": "Wailmer"
+      "EN": "Wailmer",
+      "JP": "ホエルコ",
+      "ZH": "吼吼鲸",
+      "FR": "Wailmer"
     },
     "type": ["Water"],
     "base": {
@@ -11846,10 +11846,10 @@ pokemon = [
   {
     "id": 321,
     "name": {
-      "english": "Wailord",
-      "japanese": "ホエルオー",
-      "chinese": "吼鲸王",
-      "french": "Wailord"
+      "EN": "Wailord",
+      "JP": "ホエルオー",
+      "ZH": "吼鲸王",
+      "FR": "Wailord"
     },
     "type": ["Water"],
     "base": {
@@ -11883,10 +11883,10 @@ pokemon = [
   {
     "id": 322,
     "name": {
-      "english": "Numel",
-      "japanese": "ドンメル",
-      "chinese": "呆火驼",
-      "french": "Chamallot"
+      "EN": "Numel",
+      "JP": "ドンメル",
+      "ZH": "呆火驼",
+      "FR": "Chamallot"
     },
     "type": ["Fire", "Ground"],
     "base": {
@@ -11920,10 +11920,10 @@ pokemon = [
   {
     "id": 323,
     "name": {
-      "english": "Camerupt",
-      "japanese": "バクーダ",
-      "chinese": "喷火驼",
-      "french": "Camérupt"
+      "EN": "Camerupt",
+      "JP": "バクーダ",
+      "ZH": "喷火驼",
+      "FR": "Camérupt"
     },
     "type": ["Fire", "Ground"],
     "base": {
@@ -11957,10 +11957,10 @@ pokemon = [
   {
     "id": 324,
     "name": {
-      "english": "Torkoal",
-      "japanese": "コータス",
-      "chinese": "煤炭龟",
-      "french": "Chartor"
+      "EN": "Torkoal",
+      "JP": "コータス",
+      "ZH": "煤炭龟",
+      "FR": "Chartor"
     },
     "type": ["Fire"],
     "base": {
@@ -11994,10 +11994,10 @@ pokemon = [
   {
     "id": 325,
     "name": {
-      "english": "Spoink",
-      "japanese": "バネブー",
-      "chinese": "跳跳猪",
-      "french": "Spoink"
+      "EN": "Spoink",
+      "JP": "バネブー",
+      "ZH": "跳跳猪",
+      "FR": "Spoink"
     },
     "type": ["Psychic"],
     "base": {
@@ -12031,10 +12031,10 @@ pokemon = [
   {
     "id": 326,
     "name": {
-      "english": "Grumpig",
-      "japanese": "ブーピッグ",
-      "chinese": "噗噗猪",
-      "french": "Groret"
+      "EN": "Grumpig",
+      "JP": "ブーピッグ",
+      "ZH": "噗噗猪",
+      "FR": "Groret"
     },
     "type": ["Psychic"],
     "base": {
@@ -12068,10 +12068,10 @@ pokemon = [
   {
     "id": 327,
     "name": {
-      "english": "Spinda",
-      "japanese": "パッチール",
-      "chinese": "晃晃斑",
-      "french": "Spinda"
+      "EN": "Spinda",
+      "JP": "パッチール",
+      "ZH": "晃晃斑",
+      "FR": "Spinda"
     },
     "type": ["Normal"],
     "base": {
@@ -12105,10 +12105,10 @@ pokemon = [
   {
     "id": 328,
     "name": {
-      "english": "Trapinch",
-      "japanese": "ナックラー",
-      "chinese": "大颚蚁",
-      "french": "Kraknoix"
+      "EN": "Trapinch",
+      "JP": "ナックラー",
+      "ZH": "大颚蚁",
+      "FR": "Kraknoix"
     },
     "type": ["Ground"],
     "base": {
@@ -12142,10 +12142,10 @@ pokemon = [
   {
     "id": 329,
     "name": {
-      "english": "Vibrava",
-      "japanese": "ビブラーバ",
-      "chinese": "超音波幼虫",
-      "french": "Vibraninf"
+      "EN": "Vibrava",
+      "JP": "ビブラーバ",
+      "ZH": "超音波幼虫",
+      "FR": "Vibraninf"
     },
     "type": ["Ground", "Dragon"],
     "base": {
@@ -12175,10 +12175,10 @@ pokemon = [
   {
     "id": 330,
     "name": {
-      "english": "Flygon",
-      "japanese": "フライゴン",
-      "chinese": "沙漠蜻蜓",
-      "french": "Libégon"
+      "EN": "Flygon",
+      "JP": "フライゴン",
+      "ZH": "沙漠蜻蜓",
+      "FR": "Libégon"
     },
     "type": ["Ground", "Dragon"],
     "base": {
@@ -12208,10 +12208,10 @@ pokemon = [
   {
     "id": 331,
     "name": {
-      "english": "Cacnea",
-      "japanese": "サボネア",
-      "chinese": "刺球仙人掌",
-      "french": "Cacnea"
+      "EN": "Cacnea",
+      "JP": "サボネア",
+      "ZH": "刺球仙人掌",
+      "FR": "Cacnea"
     },
     "type": ["Grass"],
     "base": {
@@ -12244,10 +12244,10 @@ pokemon = [
   {
     "id": 332,
     "name": {
-      "english": "Cacturne",
-      "japanese": "ノクタス",
-      "chinese": "梦歌仙人掌",
-      "french": "Cacturne"
+      "EN": "Cacturne",
+      "JP": "ノクタス",
+      "ZH": "梦歌仙人掌",
+      "FR": "Cacturne"
     },
     "type": ["Grass", "Dark"],
     "base": {
@@ -12280,10 +12280,10 @@ pokemon = [
   {
     "id": 333,
     "name": {
-      "english": "Swablu",
-      "japanese": "チルット",
-      "chinese": "青绵鸟",
-      "french": "Tylton"
+      "EN": "Swablu",
+      "JP": "チルット",
+      "ZH": "青绵鸟",
+      "FR": "Tylton"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -12316,10 +12316,10 @@ pokemon = [
   {
     "id": 334,
     "name": {
-      "english": "Altaria",
-      "japanese": "チルタリス",
-      "chinese": "七夕青鸟",
-      "french": "Altaria"
+      "EN": "Altaria",
+      "JP": "チルタリス",
+      "ZH": "七夕青鸟",
+      "FR": "Altaria"
     },
     "type": ["Dragon", "Flying"],
     "base": {
@@ -12352,10 +12352,10 @@ pokemon = [
   {
     "id": 335,
     "name": {
-      "english": "Zangoose",
-      "japanese": "ザングース",
-      "chinese": "猫鼬斩",
-      "french": "Mangriff"
+      "EN": "Zangoose",
+      "JP": "ザングース",
+      "ZH": "猫鼬斩",
+      "FR": "Mangriff"
     },
     "type": ["Normal"],
     "base": {
@@ -12388,10 +12388,10 @@ pokemon = [
   {
     "id": 336,
     "name": {
-      "english": "Seviper",
-      "japanese": "ハブネーク",
-      "chinese": "饭匙蛇",
-      "french": "Séviper"
+      "EN": "Seviper",
+      "JP": "ハブネーク",
+      "ZH": "饭匙蛇",
+      "FR": "Séviper"
     },
     "type": ["Poison"],
     "base": {
@@ -12424,10 +12424,10 @@ pokemon = [
   {
     "id": 337,
     "name": {
-      "english": "Lunatone",
-      "japanese": "ルナトーン",
-      "chinese": "月石",
-      "french": "Séléroc"
+      "EN": "Lunatone",
+      "JP": "ルナトーン",
+      "ZH": "月石",
+      "FR": "Séléroc"
     },
     "type": ["Rock", "Psychic"],
     "base": {
@@ -12457,10 +12457,10 @@ pokemon = [
   {
     "id": 338,
     "name": {
-      "english": "Solrock",
-      "japanese": "ソルロック",
-      "chinese": "太阳岩",
-      "french": "Solaroc"
+      "EN": "Solrock",
+      "JP": "ソルロック",
+      "ZH": "太阳岩",
+      "FR": "Solaroc"
     },
     "type": ["Rock", "Psychic"],
     "base": {
@@ -12490,10 +12490,10 @@ pokemon = [
   {
     "id": 339,
     "name": {
-      "english": "Barboach",
-      "japanese": "ドジョッチ",
-      "chinese": "泥泥鳅",
-      "french": "Barloche"
+      "EN": "Barboach",
+      "JP": "ドジョッチ",
+      "ZH": "泥泥鳅",
+      "FR": "Barloche"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -12527,10 +12527,10 @@ pokemon = [
   {
     "id": 340,
     "name": {
-      "english": "Whiscash",
-      "japanese": "ナマズン",
-      "chinese": "鲶鱼王",
-      "french": "Barbicha"
+      "EN": "Whiscash",
+      "JP": "ナマズン",
+      "ZH": "鲶鱼王",
+      "FR": "Barbicha"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -12564,10 +12564,10 @@ pokemon = [
   {
     "id": 341,
     "name": {
-      "english": "Corphish",
-      "japanese": "ヘイガニ",
-      "chinese": "龙虾小兵",
-      "french": "Écrapince"
+      "EN": "Corphish",
+      "JP": "ヘイガニ",
+      "ZH": "龙虾小兵",
+      "FR": "Écrapince"
     },
     "type": ["Water"],
     "base": {
@@ -12601,10 +12601,10 @@ pokemon = [
   {
     "id": 342,
     "name": {
-      "english": "Crawdaunt",
-      "japanese": "シザリガー",
-      "chinese": "铁螯龙虾",
-      "french": "Colhomard"
+      "EN": "Crawdaunt",
+      "JP": "シザリガー",
+      "ZH": "铁螯龙虾",
+      "FR": "Colhomard"
     },
     "type": ["Water", "Dark"],
     "base": {
@@ -12638,10 +12638,10 @@ pokemon = [
   {
     "id": 343,
     "name": {
-      "english": "Baltoy",
-      "japanese": "ヤジロン",
-      "chinese": "天秤偶",
-      "french": "Balbuto"
+      "EN": "Baltoy",
+      "JP": "ヤジロン",
+      "ZH": "天秤偶",
+      "FR": "Balbuto"
     },
     "type": ["Ground", "Psychic"],
     "base": {
@@ -12671,10 +12671,10 @@ pokemon = [
   {
     "id": 344,
     "name": {
-      "english": "Claydol",
-      "japanese": "ネンドール",
-      "chinese": "念力土偶",
-      "french": "Kaorine"
+      "EN": "Claydol",
+      "JP": "ネンドール",
+      "ZH": "念力土偶",
+      "FR": "Kaorine"
     },
     "type": ["Ground", "Psychic"],
     "base": {
@@ -12704,10 +12704,10 @@ pokemon = [
   {
     "id": 345,
     "name": {
-      "english": "Lileep",
-      "japanese": "リリーラ",
-      "chinese": "触手百合",
-      "french": "Lilia"
+      "EN": "Lileep",
+      "JP": "リリーラ",
+      "ZH": "触手百合",
+      "FR": "Lilia"
     },
     "type": ["Rock", "Grass"],
     "base": {
@@ -12740,10 +12740,10 @@ pokemon = [
   {
     "id": 346,
     "name": {
-      "english": "Cradily",
-      "japanese": "ユレイドル",
-      "chinese": "摇篮百合",
-      "french": "Vacilys"
+      "EN": "Cradily",
+      "JP": "ユレイドル",
+      "ZH": "摇篮百合",
+      "FR": "Vacilys"
     },
     "type": ["Rock", "Grass"],
     "base": {
@@ -12776,10 +12776,10 @@ pokemon = [
   {
     "id": 347,
     "name": {
-      "english": "Anorith",
-      "japanese": "アノプス",
-      "chinese": "太古羽虫",
-      "french": "Anorith"
+      "EN": "Anorith",
+      "JP": "アノプス",
+      "ZH": "太古羽虫",
+      "FR": "Anorith"
     },
     "type": ["Rock", "Bug"],
     "base": {
@@ -12812,10 +12812,10 @@ pokemon = [
   {
     "id": 348,
     "name": {
-      "english": "Armaldo",
-      "japanese": "アーマルド",
-      "chinese": "太古盔甲",
-      "french": "Armaldo"
+      "EN": "Armaldo",
+      "JP": "アーマルド",
+      "ZH": "太古盔甲",
+      "FR": "Armaldo"
     },
     "type": ["Rock", "Bug"],
     "base": {
@@ -12848,10 +12848,10 @@ pokemon = [
   {
     "id": 349,
     "name": {
-      "english": "Feebas",
-      "japanese": "ヒンバス",
-      "chinese": "丑丑鱼",
-      "french": "Barpau"
+      "EN": "Feebas",
+      "JP": "ヒンバス",
+      "ZH": "丑丑鱼",
+      "FR": "Barpau"
     },
     "type": ["Water"],
     "base": {
@@ -12889,10 +12889,10 @@ pokemon = [
   {
     "id": 350,
     "name": {
-      "english": "Milotic",
-      "japanese": "ミロカロス",
-      "chinese": "美纳斯",
-      "french": "Milobellus"
+      "EN": "Milotic",
+      "JP": "ミロカロス",
+      "ZH": "美纳斯",
+      "FR": "Milobellus"
     },
     "type": ["Water"],
     "base": {
@@ -12928,10 +12928,10 @@ pokemon = [
   {
     "id": 351,
     "name": {
-      "english": "Castform",
-      "japanese": "ポワルン",
-      "chinese": "飘浮泡泡",
-      "french": "Morphéo"
+      "EN": "Castform",
+      "JP": "ポワルン",
+      "ZH": "飘浮泡泡",
+      "FR": "Morphéo"
     },
     "type": ["Normal"],
     "base": {
@@ -12961,10 +12961,10 @@ pokemon = [
   {
     "id": 352,
     "name": {
-      "english": "Kecleon",
-      "japanese": "カクレオン",
-      "chinese": "变隐龙",
-      "french": "Kecleon"
+      "EN": "Kecleon",
+      "JP": "カクレオン",
+      "ZH": "变隐龙",
+      "FR": "Kecleon"
     },
     "type": ["Normal"],
     "base": {
@@ -12997,10 +12997,10 @@ pokemon = [
   {
     "id": 353,
     "name": {
-      "english": "Shuppet",
-      "japanese": "カゲボウズ",
-      "chinese": "怨影娃娃",
-      "french": "Polichombr"
+      "EN": "Shuppet",
+      "JP": "カゲボウズ",
+      "ZH": "怨影娃娃",
+      "FR": "Polichombr"
     },
     "type": ["Ghost"],
     "base": {
@@ -13034,10 +13034,10 @@ pokemon = [
   {
     "id": 354,
     "name": {
-      "english": "Banette",
-      "japanese": "ジュペッタ",
-      "chinese": "诅咒娃娃",
-      "french": "Branette"
+      "EN": "Banette",
+      "JP": "ジュペッタ",
+      "ZH": "诅咒娃娃",
+      "FR": "Branette"
     },
     "type": ["Ghost"],
     "base": {
@@ -13071,10 +13071,10 @@ pokemon = [
   {
     "id": 355,
     "name": {
-      "english": "Duskull",
-      "japanese": "ヨマワル",
-      "chinese": "夜巡灵",
-      "french": "Skelénox"
+      "EN": "Duskull",
+      "JP": "ヨマワル",
+      "ZH": "夜巡灵",
+      "FR": "Skelénox"
     },
     "type": ["Ghost"],
     "base": {
@@ -13107,10 +13107,10 @@ pokemon = [
   {
     "id": 356,
     "name": {
-      "english": "Dusclops",
-      "japanese": "サマヨール",
-      "chinese": "彷徨夜灵",
-      "french": "Téraclope"
+      "EN": "Dusclops",
+      "JP": "サマヨール",
+      "ZH": "彷徨夜灵",
+      "FR": "Téraclope"
     },
     "type": ["Ghost"],
     "base": {
@@ -13146,10 +13146,10 @@ pokemon = [
   {
     "id": 357,
     "name": {
-      "english": "Tropius",
-      "japanese": "トロピウス",
-      "chinese": "热带龙",
-      "french": "Tropius"
+      "EN": "Tropius",
+      "JP": "トロピウス",
+      "ZH": "热带龙",
+      "FR": "Tropius"
     },
     "type": ["Grass", "Flying"],
     "base": {
@@ -13183,10 +13183,10 @@ pokemon = [
   {
     "id": 358,
     "name": {
-      "english": "Chimecho",
-      "japanese": "チリーン",
-      "chinese": "风铃铃",
-      "french": "Éoko"
+      "EN": "Chimecho",
+      "JP": "チリーン",
+      "ZH": "风铃铃",
+      "FR": "Éoko"
     },
     "type": ["Psychic"],
     "base": {
@@ -13216,10 +13216,10 @@ pokemon = [
   {
     "id": 359,
     "name": {
-      "english": "Absol",
-      "japanese": "アブソル",
-      "chinese": "阿勃梭鲁",
-      "french": "Absol"
+      "EN": "Absol",
+      "JP": "アブソル",
+      "ZH": "阿勃梭鲁",
+      "FR": "Absol"
     },
     "type": ["Dark"],
     "base": {
@@ -13253,10 +13253,10 @@ pokemon = [
   {
     "id": 360,
     "name": {
-      "english": "Wynaut",
-      "japanese": "ソーナノ",
-      "chinese": "小果然",
-      "french": "Okéoké"
+      "EN": "Wynaut",
+      "JP": "ソーナノ",
+      "ZH": "小果然",
+      "FR": "Okéoké"
     },
     "type": ["Psychic"],
     "base": {
@@ -13289,10 +13289,10 @@ pokemon = [
   {
     "id": 361,
     "name": {
-      "english": "Snorunt",
-      "japanese": "ユキワラシ",
-      "chinese": "雪童子",
-      "french": "Stalgamin"
+      "EN": "Snorunt",
+      "JP": "ユキワラシ",
+      "ZH": "雪童子",
+      "FR": "Stalgamin"
     },
     "type": ["Ice"],
     "base": {
@@ -13331,10 +13331,10 @@ pokemon = [
   {
     "id": 362,
     "name": {
-      "english": "Glalie",
-      "japanese": "オニゴーリ",
-      "chinese": "冰鬼护",
-      "french": "Oniglali"
+      "EN": "Glalie",
+      "JP": "オニゴーリ",
+      "ZH": "冰鬼护",
+      "FR": "Oniglali"
     },
     "type": ["Ice"],
     "base": {
@@ -13368,10 +13368,10 @@ pokemon = [
   {
     "id": 363,
     "name": {
-      "english": "Spheal",
-      "japanese": "タマザラシ",
-      "chinese": "海豹球",
-      "french": "Obalie"
+      "EN": "Spheal",
+      "JP": "タマザラシ",
+      "ZH": "海豹球",
+      "FR": "Obalie"
     },
     "type": ["Ice", "Water"],
     "base": {
@@ -13405,10 +13405,10 @@ pokemon = [
   {
     "id": 364,
     "name": {
-      "english": "Sealeo",
-      "japanese": "トドグラー",
-      "chinese": "海魔狮",
-      "french": "Phogleur"
+      "EN": "Sealeo",
+      "JP": "トドグラー",
+      "ZH": "海魔狮",
+      "FR": "Phogleur"
     },
     "type": ["Ice", "Water"],
     "base": {
@@ -13442,10 +13442,10 @@ pokemon = [
   {
     "id": 365,
     "name": {
-      "english": "Walrein",
-      "japanese": "トドゼルガ",
-      "chinese": "帝牙海狮",
-      "french": "Kaimorse"
+      "EN": "Walrein",
+      "JP": "トドゼルガ",
+      "ZH": "帝牙海狮",
+      "FR": "Kaimorse"
     },
     "type": ["Ice", "Water"],
     "base": {
@@ -13479,10 +13479,10 @@ pokemon = [
   {
     "id": 366,
     "name": {
-      "english": "Clamperl",
-      "japanese": "パールル",
-      "chinese": "珍珠贝",
-      "french": "Coquiperl"
+      "EN": "Clamperl",
+      "JP": "パールル",
+      "ZH": "珍珠贝",
+      "FR": "Coquiperl"
     },
     "type": ["Water"],
     "base": {
@@ -13520,10 +13520,10 @@ pokemon = [
   {
     "id": 367,
     "name": {
-      "english": "Huntail",
-      "japanese": "ハンテール",
-      "chinese": "猎斑鱼",
-      "french": "Serpang"
+      "EN": "Huntail",
+      "JP": "ハンテール",
+      "ZH": "猎斑鱼",
+      "FR": "Serpang"
     },
     "type": ["Water"],
     "base": {
@@ -13556,10 +13556,10 @@ pokemon = [
   {
     "id": 368,
     "name": {
-      "english": "Gorebyss",
-      "japanese": "サクラビス",
-      "chinese": "樱花鱼",
-      "french": "Rosabyss"
+      "EN": "Gorebyss",
+      "JP": "サクラビス",
+      "ZH": "樱花鱼",
+      "FR": "Rosabyss"
     },
     "type": ["Water"],
     "base": {
@@ -13592,10 +13592,10 @@ pokemon = [
   {
     "id": 369,
     "name": {
-      "english": "Relicanth",
-      "japanese": "ジーランス",
-      "chinese": "古空棘鱼",
-      "french": "Relicanth"
+      "EN": "Relicanth",
+      "JP": "ジーランス",
+      "ZH": "古空棘鱼",
+      "FR": "Relicanth"
     },
     "type": ["Water", "Rock"],
     "base": {
@@ -13629,10 +13629,10 @@ pokemon = [
   {
     "id": 370,
     "name": {
-      "english": "Luvdisc",
-      "japanese": "ラブカス",
-      "chinese": "爱心鱼",
-      "french": "Lovdisc"
+      "EN": "Luvdisc",
+      "JP": "ラブカス",
+      "ZH": "爱心鱼",
+      "FR": "Lovdisc"
     },
     "type": ["Water"],
     "base": {
@@ -13665,10 +13665,10 @@ pokemon = [
   {
     "id": 371,
     "name": {
-      "english": "Bagon",
-      "japanese": "タツベイ",
-      "chinese": "宝贝龙",
-      "french": "Draby"
+      "EN": "Bagon",
+      "JP": "タツベイ",
+      "ZH": "宝贝龙",
+      "FR": "Draby"
     },
     "type": ["Dragon"],
     "base": {
@@ -13701,10 +13701,10 @@ pokemon = [
   {
     "id": 372,
     "name": {
-      "english": "Shelgon",
-      "japanese": "コモルー",
-      "chinese": "甲壳龙",
-      "french": "Drackhaus"
+      "EN": "Shelgon",
+      "JP": "コモルー",
+      "ZH": "甲壳龙",
+      "FR": "Drackhaus"
     },
     "type": ["Dragon"],
     "base": {
@@ -13737,10 +13737,10 @@ pokemon = [
   {
     "id": 373,
     "name": {
-      "english": "Salamence",
-      "japanese": "ボーマンダ",
-      "chinese": "暴飞龙",
-      "french": "Drattak"
+      "EN": "Salamence",
+      "JP": "ボーマンダ",
+      "ZH": "暴飞龙",
+      "FR": "Drattak"
     },
     "type": ["Dragon", "Flying"],
     "base": {
@@ -13773,10 +13773,10 @@ pokemon = [
   {
     "id": 374,
     "name": {
-      "english": "Beldum",
-      "japanese": "ダンバル",
-      "chinese": "铁哑铃",
-      "french": "Terhal"
+      "EN": "Beldum",
+      "JP": "ダンバル",
+      "ZH": "铁哑铃",
+      "FR": "Terhal"
     },
     "type": ["Steel", "Psychic"],
     "base": {
@@ -13809,10 +13809,10 @@ pokemon = [
   {
     "id": 375,
     "name": {
-      "english": "Metang",
-      "japanese": "メタング",
-      "chinese": "金属怪",
-      "french": "Métang"
+      "EN": "Metang",
+      "JP": "メタング",
+      "ZH": "金属怪",
+      "FR": "Métang"
     },
     "type": ["Steel", "Psychic"],
     "base": {
@@ -13845,10 +13845,10 @@ pokemon = [
   {
     "id": 376,
     "name": {
-      "english": "Metagross",
-      "japanese": "メタグロス",
-      "chinese": "巨金怪",
-      "french": "Métalosse"
+      "EN": "Metagross",
+      "JP": "メタグロス",
+      "ZH": "巨金怪",
+      "FR": "Métalosse"
     },
     "type": ["Steel", "Psychic"],
     "base": {
@@ -13881,10 +13881,10 @@ pokemon = [
   {
     "id": 377,
     "name": {
-      "english": "Regirock",
-      "japanese": "レジロック",
-      "chinese": "雷吉洛克",
-      "french": "Regirock"
+      "EN": "Regirock",
+      "JP": "レジロック",
+      "ZH": "雷吉洛克",
+      "FR": "Regirock"
     },
     "type": ["Rock"],
     "base": {
@@ -13917,10 +13917,10 @@ pokemon = [
   {
     "id": 378,
     "name": {
-      "english": "Regice",
-      "japanese": "レジアイス",
-      "chinese": "雷吉艾斯",
-      "french": "Regice"
+      "EN": "Regice",
+      "JP": "レジアイス",
+      "ZH": "雷吉艾斯",
+      "FR": "Regice"
     },
     "type": ["Ice"],
     "base": {
@@ -13953,10 +13953,10 @@ pokemon = [
   {
     "id": 379,
     "name": {
-      "english": "Registeel",
-      "japanese": "レジスチル",
-      "chinese": "雷吉斯奇鲁",
-      "french": "Registeel"
+      "EN": "Registeel",
+      "JP": "レジスチル",
+      "ZH": "雷吉斯奇鲁",
+      "FR": "Registeel"
     },
     "type": ["Steel"],
     "base": {
@@ -13989,10 +13989,10 @@ pokemon = [
   {
     "id": 380,
     "name": {
-      "english": "Latias",
-      "japanese": "ラティアス",
-      "chinese": "拉帝亚斯",
-      "french": "Latias"
+      "EN": "Latias",
+      "JP": "ラティアス",
+      "ZH": "拉帝亚斯",
+      "FR": "Latias"
     },
     "type": ["Dragon", "Psychic"],
     "base": {
@@ -14022,10 +14022,10 @@ pokemon = [
   {
     "id": 381,
     "name": {
-      "english": "Latios",
-      "japanese": "ラティオス",
-      "chinese": "拉帝欧斯",
-      "french": "Latios"
+      "EN": "Latios",
+      "JP": "ラティオス",
+      "ZH": "拉帝欧斯",
+      "FR": "Latios"
     },
     "type": ["Dragon", "Psychic"],
     "base": {
@@ -14055,10 +14055,10 @@ pokemon = [
   {
     "id": 382,
     "name": {
-      "english": "Kyogre",
-      "japanese": "カイオーガ",
-      "chinese": "盖欧卡",
-      "french": "Kyogre"
+      "EN": "Kyogre",
+      "JP": "カイオーガ",
+      "ZH": "盖欧卡",
+      "FR": "Kyogre"
     },
     "type": ["Water"],
     "base": {
@@ -14088,10 +14088,10 @@ pokemon = [
   {
     "id": 383,
     "name": {
-      "english": "Groudon",
-      "japanese": "グラードン",
-      "chinese": "固拉多",
-      "french": "Groudon"
+      "EN": "Groudon",
+      "JP": "グラードン",
+      "ZH": "固拉多",
+      "FR": "Groudon"
     },
     "type": ["Ground"],
     "base": {
@@ -14121,10 +14121,10 @@ pokemon = [
   {
     "id": 384,
     "name": {
-      "english": "Rayquaza",
-      "japanese": "レックウザ",
-      "chinese": "烈空坐",
-      "french": "Rayquaza"
+      "EN": "Rayquaza",
+      "JP": "レックウザ",
+      "ZH": "烈空坐",
+      "FR": "Rayquaza"
     },
     "type": ["Dragon", "Flying"],
     "base": {
@@ -14154,10 +14154,10 @@ pokemon = [
   {
     "id": 385,
     "name": {
-      "english": "Jirachi",
-      "japanese": "ジラーチ",
-      "chinese": "基拉祈",
-      "french": "Jirachi"
+      "EN": "Jirachi",
+      "JP": "ジラーチ",
+      "ZH": "基拉祈",
+      "FR": "Jirachi"
     },
     "type": ["Steel", "Psychic"],
     "base": {
@@ -14187,10 +14187,10 @@ pokemon = [
   {
     "id": 386,
     "name": {
-      "english": "Deoxys",
-      "japanese": "デオキシス",
-      "chinese": "代欧奇希斯",
-      "french": "Deoxys"
+      "EN": "Deoxys",
+      "JP": "デオキシス",
+      "ZH": "代欧奇希斯",
+      "FR": "Deoxys"
     },
     "type": ["Psychic"],
     "base": {
@@ -14220,10 +14220,10 @@ pokemon = [
   {
     "id": 387,
     "name": {
-      "english": "Turtwig",
-      "japanese": "ナエトル",
-      "chinese": "草苗龟",
-      "french": "Tortipouss"
+      "EN": "Turtwig",
+      "JP": "ナエトル",
+      "ZH": "草苗龟",
+      "FR": "Tortipouss"
     },
     "type": ["Grass"],
     "base": {
@@ -14256,10 +14256,10 @@ pokemon = [
   {
     "id": 388,
     "name": {
-      "english": "Grotle",
-      "japanese": "ハヤシガメ",
-      "chinese": "树林龟",
-      "french": "Boskara"
+      "EN": "Grotle",
+      "JP": "ハヤシガメ",
+      "ZH": "树林龟",
+      "FR": "Boskara"
     },
     "type": ["Grass"],
     "base": {
@@ -14292,10 +14292,10 @@ pokemon = [
   {
     "id": 389,
     "name": {
-      "english": "Torterra",
-      "japanese": "ドダイトス",
-      "chinese": "土台龟",
-      "french": "Torterra"
+      "EN": "Torterra",
+      "JP": "ドダイトス",
+      "ZH": "土台龟",
+      "FR": "Torterra"
     },
     "type": ["Grass", "Ground"],
     "base": {
@@ -14328,10 +14328,10 @@ pokemon = [
   {
     "id": 390,
     "name": {
-      "english": "Chimchar",
-      "japanese": "ヒコザル",
-      "chinese": "小火焰猴",
-      "french": "Ouisticram"
+      "EN": "Chimchar",
+      "JP": "ヒコザル",
+      "ZH": "小火焰猴",
+      "FR": "Ouisticram"
     },
     "type": ["Fire"],
     "base": {
@@ -14364,10 +14364,10 @@ pokemon = [
   {
     "id": 391,
     "name": {
-      "english": "Monferno",
-      "japanese": "モウカザル",
-      "chinese": "猛火猴",
-      "french": "Chimpenfeu"
+      "EN": "Monferno",
+      "JP": "モウカザル",
+      "ZH": "猛火猴",
+      "FR": "Chimpenfeu"
     },
     "type": ["Fire", "Fighting"],
     "base": {
@@ -14400,10 +14400,10 @@ pokemon = [
   {
     "id": 392,
     "name": {
-      "english": "Infernape",
-      "japanese": "ゴウカザル",
-      "chinese": "烈焰猴",
-      "french": "Simiabraz"
+      "EN": "Infernape",
+      "JP": "ゴウカザル",
+      "ZH": "烈焰猴",
+      "FR": "Simiabraz"
     },
     "type": ["Fire", "Fighting"],
     "base": {
@@ -14436,10 +14436,10 @@ pokemon = [
   {
     "id": 393,
     "name": {
-      "english": "Piplup",
-      "japanese": "ポッチャマ",
-      "chinese": "波加曼",
-      "french": "Tiplouf"
+      "EN": "Piplup",
+      "JP": "ポッチャマ",
+      "ZH": "波加曼",
+      "FR": "Tiplouf"
     },
     "type": ["Water"],
     "base": {
@@ -14472,10 +14472,10 @@ pokemon = [
   {
     "id": 394,
     "name": {
-      "english": "Prinplup",
-      "japanese": "ポッタイシ",
-      "chinese": "波皇子",
-      "french": "Prinplouf"
+      "EN": "Prinplup",
+      "JP": "ポッタイシ",
+      "ZH": "波皇子",
+      "FR": "Prinplouf"
     },
     "type": ["Water"],
     "base": {
@@ -14508,10 +14508,10 @@ pokemon = [
   {
     "id": 395,
     "name": {
-      "english": "Empoleon",
-      "japanese": "エンペルト",
-      "chinese": "帝王拿波",
-      "french": "Pingoléon"
+      "EN": "Empoleon",
+      "JP": "エンペルト",
+      "ZH": "帝王拿波",
+      "FR": "Pingoléon"
     },
     "type": ["Water", "Steel"],
     "base": {
@@ -14544,10 +14544,10 @@ pokemon = [
   {
     "id": 396,
     "name": {
-      "english": "Starly",
-      "japanese": "ムックル",
-      "chinese": "姆克儿",
-      "french": "Étourmi"
+      "EN": "Starly",
+      "JP": "ムックル",
+      "ZH": "姆克儿",
+      "FR": "Étourmi"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -14580,10 +14580,10 @@ pokemon = [
   {
     "id": 397,
     "name": {
-      "english": "Staravia",
-      "japanese": "ムクバード",
-      "chinese": "姆克鸟",
-      "french": "Étourvol"
+      "EN": "Staravia",
+      "JP": "ムクバード",
+      "ZH": "姆克鸟",
+      "FR": "Étourvol"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -14616,10 +14616,10 @@ pokemon = [
   {
     "id": 398,
     "name": {
-      "english": "Staraptor",
-      "japanese": "ムクホーク",
-      "chinese": "姆克鹰",
-      "french": "Étouraptor"
+      "EN": "Staraptor",
+      "JP": "ムクホーク",
+      "ZH": "姆克鹰",
+      "FR": "Étouraptor"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -14652,10 +14652,10 @@ pokemon = [
   {
     "id": 399,
     "name": {
-      "english": "Bidoof",
-      "japanese": "ビッパ",
-      "chinese": "大牙狸",
-      "french": "Keunotor"
+      "EN": "Bidoof",
+      "JP": "ビッパ",
+      "ZH": "大牙狸",
+      "FR": "Keunotor"
     },
     "type": ["Normal"],
     "base": {
@@ -14689,10 +14689,10 @@ pokemon = [
   {
     "id": 400,
     "name": {
-      "english": "Bibarel",
-      "japanese": "ビーダル",
-      "chinese": "大尾狸",
-      "french": "Castorno"
+      "EN": "Bibarel",
+      "JP": "ビーダル",
+      "ZH": "大尾狸",
+      "FR": "Castorno"
     },
     "type": ["Normal", "Water"],
     "base": {
@@ -14726,10 +14726,10 @@ pokemon = [
   {
     "id": 401,
     "name": {
-      "english": "Kricketot",
-      "japanese": "コロボーシ",
-      "chinese": "圆法师",
-      "french": "Crikzik"
+      "EN": "Kricketot",
+      "JP": "コロボーシ",
+      "ZH": "圆法师",
+      "FR": "Crikzik"
     },
     "type": ["Bug"],
     "base": {
@@ -14762,10 +14762,10 @@ pokemon = [
   {
     "id": 402,
     "name": {
-      "english": "Kricketune",
-      "japanese": "コロトック",
-      "chinese": "音箱蟀",
-      "french": "Mélokrik"
+      "EN": "Kricketune",
+      "JP": "コロトック",
+      "ZH": "音箱蟀",
+      "FR": "Mélokrik"
     },
     "type": ["Bug"],
     "base": {
@@ -14798,10 +14798,10 @@ pokemon = [
   {
     "id": 403,
     "name": {
-      "english": "Shinx",
-      "japanese": "コリンク",
-      "chinese": "小猫怪",
-      "french": "Lixy"
+      "EN": "Shinx",
+      "JP": "コリンク",
+      "ZH": "小猫怪",
+      "FR": "Lixy"
     },
     "type": ["Electric"],
     "base": {
@@ -14835,10 +14835,10 @@ pokemon = [
   {
     "id": 404,
     "name": {
-      "english": "Luxio",
-      "japanese": "ルクシオ",
-      "chinese": "勒克猫",
-      "french": "Luxio"
+      "EN": "Luxio",
+      "JP": "ルクシオ",
+      "ZH": "勒克猫",
+      "FR": "Luxio"
     },
     "type": ["Electric"],
     "base": {
@@ -14872,10 +14872,10 @@ pokemon = [
   {
     "id": 405,
     "name": {
-      "english": "Luxray",
-      "japanese": "レントラー",
-      "chinese": "伦琴猫",
-      "french": "Luxray"
+      "EN": "Luxray",
+      "JP": "レントラー",
+      "ZH": "伦琴猫",
+      "FR": "Luxray"
     },
     "type": ["Electric"],
     "base": {
@@ -14909,10 +14909,10 @@ pokemon = [
   {
     "id": 406,
     "name": {
-      "english": "Budew",
-      "japanese": "スボミー",
-      "chinese": "含羞苞",
-      "french": "Rozbouton"
+      "EN": "Budew",
+      "JP": "スボミー",
+      "ZH": "含羞苞",
+      "FR": "Rozbouton"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -14946,10 +14946,10 @@ pokemon = [
   {
     "id": 407,
     "name": {
-      "english": "Roserade",
-      "japanese": "ロズレイド",
-      "chinese": "罗丝雷朵",
-      "french": "Roserade"
+      "EN": "Roserade",
+      "JP": "ロズレイド",
+      "ZH": "罗丝雷朵",
+      "FR": "Roserade"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -14983,10 +14983,10 @@ pokemon = [
   {
     "id": 408,
     "name": {
-      "english": "Cranidos",
-      "japanese": "ズガイドス",
-      "chinese": "头盖龙",
-      "french": "Kranidos"
+      "EN": "Cranidos",
+      "JP": "ズガイドス",
+      "ZH": "头盖龙",
+      "FR": "Kranidos"
     },
     "type": ["Rock"],
     "base": {
@@ -15019,10 +15019,10 @@ pokemon = [
   {
     "id": 409,
     "name": {
-      "english": "Rampardos",
-      "japanese": "ラムパルド",
-      "chinese": "战槌龙",
-      "french": "Charkos"
+      "EN": "Rampardos",
+      "JP": "ラムパルド",
+      "ZH": "战槌龙",
+      "FR": "Charkos"
     },
     "type": ["Rock"],
     "base": {
@@ -15055,10 +15055,10 @@ pokemon = [
   {
     "id": 410,
     "name": {
-      "english": "Shieldon",
-      "japanese": "タテトプス",
-      "chinese": "盾甲龙",
-      "french": "Dinoclier"
+      "EN": "Shieldon",
+      "JP": "タテトプス",
+      "ZH": "盾甲龙",
+      "FR": "Dinoclier"
     },
     "type": ["Rock", "Steel"],
     "base": {
@@ -15091,10 +15091,10 @@ pokemon = [
   {
     "id": 411,
     "name": {
-      "english": "Bastiodon",
-      "japanese": "トリデプス",
-      "chinese": "护城龙",
-      "french": "Bastiodon"
+      "EN": "Bastiodon",
+      "JP": "トリデプス",
+      "ZH": "护城龙",
+      "FR": "Bastiodon"
     },
     "type": ["Rock", "Steel"],
     "base": {
@@ -15127,10 +15127,10 @@ pokemon = [
   {
     "id": 412,
     "name": {
-      "english": "Burmy",
-      "japanese": "ミノムッチ",
-      "chinese": "结草儿",
-      "french": "Cheniti"
+      "EN": "Burmy",
+      "JP": "ミノムッチ",
+      "ZH": "结草儿",
+      "FR": "Cheniti"
     },
     "type": ["Bug"],
     "base": {
@@ -15168,10 +15168,10 @@ pokemon = [
   {
     "id": 413,
     "name": {
-      "english": "Wormadam",
-      "japanese": "ミノマダム",
-      "chinese": "结草贵妇",
-      "french": "Cheniselle"
+      "EN": "Wormadam",
+      "JP": "ミノマダム",
+      "ZH": "结草贵妇",
+      "FR": "Cheniselle"
     },
     "type": ["Bug", "Grass"],
     "base": {
@@ -15204,10 +15204,10 @@ pokemon = [
   {
     "id": 414,
     "name": {
-      "english": "Mothim",
-      "japanese": "ガーメイル",
-      "chinese": "绅士蛾",
-      "french": "Papilord"
+      "EN": "Mothim",
+      "JP": "ガーメイル",
+      "ZH": "绅士蛾",
+      "FR": "Papilord"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -15240,10 +15240,10 @@ pokemon = [
   {
     "id": 415,
     "name": {
-      "english": "Combee",
-      "japanese": "ミツハニー",
-      "chinese": "三蜜蜂",
-      "french": "Apitrini"
+      "EN": "Combee",
+      "JP": "ミツハニー",
+      "ZH": "三蜜蜂",
+      "FR": "Apitrini"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -15276,10 +15276,10 @@ pokemon = [
   {
     "id": 416,
     "name": {
-      "english": "Vespiquen",
-      "japanese": "ビークイン",
-      "chinese": "蜂女王",
-      "french": "Apireine"
+      "EN": "Vespiquen",
+      "JP": "ビークイン",
+      "ZH": "蜂女王",
+      "FR": "Apireine"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -15312,10 +15312,10 @@ pokemon = [
   {
     "id": 417,
     "name": {
-      "english": "Pachirisu",
-      "japanese": "パチリス",
-      "chinese": "帕奇利兹",
-      "french": "Pachirisu"
+      "EN": "Pachirisu",
+      "JP": "パチリス",
+      "ZH": "帕奇利兹",
+      "FR": "Pachirisu"
     },
     "type": ["Electric"],
     "base": {
@@ -15349,10 +15349,10 @@ pokemon = [
   {
     "id": 418,
     "name": {
-      "english": "Buizel",
-      "japanese": "ブイゼル",
-      "chinese": "泳圈鼬",
-      "french": "Mustébouée"
+      "EN": "Buizel",
+      "JP": "ブイゼル",
+      "ZH": "泳圈鼬",
+      "FR": "Mustébouée"
     },
     "type": ["Water"],
     "base": {
@@ -15385,10 +15385,10 @@ pokemon = [
   {
     "id": 419,
     "name": {
-      "english": "Floatzel",
-      "japanese": "フローゼル",
-      "chinese": "浮潜鼬",
-      "french": "Mustéflott"
+      "EN": "Floatzel",
+      "JP": "フローゼル",
+      "ZH": "浮潜鼬",
+      "FR": "Mustéflott"
     },
     "type": ["Water"],
     "base": {
@@ -15421,10 +15421,10 @@ pokemon = [
   {
     "id": 420,
     "name": {
-      "english": "Cherubi",
-      "japanese": "チェリンボ",
-      "chinese": "樱花宝",
-      "french": "Ceribou"
+      "EN": "Cherubi",
+      "JP": "チェリンボ",
+      "ZH": "樱花宝",
+      "FR": "Ceribou"
     },
     "type": ["Grass"],
     "base": {
@@ -15454,10 +15454,10 @@ pokemon = [
   {
     "id": 421,
     "name": {
-      "english": "Cherrim",
-      "japanese": "チェリム",
-      "chinese": "樱花儿",
-      "french": "Ceriflor"
+      "EN": "Cherrim",
+      "JP": "チェリム",
+      "ZH": "樱花儿",
+      "FR": "Ceriflor"
     },
     "type": ["Grass"],
     "base": {
@@ -15487,10 +15487,10 @@ pokemon = [
   {
     "id": 422,
     "name": {
-      "english": "Shellos",
-      "japanese": "カラナクシ",
-      "chinese": "无壳海兔",
-      "french": "Sancoki"
+      "EN": "Shellos",
+      "JP": "カラナクシ",
+      "ZH": "无壳海兔",
+      "FR": "Sancoki"
     },
     "type": ["Water"],
     "base": {
@@ -15524,10 +15524,10 @@ pokemon = [
   {
     "id": 423,
     "name": {
-      "english": "Gastrodon",
-      "japanese": "トリトドン",
-      "chinese": "海兔兽",
-      "french": "Tritosor"
+      "EN": "Gastrodon",
+      "JP": "トリトドン",
+      "ZH": "海兔兽",
+      "FR": "Tritosor"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -15561,10 +15561,10 @@ pokemon = [
   {
     "id": 424,
     "name": {
-      "english": "Ambipom",
-      "japanese": "エテボース",
-      "chinese": "双尾怪手",
-      "french": "Capidextre"
+      "EN": "Ambipom",
+      "JP": "エテボース",
+      "ZH": "双尾怪手",
+      "FR": "Capidextre"
     },
     "type": ["Normal"],
     "base": {
@@ -15598,10 +15598,10 @@ pokemon = [
   {
     "id": 425,
     "name": {
-      "english": "Drifloon",
-      "japanese": "フワンテ",
-      "chinese": "飘飘球",
-      "french": "Baudrive"
+      "EN": "Drifloon",
+      "JP": "フワンテ",
+      "ZH": "飘飘球",
+      "FR": "Baudrive"
     },
     "type": ["Ghost", "Flying"],
     "base": {
@@ -15635,10 +15635,10 @@ pokemon = [
   {
     "id": 426,
     "name": {
-      "english": "Drifblim",
-      "japanese": "フワライド",
-      "chinese": "随风球",
-      "french": "Grodrive"
+      "EN": "Drifblim",
+      "JP": "フワライド",
+      "ZH": "随风球",
+      "FR": "Grodrive"
     },
     "type": ["Ghost", "Flying"],
     "base": {
@@ -15672,10 +15672,10 @@ pokemon = [
   {
     "id": 427,
     "name": {
-      "english": "Buneary",
-      "japanese": "ミミロル",
-      "chinese": "卷卷耳",
-      "french": "Laporeille"
+      "EN": "Buneary",
+      "JP": "ミミロル",
+      "ZH": "卷卷耳",
+      "FR": "Laporeille"
     },
     "type": ["Normal"],
     "base": {
@@ -15709,10 +15709,10 @@ pokemon = [
   {
     "id": 428,
     "name": {
-      "english": "Lopunny",
-      "japanese": "ミミロップ",
-      "chinese": "长耳兔",
-      "french": "Lockpin"
+      "EN": "Lopunny",
+      "JP": "ミミロップ",
+      "ZH": "长耳兔",
+      "FR": "Lockpin"
     },
     "type": ["Normal"],
     "base": {
@@ -15746,10 +15746,10 @@ pokemon = [
   {
     "id": 429,
     "name": {
-      "english": "Mismagius",
-      "japanese": "ムウマージ",
-      "chinese": "梦妖魔",
-      "french": "Magirêve"
+      "EN": "Mismagius",
+      "JP": "ムウマージ",
+      "ZH": "梦妖魔",
+      "FR": "Magirêve"
     },
     "type": ["Ghost"],
     "base": {
@@ -15779,10 +15779,10 @@ pokemon = [
   {
     "id": 430,
     "name": {
-      "english": "Honchkrow",
-      "japanese": "ドンカラス",
-      "chinese": "乌鸦头头",
-      "french": "Corboss"
+      "EN": "Honchkrow",
+      "JP": "ドンカラス",
+      "ZH": "乌鸦头头",
+      "FR": "Corboss"
     },
     "type": ["Dark", "Flying"],
     "base": {
@@ -15816,10 +15816,10 @@ pokemon = [
   {
     "id": 431,
     "name": {
-      "english": "Glameow",
-      "japanese": "ニャルマー",
-      "chinese": "魅力喵",
-      "french": "Chaglam"
+      "EN": "Glameow",
+      "JP": "ニャルマー",
+      "ZH": "魅力喵",
+      "FR": "Chaglam"
     },
     "type": ["Normal"],
     "base": {
@@ -15853,10 +15853,10 @@ pokemon = [
   {
     "id": 432,
     "name": {
-      "english": "Purugly",
-      "japanese": "ブニャット",
-      "chinese": "东施喵",
-      "french": "Chaffreux"
+      "EN": "Purugly",
+      "JP": "ブニャット",
+      "ZH": "东施喵",
+      "FR": "Chaffreux"
     },
     "type": ["Normal"],
     "base": {
@@ -15890,10 +15890,10 @@ pokemon = [
   {
     "id": 433,
     "name": {
-      "english": "Chingling",
-      "japanese": "リーシャン",
-      "chinese": "铃铛响",
-      "french": "Korillon"
+      "EN": "Chingling",
+      "JP": "リーシャン",
+      "ZH": "铃铛响",
+      "FR": "Korillon"
     },
     "type": ["Psychic"],
     "base": {
@@ -15923,10 +15923,10 @@ pokemon = [
   {
     "id": 434,
     "name": {
-      "english": "Stunky",
-      "japanese": "スカンプー",
-      "chinese": "臭鼬噗",
-      "french": "Moufouette"
+      "EN": "Stunky",
+      "JP": "スカンプー",
+      "ZH": "臭鼬噗",
+      "FR": "Moufouette"
     },
     "type": ["Poison", "Dark"],
     "base": {
@@ -15960,10 +15960,10 @@ pokemon = [
   {
     "id": 435,
     "name": {
-      "english": "Skuntank",
-      "japanese": "スカタンク",
-      "chinese": "坦克臭鼬",
-      "french": "Moufflair"
+      "EN": "Skuntank",
+      "JP": "スカタンク",
+      "ZH": "坦克臭鼬",
+      "FR": "Moufflair"
     },
     "type": ["Poison", "Dark"],
     "base": {
@@ -15997,10 +15997,10 @@ pokemon = [
   {
     "id": 436,
     "name": {
-      "english": "Bronzor",
-      "japanese": "ドーミラー",
-      "chinese": "铜镜怪",
-      "french": "Archéomire"
+      "EN": "Bronzor",
+      "JP": "ドーミラー",
+      "ZH": "铜镜怪",
+      "FR": "Archéomire"
     },
     "type": ["Steel", "Psychic"],
     "base": {
@@ -16034,10 +16034,10 @@ pokemon = [
   {
     "id": 437,
     "name": {
-      "english": "Bronzong",
-      "japanese": "ドータクン",
-      "chinese": "青铜钟",
-      "french": "Archéodong"
+      "EN": "Bronzong",
+      "JP": "ドータクン",
+      "ZH": "青铜钟",
+      "FR": "Archéodong"
     },
     "type": ["Steel", "Psychic"],
     "base": {
@@ -16071,10 +16071,10 @@ pokemon = [
   {
     "id": 438,
     "name": {
-      "english": "Bonsly",
-      "japanese": "ウソハチ",
-      "chinese": "盆才怪",
-      "french": "Manzaï"
+      "EN": "Bonsly",
+      "JP": "ウソハチ",
+      "ZH": "盆才怪",
+      "FR": "Manzaï"
     },
     "type": ["Rock"],
     "base": {
@@ -16108,10 +16108,10 @@ pokemon = [
   {
     "id": 439,
     "name": {
-      "english": "Mime Jr.",
-      "japanese": "マネネ",
-      "chinese": "魔尼尼",
-      "french": "Mime Jr"
+      "EN": "Mime Jr.",
+      "JP": "マネネ",
+      "ZH": "魔尼尼",
+      "FR": "Mime Jr"
     },
     "type": ["Psychic", "Fairy"],
     "base": {
@@ -16145,10 +16145,10 @@ pokemon = [
   {
     "id": 440,
     "name": {
-      "english": "Happiny",
-      "japanese": "ピンプク",
-      "chinese": "小福蛋",
-      "french": "Ptiravi"
+      "EN": "Happiny",
+      "JP": "ピンプク",
+      "ZH": "小福蛋",
+      "FR": "Ptiravi"
     },
     "type": ["Normal"],
     "base": {
@@ -16182,10 +16182,10 @@ pokemon = [
   {
     "id": 441,
     "name": {
-      "english": "Chatot",
-      "japanese": "ペラップ",
-      "chinese": "聒噪鸟",
-      "french": "Pijako"
+      "EN": "Chatot",
+      "JP": "ペラップ",
+      "ZH": "聒噪鸟",
+      "FR": "Pijako"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -16219,10 +16219,10 @@ pokemon = [
   {
     "id": 442,
     "name": {
-      "english": "Spiritomb",
-      "japanese": "ミカルゲ",
-      "chinese": "花岩怪",
-      "french": "Spiritomb"
+      "EN": "Spiritomb",
+      "JP": "ミカルゲ",
+      "ZH": "花岩怪",
+      "FR": "Spiritomb"
     },
     "type": ["Ghost", "Dark"],
     "base": {
@@ -16255,10 +16255,10 @@ pokemon = [
   {
     "id": 443,
     "name": {
-      "english": "Gible",
-      "japanese": "フカマル",
-      "chinese": "圆陆鲨",
-      "french": "Griknot"
+      "EN": "Gible",
+      "JP": "フカマル",
+      "ZH": "圆陆鲨",
+      "FR": "Griknot"
     },
     "type": ["Dragon", "Ground"],
     "base": {
@@ -16291,10 +16291,10 @@ pokemon = [
   {
     "id": 444,
     "name": {
-      "english": "Gabite",
-      "japanese": "ガバイト",
-      "chinese": "尖牙陆鲨",
-      "french": "Carmache"
+      "EN": "Gabite",
+      "JP": "ガバイト",
+      "ZH": "尖牙陆鲨",
+      "FR": "Carmache"
     },
     "type": ["Dragon", "Ground"],
     "base": {
@@ -16327,10 +16327,10 @@ pokemon = [
   {
     "id": 445,
     "name": {
-      "english": "Garchomp",
-      "japanese": "ガブリアス",
-      "chinese": "烈咬陆鲨",
-      "french": "Carchacrok"
+      "EN": "Garchomp",
+      "JP": "ガブリアス",
+      "ZH": "烈咬陆鲨",
+      "FR": "Carchacrok"
     },
     "type": ["Dragon", "Ground"],
     "base": {
@@ -16363,10 +16363,10 @@ pokemon = [
   {
     "id": 446,
     "name": {
-      "english": "Munchlax",
-      "japanese": "ゴンベ",
-      "chinese": "小卡比兽",
-      "french": "Goinfrex"
+      "EN": "Munchlax",
+      "JP": "ゴンベ",
+      "ZH": "小卡比兽",
+      "FR": "Goinfrex"
     },
     "type": ["Normal"],
     "base": {
@@ -16400,10 +16400,10 @@ pokemon = [
   {
     "id": 447,
     "name": {
-      "english": "Riolu",
-      "japanese": "リオル",
-      "chinese": "利欧路",
-      "french": "Riolu"
+      "EN": "Riolu",
+      "JP": "リオル",
+      "ZH": "利欧路",
+      "FR": "Riolu"
     },
     "type": ["Fighting"],
     "base": {
@@ -16437,10 +16437,10 @@ pokemon = [
   {
     "id": 448,
     "name": {
-      "english": "Lucario",
-      "japanese": "ルカリオ",
-      "chinese": "路卡利欧",
-      "french": "Lucario"
+      "EN": "Lucario",
+      "JP": "ルカリオ",
+      "ZH": "路卡利欧",
+      "FR": "Lucario"
     },
     "type": ["Fighting", "Steel"],
     "base": {
@@ -16474,10 +16474,10 @@ pokemon = [
   {
     "id": 449,
     "name": {
-      "english": "Hippopotas",
-      "japanese": "ヒポポタス",
-      "chinese": "沙河马",
-      "french": "Hippopotas"
+      "EN": "Hippopotas",
+      "JP": "ヒポポタス",
+      "ZH": "沙河马",
+      "FR": "Hippopotas"
     },
     "type": ["Ground"],
     "base": {
@@ -16510,10 +16510,10 @@ pokemon = [
   {
     "id": 450,
     "name": {
-      "english": "Hippowdon",
-      "japanese": "カバルドン",
-      "chinese": "河马兽",
-      "french": "Hippodocus"
+      "EN": "Hippowdon",
+      "JP": "カバルドン",
+      "ZH": "河马兽",
+      "FR": "Hippodocus"
     },
     "type": ["Ground"],
     "base": {
@@ -16546,10 +16546,10 @@ pokemon = [
   {
     "id": 451,
     "name": {
-      "english": "Skorupi",
-      "japanese": "スコルピ",
-      "chinese": "钳尾蝎",
-      "french": "Rapion"
+      "EN": "Skorupi",
+      "JP": "スコルピ",
+      "ZH": "钳尾蝎",
+      "FR": "Rapion"
     },
     "type": ["Poison", "Bug"],
     "base": {
@@ -16583,10 +16583,10 @@ pokemon = [
   {
     "id": 452,
     "name": {
-      "english": "Drapion",
-      "japanese": "ドラピオン",
-      "chinese": "龙王蝎",
-      "french": "Drascore"
+      "EN": "Drapion",
+      "JP": "ドラピオン",
+      "ZH": "龙王蝎",
+      "FR": "Drascore"
     },
     "type": ["Poison", "Dark"],
     "base": {
@@ -16620,10 +16620,10 @@ pokemon = [
   {
     "id": 453,
     "name": {
-      "english": "Croagunk",
-      "japanese": "グレッグル",
-      "chinese": "不良蛙",
-      "french": "Cradopaud"
+      "EN": "Croagunk",
+      "JP": "グレッグル",
+      "ZH": "不良蛙",
+      "FR": "Cradopaud"
     },
     "type": ["Poison", "Fighting"],
     "base": {
@@ -16657,10 +16657,10 @@ pokemon = [
   {
     "id": 454,
     "name": {
-      "english": "Toxicroak",
-      "japanese": "ドクロッグ",
-      "chinese": "毒骷蛙",
-      "french": "Coatox"
+      "EN": "Toxicroak",
+      "JP": "ドクロッグ",
+      "ZH": "毒骷蛙",
+      "FR": "Coatox"
     },
     "type": ["Poison", "Fighting"],
     "base": {
@@ -16694,10 +16694,10 @@ pokemon = [
   {
     "id": 455,
     "name": {
-      "english": "Carnivine",
-      "japanese": "マスキッパ",
-      "chinese": "尖牙笼",
-      "french": "Vortente"
+      "EN": "Carnivine",
+      "JP": "マスキッパ",
+      "ZH": "尖牙笼",
+      "FR": "Vortente"
     },
     "type": ["Grass"],
     "base": {
@@ -16727,10 +16727,10 @@ pokemon = [
   {
     "id": 456,
     "name": {
-      "english": "Finneon",
-      "japanese": "ケイコウオ",
-      "chinese": "荧光鱼",
-      "french": "Écayon"
+      "EN": "Finneon",
+      "JP": "ケイコウオ",
+      "ZH": "荧光鱼",
+      "FR": "Écayon"
     },
     "type": ["Water"],
     "base": {
@@ -16764,10 +16764,10 @@ pokemon = [
   {
     "id": 457,
     "name": {
-      "english": "Lumineon",
-      "japanese": "ネオラント",
-      "chinese": "霓虹鱼",
-      "french": "Luminéon"
+      "EN": "Lumineon",
+      "JP": "ネオラント",
+      "ZH": "霓虹鱼",
+      "FR": "Luminéon"
     },
     "type": ["Water"],
     "base": {
@@ -16801,10 +16801,10 @@ pokemon = [
   {
     "id": 458,
     "name": {
-      "english": "Mantyke",
-      "japanese": "タマンタ",
-      "chinese": "小球飞鱼",
-      "french": "Babimanta"
+      "EN": "Mantyke",
+      "JP": "タマンタ",
+      "ZH": "小球飞鱼",
+      "FR": "Babimanta"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -16838,10 +16838,10 @@ pokemon = [
   {
     "id": 459,
     "name": {
-      "english": "Snover",
-      "japanese": "ユキカブリ",
-      "chinese": "雪笠怪",
-      "french": "Blizzi"
+      "EN": "Snover",
+      "JP": "ユキカブリ",
+      "ZH": "雪笠怪",
+      "FR": "Blizzi"
     },
     "type": ["Grass", "Ice"],
     "base": {
@@ -16874,10 +16874,10 @@ pokemon = [
   {
     "id": 460,
     "name": {
-      "english": "Abomasnow",
-      "japanese": "ユキノオー",
-      "chinese": "暴雪王",
-      "french": "Blizzaroi"
+      "EN": "Abomasnow",
+      "JP": "ユキノオー",
+      "ZH": "暴雪王",
+      "FR": "Blizzaroi"
     },
     "type": ["Grass", "Ice"],
     "base": {
@@ -16910,10 +16910,10 @@ pokemon = [
   {
     "id": 461,
     "name": {
-      "english": "Weavile",
-      "japanese": "マニューラ",
-      "chinese": "玛狃拉",
-      "french": "Dimoret"
+      "EN": "Weavile",
+      "JP": "マニューラ",
+      "ZH": "玛狃拉",
+      "FR": "Dimoret"
     },
     "type": ["Dark", "Ice"],
     "base": {
@@ -16946,10 +16946,10 @@ pokemon = [
   {
     "id": 462,
     "name": {
-      "english": "Magnezone",
-      "japanese": "ジバコイル",
-      "chinese": "自爆磁怪",
-      "french": "Magnézone"
+      "EN": "Magnezone",
+      "JP": "ジバコイル",
+      "ZH": "自爆磁怪",
+      "FR": "Magnézone"
     },
     "type": ["Electric", "Steel"],
     "base": {
@@ -16983,10 +16983,10 @@ pokemon = [
   {
     "id": 463,
     "name": {
-      "english": "Lickilicky",
-      "japanese": "ベロベルト",
-      "chinese": "大舌舔",
-      "french": "Coudlangue"
+      "EN": "Lickilicky",
+      "JP": "ベロベルト",
+      "ZH": "大舌舔",
+      "FR": "Coudlangue"
     },
     "type": ["Normal"],
     "base": {
@@ -17020,10 +17020,10 @@ pokemon = [
   {
     "id": 464,
     "name": {
-      "english": "Rhyperior",
-      "japanese": "ドサイドン",
-      "chinese": "超甲狂犀",
-      "french": "Rhinastoc"
+      "EN": "Rhyperior",
+      "JP": "ドサイドン",
+      "ZH": "超甲狂犀",
+      "FR": "Rhinastoc"
     },
     "type": ["Ground", "Rock"],
     "base": {
@@ -17057,10 +17057,10 @@ pokemon = [
   {
     "id": 465,
     "name": {
-      "english": "Tangrowth",
-      "japanese": "モジャンボ",
-      "chinese": "巨蔓藤",
-      "french": "Bouldeneu"
+      "EN": "Tangrowth",
+      "JP": "モジャンボ",
+      "ZH": "巨蔓藤",
+      "FR": "Bouldeneu"
     },
     "type": ["Grass"],
     "base": {
@@ -17094,10 +17094,10 @@ pokemon = [
   {
     "id": 466,
     "name": {
-      "english": "Electivire",
-      "japanese": "エレキブル",
-      "chinese": "电击魔兽",
-      "french": "Élekable"
+      "EN": "Electivire",
+      "JP": "エレキブル",
+      "ZH": "电击魔兽",
+      "FR": "Élekable"
     },
     "type": ["Electric"],
     "base": {
@@ -17130,10 +17130,10 @@ pokemon = [
   {
     "id": 467,
     "name": {
-      "english": "Magmortar",
-      "japanese": "ブーバーン",
-      "chinese": "鸭嘴炎兽",
-      "french": "Maganon"
+      "EN": "Magmortar",
+      "JP": "ブーバーン",
+      "ZH": "鸭嘴炎兽",
+      "FR": "Maganon"
     },
     "type": ["Fire"],
     "base": {
@@ -17166,10 +17166,10 @@ pokemon = [
   {
     "id": 468,
     "name": {
-      "english": "Togekiss",
-      "japanese": "トゲキッス",
-      "chinese": "波克基斯",
-      "french": "Togekiss"
+      "EN": "Togekiss",
+      "JP": "トゲキッス",
+      "ZH": "波克基斯",
+      "FR": "Togekiss"
     },
     "type": ["Fairy", "Flying"],
     "base": {
@@ -17203,10 +17203,10 @@ pokemon = [
   {
     "id": 469,
     "name": {
-      "english": "Yanmega",
-      "japanese": "メガヤンマ",
-      "chinese": "远古巨蜓",
-      "french": "Yanmega"
+      "EN": "Yanmega",
+      "JP": "メガヤンマ",
+      "ZH": "远古巨蜓",
+      "FR": "Yanmega"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -17240,10 +17240,10 @@ pokemon = [
   {
     "id": 470,
     "name": {
-      "english": "Leafeon",
-      "japanese": "リーフィア",
-      "chinese": "叶伊布",
-      "french": "Phyllali"
+      "EN": "Leafeon",
+      "JP": "リーフィア",
+      "ZH": "叶伊布",
+      "FR": "Phyllali"
     },
     "type": ["Grass"],
     "base": {
@@ -17276,10 +17276,10 @@ pokemon = [
   {
     "id": 471,
     "name": {
-      "english": "Glaceon",
-      "japanese": "グレイシア",
-      "chinese": "冰伊布",
-      "french": "Givrali"
+      "EN": "Glaceon",
+      "JP": "グレイシア",
+      "ZH": "冰伊布",
+      "FR": "Givrali"
     },
     "type": ["Ice"],
     "base": {
@@ -17312,10 +17312,10 @@ pokemon = [
   {
     "id": 472,
     "name": {
-      "english": "Gliscor",
-      "japanese": "グライオン",
-      "chinese": "天蝎王",
-      "french": "Scorvol"
+      "EN": "Gliscor",
+      "JP": "グライオン",
+      "ZH": "天蝎王",
+      "FR": "Scorvol"
     },
     "type": ["Ground", "Flying"],
     "base": {
@@ -17349,10 +17349,10 @@ pokemon = [
   {
     "id": 473,
     "name": {
-      "english": "Mamoswine",
-      "japanese": "マンムー",
-      "chinese": "象牙猪",
-      "french": "Mammochon"
+      "EN": "Mamoswine",
+      "JP": "マンムー",
+      "ZH": "象牙猪",
+      "FR": "Mammochon"
     },
     "type": ["Ice", "Ground"],
     "base": {
@@ -17386,10 +17386,10 @@ pokemon = [
   {
     "id": 474,
     "name": {
-      "english": "Porygon-Z",
-      "japanese": "ポリゴンＺ",
-      "chinese": "多边兽Ｚ",
-      "french": "Porygon-Z"
+      "EN": "Porygon-Z",
+      "JP": "ポリゴンＺ",
+      "ZH": "多边兽Ｚ",
+      "FR": "Porygon-Z"
     },
     "type": ["Normal"],
     "base": {
@@ -17423,10 +17423,10 @@ pokemon = [
   {
     "id": 475,
     "name": {
-      "english": "Gallade",
-      "japanese": "エルレイド",
-      "chinese": "艾路雷朵",
-      "french": "Gallame"
+      "EN": "Gallade",
+      "JP": "エルレイド",
+      "ZH": "艾路雷朵",
+      "FR": "Gallame"
     },
     "type": ["Psychic", "Fighting"],
     "base": {
@@ -17459,10 +17459,10 @@ pokemon = [
   {
     "id": 476,
     "name": {
-      "english": "Probopass",
-      "japanese": "ダイノーズ",
-      "chinese": "大朝北鼻",
-      "french": "Tarinorme"
+      "EN": "Probopass",
+      "JP": "ダイノーズ",
+      "ZH": "大朝北鼻",
+      "FR": "Tarinorme"
     },
     "type": ["Rock", "Steel"],
     "base": {
@@ -17496,10 +17496,10 @@ pokemon = [
   {
     "id": 477,
     "name": {
-      "english": "Dusknoir",
-      "japanese": "ヨノワール",
-      "chinese": "黑夜魔灵",
-      "french": "Noctunoir"
+      "EN": "Dusknoir",
+      "JP": "ヨノワール",
+      "ZH": "黑夜魔灵",
+      "FR": "Noctunoir"
     },
     "type": ["Ghost"],
     "base": {
@@ -17532,10 +17532,10 @@ pokemon = [
   {
     "id": 478,
     "name": {
-      "english": "Froslass",
-      "japanese": "ユキメノコ",
-      "chinese": "雪妖女",
-      "french": "Momartik"
+      "EN": "Froslass",
+      "JP": "ユキメノコ",
+      "ZH": "雪妖女",
+      "FR": "Momartik"
     },
     "type": ["Ice", "Ghost"],
     "base": {
@@ -17568,10 +17568,10 @@ pokemon = [
   {
     "id": 479,
     "name": {
-      "english": "Rotom",
-      "japanese": "ロトム",
-      "chinese": "洛托姆",
-      "french": "Motisma"
+      "EN": "Rotom",
+      "JP": "ロトム",
+      "ZH": "洛托姆",
+      "FR": "Motisma"
     },
     "type": ["Electric", "Ghost"],
     "base": {
@@ -17601,10 +17601,10 @@ pokemon = [
   {
     "id": 480,
     "name": {
-      "english": "Uxie",
-      "japanese": "ユクシー",
-      "chinese": "由克希",
-      "french": "Créhelf"
+      "EN": "Uxie",
+      "JP": "ユクシー",
+      "ZH": "由克希",
+      "FR": "Créhelf"
     },
     "type": ["Psychic"],
     "base": {
@@ -17634,10 +17634,10 @@ pokemon = [
   {
     "id": 481,
     "name": {
-      "english": "Mesprit",
-      "japanese": "エムリット",
-      "chinese": "艾姆利多",
-      "french": "Créfollet"
+      "EN": "Mesprit",
+      "JP": "エムリット",
+      "ZH": "艾姆利多",
+      "FR": "Créfollet"
     },
     "type": ["Psychic"],
     "base": {
@@ -17667,10 +17667,10 @@ pokemon = [
   {
     "id": 482,
     "name": {
-      "english": "Azelf",
-      "japanese": "アグノム",
-      "chinese": "亚克诺姆",
-      "french": "Créfadet"
+      "EN": "Azelf",
+      "JP": "アグノム",
+      "ZH": "亚克诺姆",
+      "FR": "Créfadet"
     },
     "type": ["Psychic"],
     "base": {
@@ -17700,10 +17700,10 @@ pokemon = [
   {
     "id": 483,
     "name": {
-      "english": "Dialga",
-      "japanese": "ディアルガ",
-      "chinese": "帝牙卢卡",
-      "french": "Dialga"
+      "EN": "Dialga",
+      "JP": "ディアルガ",
+      "ZH": "帝牙卢卡",
+      "FR": "Dialga"
     },
     "type": ["Steel", "Dragon"],
     "base": {
@@ -17736,10 +17736,10 @@ pokemon = [
   {
     "id": 484,
     "name": {
-      "english": "Palkia",
-      "japanese": "パルキア",
-      "chinese": "帕路奇亚",
-      "french": "Palkia"
+      "EN": "Palkia",
+      "JP": "パルキア",
+      "ZH": "帕路奇亚",
+      "FR": "Palkia"
     },
     "type": ["Water", "Dragon"],
     "base": {
@@ -17772,10 +17772,10 @@ pokemon = [
   {
     "id": 485,
     "name": {
-      "english": "Heatran",
-      "japanese": "ヒードラン",
-      "chinese": "席多蓝恩",
-      "french": "Heatran"
+      "EN": "Heatran",
+      "JP": "ヒードラン",
+      "ZH": "席多蓝恩",
+      "FR": "Heatran"
     },
     "type": ["Fire", "Steel"],
     "base": {
@@ -17808,10 +17808,10 @@ pokemon = [
   {
     "id": 486,
     "name": {
-      "english": "Regigigas",
-      "japanese": "レジギガス",
-      "chinese": "雷吉奇卡斯",
-      "french": "Regigigas"
+      "EN": "Regigigas",
+      "JP": "レジギガス",
+      "ZH": "雷吉奇卡斯",
+      "FR": "Regigigas"
     },
     "type": ["Normal"],
     "base": {
@@ -17841,10 +17841,10 @@ pokemon = [
   {
     "id": 487,
     "name": {
-      "english": "Giratina",
-      "japanese": "ギラティナ",
-      "chinese": "骑拉帝纳",
-      "french": "Giratina"
+      "EN": "Giratina",
+      "JP": "ギラティナ",
+      "ZH": "骑拉帝纳",
+      "FR": "Giratina"
     },
     "type": ["Ghost", "Dragon"],
     "base": {
@@ -17877,10 +17877,10 @@ pokemon = [
   {
     "id": 488,
     "name": {
-      "english": "Cresselia",
-      "japanese": "クレセリア",
-      "chinese": "克雷色利亚",
-      "french": "Cresselia"
+      "EN": "Cresselia",
+      "JP": "クレセリア",
+      "ZH": "克雷色利亚",
+      "FR": "Cresselia"
     },
     "type": ["Psychic"],
     "base": {
@@ -17910,10 +17910,10 @@ pokemon = [
   {
     "id": 489,
     "name": {
-      "english": "Phione",
-      "japanese": "フィオネ",
-      "chinese": "霏欧纳",
-      "french": "Phione"
+      "EN": "Phione",
+      "JP": "フィオネ",
+      "ZH": "霏欧纳",
+      "FR": "Phione"
     },
     "type": ["Water"],
     "base": {
@@ -17943,10 +17943,10 @@ pokemon = [
   {
     "id": 490,
     "name": {
-      "english": "Manaphy",
-      "japanese": "マナフィ",
-      "chinese": "玛纳霏",
-      "french": "Manaphy"
+      "EN": "Manaphy",
+      "JP": "マナフィ",
+      "ZH": "玛纳霏",
+      "FR": "Manaphy"
     },
     "type": ["Water"],
     "base": {
@@ -17976,10 +17976,10 @@ pokemon = [
   {
     "id": 491,
     "name": {
-      "english": "Darkrai",
-      "japanese": "ダークライ",
-      "chinese": "达克莱伊",
-      "french": "Darkrai"
+      "EN": "Darkrai",
+      "JP": "ダークライ",
+      "ZH": "达克莱伊",
+      "FR": "Darkrai"
     },
     "type": ["Dark"],
     "base": {
@@ -18009,10 +18009,10 @@ pokemon = [
   {
     "id": 492,
     "name": {
-      "english": "Shaymin",
-      "japanese": "シェイミ",
-      "chinese": "谢米",
-      "french": "Shaymin"
+      "EN": "Shaymin",
+      "JP": "シェイミ",
+      "ZH": "谢米",
+      "FR": "Shaymin"
     },
     "type": ["Grass"],
     "base": {
@@ -18042,10 +18042,10 @@ pokemon = [
   {
     "id": 493,
     "name": {
-      "english": "Arceus",
-      "japanese": "アルセウス",
-      "chinese": "阿尔宙斯",
-      "french": "Arceus"
+      "EN": "Arceus",
+      "JP": "アルセウス",
+      "ZH": "阿尔宙斯",
+      "FR": "Arceus"
     },
     "type": ["Normal"],
     "base": {
@@ -18075,10 +18075,10 @@ pokemon = [
   {
     "id": 494,
     "name": {
-      "english": "Victini",
-      "japanese": "ビクティニ",
-      "chinese": "比克提尼",
-      "french": "Victini"
+      "EN": "Victini",
+      "JP": "ビクティニ",
+      "ZH": "比克提尼",
+      "FR": "Victini"
     },
     "type": ["Psychic", "Fire"],
     "base": {
@@ -18108,10 +18108,10 @@ pokemon = [
   {
     "id": 495,
     "name": {
-      "english": "Snivy",
-      "japanese": "ツタージャ",
-      "chinese": "藤藤蛇",
-      "french": "Vipélierre"
+      "EN": "Snivy",
+      "JP": "ツタージャ",
+      "ZH": "藤藤蛇",
+      "FR": "Vipélierre"
     },
     "type": ["Grass"],
     "base": {
@@ -18144,10 +18144,10 @@ pokemon = [
   {
     "id": 496,
     "name": {
-      "english": "Servine",
-      "japanese": "ジャノビー",
-      "chinese": "青藤蛇",
-      "french": "Lianaja"
+      "EN": "Servine",
+      "JP": "ジャノビー",
+      "ZH": "青藤蛇",
+      "FR": "Lianaja"
     },
     "type": ["Grass"],
     "base": {
@@ -18180,10 +18180,10 @@ pokemon = [
   {
     "id": 497,
     "name": {
-      "english": "Serperior",
-      "japanese": "ジャローダ",
-      "chinese": "君主蛇",
-      "french": "Majaspic"
+      "EN": "Serperior",
+      "JP": "ジャローダ",
+      "ZH": "君主蛇",
+      "FR": "Majaspic"
     },
     "type": ["Grass"],
     "base": {
@@ -18216,10 +18216,10 @@ pokemon = [
   {
     "id": 498,
     "name": {
-      "english": "Tepig",
-      "japanese": "ポカブ",
-      "chinese": "暖暖猪",
-      "french": "Gruikui"
+      "EN": "Tepig",
+      "JP": "ポカブ",
+      "ZH": "暖暖猪",
+      "FR": "Gruikui"
     },
     "type": ["Fire"],
     "base": {
@@ -18252,10 +18252,10 @@ pokemon = [
   {
     "id": 499,
     "name": {
-      "english": "Pignite",
-      "japanese": "チャオブー",
-      "chinese": "炒炒猪",
-      "french": "Grotichon"
+      "EN": "Pignite",
+      "JP": "チャオブー",
+      "ZH": "炒炒猪",
+      "FR": "Grotichon"
     },
     "type": ["Fire", "Fighting"],
     "base": {
@@ -18288,10 +18288,10 @@ pokemon = [
   {
     "id": 500,
     "name": {
-      "english": "Emboar",
-      "japanese": "エンブオー",
-      "chinese": "炎武王",
-      "french": "Roitiflam"
+      "EN": "Emboar",
+      "JP": "エンブオー",
+      "ZH": "炎武王",
+      "FR": "Roitiflam"
     },
     "type": ["Fire", "Fighting"],
     "base": {
@@ -18324,10 +18324,10 @@ pokemon = [
   {
     "id": 501,
     "name": {
-      "english": "Oshawott",
-      "japanese": "ミジュマル",
-      "chinese": "水水獭",
-      "french": "Moustillon"
+      "EN": "Oshawott",
+      "JP": "ミジュマル",
+      "ZH": "水水獭",
+      "FR": "Moustillon"
     },
     "type": ["Water"],
     "base": {
@@ -18360,10 +18360,10 @@ pokemon = [
   {
     "id": 502,
     "name": {
-      "english": "Dewott",
-      "japanese": "フタチマル",
-      "chinese": "双刃丸",
-      "french": "Mateloutre"
+      "EN": "Dewott",
+      "JP": "フタチマル",
+      "ZH": "双刃丸",
+      "FR": "Mateloutre"
     },
     "type": ["Water"],
     "base": {
@@ -18396,10 +18396,10 @@ pokemon = [
   {
     "id": 503,
     "name": {
-      "english": "Samurott",
-      "japanese": "ダイケンキ",
-      "chinese": "大剑鬼",
-      "french": "Clamiral"
+      "EN": "Samurott",
+      "JP": "ダイケンキ",
+      "ZH": "大剑鬼",
+      "FR": "Clamiral"
     },
     "type": ["Water"],
     "base": {
@@ -18432,10 +18432,10 @@ pokemon = [
   {
     "id": 504,
     "name": {
-      "english": "Patrat",
-      "japanese": "ミネズミ",
-      "chinese": "探探鼠",
-      "french": "Ratentif"
+      "EN": "Patrat",
+      "JP": "ミネズミ",
+      "ZH": "探探鼠",
+      "FR": "Ratentif"
     },
     "type": ["Normal"],
     "base": {
@@ -18469,10 +18469,10 @@ pokemon = [
   {
     "id": 505,
     "name": {
-      "english": "Watchog",
-      "japanese": "ミルホッグ",
-      "chinese": "步哨鼠",
-      "french": "Miradar"
+      "EN": "Watchog",
+      "JP": "ミルホッグ",
+      "ZH": "步哨鼠",
+      "FR": "Miradar"
     },
     "type": ["Normal"],
     "base": {
@@ -18506,10 +18506,10 @@ pokemon = [
   {
     "id": 506,
     "name": {
-      "english": "Lillipup",
-      "japanese": "ヨーテリー",
-      "chinese": "小约克",
-      "french": "Ponchiot"
+      "EN": "Lillipup",
+      "JP": "ヨーテリー",
+      "ZH": "小约克",
+      "FR": "Ponchiot"
     },
     "type": ["Normal"],
     "base": {
@@ -18543,10 +18543,10 @@ pokemon = [
   {
     "id": 507,
     "name": {
-      "english": "Herdier",
-      "japanese": "ハーデリア",
-      "chinese": "哈约克",
-      "french": "Ponchien"
+      "EN": "Herdier",
+      "JP": "ハーデリア",
+      "ZH": "哈约克",
+      "FR": "Ponchien"
     },
     "type": ["Normal"],
     "base": {
@@ -18580,10 +18580,10 @@ pokemon = [
   {
     "id": 508,
     "name": {
-      "english": "Stoutland",
-      "japanese": "ムーランド",
-      "chinese": "长毛狗",
-      "french": "Mastouffe"
+      "EN": "Stoutland",
+      "JP": "ムーランド",
+      "ZH": "长毛狗",
+      "FR": "Mastouffe"
     },
     "type": ["Normal"],
     "base": {
@@ -18617,10 +18617,10 @@ pokemon = [
   {
     "id": 509,
     "name": {
-      "english": "Purrloin",
-      "japanese": "チョロネコ",
-      "chinese": "扒手猫",
-      "french": "Chacripan"
+      "EN": "Purrloin",
+      "JP": "チョロネコ",
+      "ZH": "扒手猫",
+      "FR": "Chacripan"
     },
     "type": ["Dark"],
     "base": {
@@ -18654,10 +18654,10 @@ pokemon = [
   {
     "id": 510,
     "name": {
-      "english": "Liepard",
-      "japanese": "レパルダス",
-      "chinese": "酷豹",
-      "french": "Léopardus"
+      "EN": "Liepard",
+      "JP": "レパルダス",
+      "ZH": "酷豹",
+      "FR": "Léopardus"
     },
     "type": ["Dark"],
     "base": {
@@ -18691,10 +18691,10 @@ pokemon = [
   {
     "id": 511,
     "name": {
-      "english": "Pansage",
-      "japanese": "ヤナップ",
-      "chinese": "花椰猴",
-      "french": "Feuillajou"
+      "EN": "Pansage",
+      "JP": "ヤナップ",
+      "ZH": "花椰猴",
+      "FR": "Feuillajou"
     },
     "type": ["Grass"],
     "base": {
@@ -18727,10 +18727,10 @@ pokemon = [
   {
     "id": 512,
     "name": {
-      "english": "Simisage",
-      "japanese": "ヤナッキー",
-      "chinese": "花椰猿",
-      "french": "Feuiloutan"
+      "EN": "Simisage",
+      "JP": "ヤナッキー",
+      "ZH": "花椰猿",
+      "FR": "Feuiloutan"
     },
     "type": ["Grass"],
     "base": {
@@ -18763,10 +18763,10 @@ pokemon = [
   {
     "id": 513,
     "name": {
-      "english": "Pansear",
-      "japanese": "バオップ",
-      "chinese": "爆香猴",
-      "french": "Flamajou"
+      "EN": "Pansear",
+      "JP": "バオップ",
+      "ZH": "爆香猴",
+      "FR": "Flamajou"
     },
     "type": ["Fire"],
     "base": {
@@ -18799,10 +18799,10 @@ pokemon = [
   {
     "id": 514,
     "name": {
-      "english": "Simisear",
-      "japanese": "バオッキー",
-      "chinese": "爆香猿",
-      "french": "Flamoutan"
+      "EN": "Simisear",
+      "JP": "バオッキー",
+      "ZH": "爆香猿",
+      "FR": "Flamoutan"
     },
     "type": ["Fire"],
     "base": {
@@ -18835,10 +18835,10 @@ pokemon = [
   {
     "id": 515,
     "name": {
-      "english": "Panpour",
-      "japanese": "ヒヤップ",
-      "chinese": "冷水猴",
-      "french": "Flotajou"
+      "EN": "Panpour",
+      "JP": "ヒヤップ",
+      "ZH": "冷水猴",
+      "FR": "Flotajou"
     },
     "type": ["Water"],
     "base": {
@@ -18871,10 +18871,10 @@ pokemon = [
   {
     "id": 516,
     "name": {
-      "english": "Simipour",
-      "japanese": "ヒヤッキー",
-      "chinese": "冷水猿",
-      "french": "Flotoutan"
+      "EN": "Simipour",
+      "JP": "ヒヤッキー",
+      "ZH": "冷水猿",
+      "FR": "Flotoutan"
     },
     "type": ["Water"],
     "base": {
@@ -18907,10 +18907,10 @@ pokemon = [
   {
     "id": 517,
     "name": {
-      "english": "Munna",
-      "japanese": "ムンナ",
-      "chinese": "食梦梦",
-      "french": "Munna"
+      "EN": "Munna",
+      "JP": "ムンナ",
+      "ZH": "食梦梦",
+      "FR": "Munna"
     },
     "type": ["Psychic"],
     "base": {
@@ -18944,10 +18944,10 @@ pokemon = [
   {
     "id": 518,
     "name": {
-      "english": "Musharna",
-      "japanese": "ムシャーナ",
-      "chinese": "梦梦蚀",
-      "french": "Mushana"
+      "EN": "Musharna",
+      "JP": "ムシャーナ",
+      "ZH": "梦梦蚀",
+      "FR": "Mushana"
     },
     "type": ["Psychic"],
     "base": {
@@ -18981,10 +18981,10 @@ pokemon = [
   {
     "id": 519,
     "name": {
-      "english": "Pidove",
-      "japanese": "マメパト",
-      "chinese": "豆豆鸽",
-      "french": "Poichigeon"
+      "EN": "Pidove",
+      "JP": "マメパト",
+      "ZH": "豆豆鸽",
+      "FR": "Poichigeon"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -19018,10 +19018,10 @@ pokemon = [
   {
     "id": 520,
     "name": {
-      "english": "Tranquill",
-      "japanese": "ハトーボー",
-      "chinese": "咕咕鸽",
-      "french": "Colombeau"
+      "EN": "Tranquill",
+      "JP": "ハトーボー",
+      "ZH": "咕咕鸽",
+      "FR": "Colombeau"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -19055,10 +19055,10 @@ pokemon = [
   {
     "id": 521,
     "name": {
-      "english": "Unfezant",
-      "japanese": "ケンホロウ",
-      "chinese": "高傲雉鸡",
-      "french": "Déflaisan"
+      "EN": "Unfezant",
+      "JP": "ケンホロウ",
+      "ZH": "高傲雉鸡",
+      "FR": "Déflaisan"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -19092,10 +19092,10 @@ pokemon = [
   {
     "id": 522,
     "name": {
-      "english": "Blitzle",
-      "japanese": "シママ",
-      "chinese": "斑斑马",
-      "french": "Zébibron"
+      "EN": "Blitzle",
+      "JP": "シママ",
+      "ZH": "斑斑马",
+      "FR": "Zébibron"
     },
     "type": ["Electric"],
     "base": {
@@ -19129,10 +19129,10 @@ pokemon = [
   {
     "id": 523,
     "name": {
-      "english": "Zebstrika",
-      "japanese": "ゼブライカ",
-      "chinese": "雷电斑马",
-      "french": "Zéblitz"
+      "EN": "Zebstrika",
+      "JP": "ゼブライカ",
+      "ZH": "雷电斑马",
+      "FR": "Zéblitz"
     },
     "type": ["Electric"],
     "base": {
@@ -19166,10 +19166,10 @@ pokemon = [
   {
     "id": 524,
     "name": {
-      "english": "Roggenrola",
-      "japanese": "ダンゴロ",
-      "chinese": "石丸子",
-      "french": "Nodulithe"
+      "EN": "Roggenrola",
+      "JP": "ダンゴロ",
+      "ZH": "石丸子",
+      "FR": "Nodulithe"
     },
     "type": ["Rock"],
     "base": {
@@ -19203,10 +19203,10 @@ pokemon = [
   {
     "id": 525,
     "name": {
-      "english": "Boldore",
-      "japanese": "ガントル",
-      "chinese": "地幔岩",
-      "french": "Géolithe"
+      "EN": "Boldore",
+      "JP": "ガントル",
+      "ZH": "地幔岩",
+      "FR": "Géolithe"
     },
     "type": ["Rock"],
     "base": {
@@ -19240,10 +19240,10 @@ pokemon = [
   {
     "id": 526,
     "name": {
-      "english": "Gigalith",
-      "japanese": "ギガイアス",
-      "chinese": "庞岩怪",
-      "french": "Gigalithe"
+      "EN": "Gigalith",
+      "JP": "ギガイアス",
+      "ZH": "庞岩怪",
+      "FR": "Gigalithe"
     },
     "type": ["Rock"],
     "base": {
@@ -19277,10 +19277,10 @@ pokemon = [
   {
     "id": 527,
     "name": {
-      "english": "Woobat",
-      "japanese": "コロモリ",
-      "chinese": "滚滚蝙蝠",
-      "french": "Chovsourir"
+      "EN": "Woobat",
+      "JP": "コロモリ",
+      "ZH": "滚滚蝙蝠",
+      "FR": "Chovsourir"
     },
     "type": ["Psychic", "Flying"],
     "base": {
@@ -19314,10 +19314,10 @@ pokemon = [
   {
     "id": 528,
     "name": {
-      "english": "Swoobat",
-      "japanese": "ココロモリ",
-      "chinese": "心蝙蝠",
-      "french": "Rhinolove"
+      "EN": "Swoobat",
+      "JP": "ココロモリ",
+      "ZH": "心蝙蝠",
+      "FR": "Rhinolove"
     },
     "type": ["Psychic", "Flying"],
     "base": {
@@ -19351,10 +19351,10 @@ pokemon = [
   {
     "id": 529,
     "name": {
-      "english": "Drilbur",
-      "japanese": "モグリュー",
-      "chinese": "螺钉地鼠",
-      "french": "Rototaupe"
+      "EN": "Drilbur",
+      "JP": "モグリュー",
+      "ZH": "螺钉地鼠",
+      "FR": "Rototaupe"
     },
     "type": ["Ground"],
     "base": {
@@ -19388,10 +19388,10 @@ pokemon = [
   {
     "id": 530,
     "name": {
-      "english": "Excadrill",
-      "japanese": "ドリュウズ",
-      "chinese": "龙头地鼠",
-      "french": "Minotaupe"
+      "EN": "Excadrill",
+      "JP": "ドリュウズ",
+      "ZH": "龙头地鼠",
+      "FR": "Minotaupe"
     },
     "type": ["Ground", "Steel"],
     "base": {
@@ -19425,10 +19425,10 @@ pokemon = [
   {
     "id": 531,
     "name": {
-      "english": "Audino",
-      "japanese": "タブンネ",
-      "chinese": "差不多娃娃",
-      "french": "Nanméouïe"
+      "EN": "Audino",
+      "JP": "タブンネ",
+      "ZH": "差不多娃娃",
+      "FR": "Nanméouïe"
     },
     "type": ["Normal"],
     "base": {
@@ -19462,10 +19462,10 @@ pokemon = [
   {
     "id": 532,
     "name": {
-      "english": "Timburr",
-      "japanese": "ドッコラー",
-      "chinese": "搬运小匠",
-      "french": "Charpenti"
+      "EN": "Timburr",
+      "JP": "ドッコラー",
+      "ZH": "搬运小匠",
+      "FR": "Charpenti"
     },
     "type": ["Fighting"],
     "base": {
@@ -19499,10 +19499,10 @@ pokemon = [
   {
     "id": 533,
     "name": {
-      "english": "Gurdurr",
-      "japanese": "ドテッコツ",
-      "chinese": "铁骨土人",
-      "french": "Ouvrifier"
+      "EN": "Gurdurr",
+      "JP": "ドテッコツ",
+      "ZH": "铁骨土人",
+      "FR": "Ouvrifier"
     },
     "type": ["Fighting"],
     "base": {
@@ -19536,10 +19536,10 @@ pokemon = [
   {
     "id": 534,
     "name": {
-      "english": "Conkeldurr",
-      "japanese": "ローブシン",
-      "chinese": "修建老匠",
-      "french": "Bétochef"
+      "EN": "Conkeldurr",
+      "JP": "ローブシン",
+      "ZH": "修建老匠",
+      "FR": "Bétochef"
     },
     "type": ["Fighting"],
     "base": {
@@ -19573,10 +19573,10 @@ pokemon = [
   {
     "id": 535,
     "name": {
-      "english": "Tympole",
-      "japanese": "オタマロ",
-      "chinese": "圆蝌蚪",
-      "french": "Tritonde"
+      "EN": "Tympole",
+      "JP": "オタマロ",
+      "ZH": "圆蝌蚪",
+      "FR": "Tritonde"
     },
     "type": ["Water"],
     "base": {
@@ -19610,10 +19610,10 @@ pokemon = [
   {
     "id": 536,
     "name": {
-      "english": "Palpitoad",
-      "japanese": "ガマガル",
-      "chinese": "蓝蟾蜍",
-      "french": "Batracné"
+      "EN": "Palpitoad",
+      "JP": "ガマガル",
+      "ZH": "蓝蟾蜍",
+      "FR": "Batracné"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -19647,10 +19647,10 @@ pokemon = [
   {
     "id": 537,
     "name": {
-      "english": "Seismitoad",
-      "japanese": "ガマゲロゲ",
-      "chinese": "蟾蜍王",
-      "french": "Crapustule"
+      "EN": "Seismitoad",
+      "JP": "ガマゲロゲ",
+      "ZH": "蟾蜍王",
+      "FR": "Crapustule"
     },
     "type": ["Water", "Ground"],
     "base": {
@@ -19684,10 +19684,10 @@ pokemon = [
   {
     "id": 538,
     "name": {
-      "english": "Throh",
-      "japanese": "ナゲキ",
-      "chinese": "投摔鬼",
-      "french": "Judokrak"
+      "EN": "Throh",
+      "JP": "ナゲキ",
+      "ZH": "投摔鬼",
+      "FR": "Judokrak"
     },
     "type": ["Fighting"],
     "base": {
@@ -19721,10 +19721,10 @@ pokemon = [
   {
     "id": 539,
     "name": {
-      "english": "Sawk",
-      "japanese": "ダゲキ",
-      "chinese": "打击鬼",
-      "french": "Karaclée"
+      "EN": "Sawk",
+      "JP": "ダゲキ",
+      "ZH": "打击鬼",
+      "FR": "Karaclée"
     },
     "type": ["Fighting"],
     "base": {
@@ -19758,10 +19758,10 @@ pokemon = [
   {
     "id": 540,
     "name": {
-      "english": "Sewaddle",
-      "japanese": "クルミル",
-      "chinese": "虫宝包",
-      "french": "Larveyette"
+      "EN": "Sewaddle",
+      "JP": "クルミル",
+      "ZH": "虫宝包",
+      "FR": "Larveyette"
     },
     "type": ["Bug", "Grass"],
     "base": {
@@ -19795,10 +19795,10 @@ pokemon = [
   {
     "id": 541,
     "name": {
-      "english": "Swadloon",
-      "japanese": "クルマユ",
-      "chinese": "宝包茧",
-      "french": "Couverdure"
+      "EN": "Swadloon",
+      "JP": "クルマユ",
+      "ZH": "宝包茧",
+      "FR": "Couverdure"
     },
     "type": ["Bug", "Grass"],
     "base": {
@@ -19835,10 +19835,10 @@ pokemon = [
   {
     "id": 542,
     "name": {
-      "english": "Leavanny",
-      "japanese": "ハハコモリ",
-      "chinese": "保姆虫",
-      "french": "Manternel"
+      "EN": "Leavanny",
+      "JP": "ハハコモリ",
+      "ZH": "保姆虫",
+      "FR": "Manternel"
     },
     "type": ["Bug", "Grass"],
     "base": {
@@ -19872,10 +19872,10 @@ pokemon = [
   {
     "id": 543,
     "name": {
-      "english": "Venipede",
-      "japanese": "フシデ",
-      "chinese": "百足蜈蚣",
-      "french": "Venipatte"
+      "EN": "Venipede",
+      "JP": "フシデ",
+      "ZH": "百足蜈蚣",
+      "FR": "Venipatte"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -19909,10 +19909,10 @@ pokemon = [
   {
     "id": 544,
     "name": {
-      "english": "Whirlipede",
-      "japanese": "ホイーガ",
-      "chinese": "车轮球",
-      "french": "Scobolide"
+      "EN": "Whirlipede",
+      "JP": "ホイーガ",
+      "ZH": "车轮球",
+      "FR": "Scobolide"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -19946,10 +19946,10 @@ pokemon = [
   {
     "id": 545,
     "name": {
-      "english": "Scolipede",
-      "japanese": "ペンドラー",
-      "chinese": "蜈蚣王",
-      "french": "Brutapode"
+      "EN": "Scolipede",
+      "JP": "ペンドラー",
+      "ZH": "蜈蚣王",
+      "FR": "Brutapode"
     },
     "type": ["Bug", "Poison"],
     "base": {
@@ -19983,10 +19983,10 @@ pokemon = [
   {
     "id": 546,
     "name": {
-      "english": "Cottonee",
-      "japanese": "モンメン",
-      "chinese": "木棉球",
-      "french": "Doudouvet"
+      "EN": "Cottonee",
+      "JP": "モンメン",
+      "ZH": "木棉球",
+      "FR": "Doudouvet"
     },
     "type": ["Grass", "Fairy"],
     "base": {
@@ -20020,10 +20020,10 @@ pokemon = [
   {
     "id": 547,
     "name": {
-      "english": "Whimsicott",
-      "japanese": "エルフーン",
-      "chinese": "风妖精",
-      "french": "Farfaduvet"
+      "EN": "Whimsicott",
+      "JP": "エルフーン",
+      "ZH": "风妖精",
+      "FR": "Farfaduvet"
     },
     "type": ["Grass", "Fairy"],
     "base": {
@@ -20057,10 +20057,10 @@ pokemon = [
   {
     "id": 548,
     "name": {
-      "english": "Petilil",
-      "japanese": "チュリネ",
-      "chinese": "百合根娃娃",
-      "french": "Chlorobule"
+      "EN": "Petilil",
+      "JP": "チュリネ",
+      "ZH": "百合根娃娃",
+      "FR": "Chlorobule"
     },
     "type": ["Grass"],
     "base": {
@@ -20094,10 +20094,10 @@ pokemon = [
   {
     "id": 549,
     "name": {
-      "english": "Lilligant",
-      "japanese": "ドレディア",
-      "chinese": "裙儿小姐",
-      "french": "Fragilady"
+      "EN": "Lilligant",
+      "JP": "ドレディア",
+      "ZH": "裙儿小姐",
+      "FR": "Fragilady"
     },
     "type": ["Grass"],
     "base": {
@@ -20131,10 +20131,10 @@ pokemon = [
   {
     "id": 550,
     "name": {
-      "english": "Basculin",
-      "japanese": "バスラオ",
-      "chinese": "野蛮鲈鱼",
-      "french": "Bargantua"
+      "EN": "Basculin",
+      "JP": "バスラオ",
+      "ZH": "野蛮鲈鱼",
+      "FR": "Bargantua"
     },
     "type": ["Water"],
     "base": {
@@ -20168,10 +20168,10 @@ pokemon = [
   {
     "id": 551,
     "name": {
-      "english": "Sandile",
-      "japanese": "メグロコ",
-      "chinese": "黑眼鳄",
-      "french": "Mascaïman"
+      "EN": "Sandile",
+      "JP": "メグロコ",
+      "ZH": "黑眼鳄",
+      "FR": "Mascaïman"
     },
     "type": ["Ground", "Dark"],
     "base": {
@@ -20205,10 +20205,10 @@ pokemon = [
   {
     "id": 552,
     "name": {
-      "english": "Krokorok",
-      "japanese": "ワルビル",
-      "chinese": "混混鳄",
-      "french": "Escroco"
+      "EN": "Krokorok",
+      "JP": "ワルビル",
+      "ZH": "混混鳄",
+      "FR": "Escroco"
     },
     "type": ["Ground", "Dark"],
     "base": {
@@ -20242,10 +20242,10 @@ pokemon = [
   {
     "id": 553,
     "name": {
-      "english": "Krookodile",
-      "japanese": "ワルビアル",
-      "chinese": "流氓鳄",
-      "french": "Crocorible"
+      "EN": "Krookodile",
+      "JP": "ワルビアル",
+      "ZH": "流氓鳄",
+      "FR": "Crocorible"
     },
     "type": ["Ground", "Dark"],
     "base": {
@@ -20279,10 +20279,10 @@ pokemon = [
   {
     "id": 554,
     "name": {
-      "english": "Darumaka",
-      "japanese": "ダルマッカ",
-      "chinese": "火红不倒翁",
-      "french": "Darumarond"
+      "EN": "Darumaka",
+      "JP": "ダルマッカ",
+      "ZH": "火红不倒翁",
+      "FR": "Darumarond"
     },
     "type": ["Fire"],
     "base": {
@@ -20315,10 +20315,10 @@ pokemon = [
   {
     "id": 555,
     "name": {
-      "english": "Darmanitan",
-      "japanese": "ヒヒダルマ",
-      "chinese": "达摩狒狒",
-      "french": "Darumacho"
+      "EN": "Darmanitan",
+      "JP": "ヒヒダルマ",
+      "ZH": "达摩狒狒",
+      "FR": "Darumacho"
     },
     "type": ["Fire"],
     "base": {
@@ -20351,10 +20351,10 @@ pokemon = [
   {
     "id": 556,
     "name": {
-      "english": "Maractus",
-      "japanese": "マラカッチ",
-      "chinese": "沙铃仙人掌",
-      "french": "Maracachi"
+      "EN": "Maractus",
+      "JP": "マラカッチ",
+      "ZH": "沙铃仙人掌",
+      "FR": "Maracachi"
     },
     "type": ["Grass"],
     "base": {
@@ -20388,10 +20388,10 @@ pokemon = [
   {
     "id": 557,
     "name": {
-      "english": "Dwebble",
-      "japanese": "イシズマイ",
-      "chinese": "石居蟹",
-      "french": "Crabicoque"
+      "EN": "Dwebble",
+      "JP": "イシズマイ",
+      "ZH": "石居蟹",
+      "FR": "Crabicoque"
     },
     "type": ["Bug", "Rock"],
     "base": {
@@ -20425,10 +20425,10 @@ pokemon = [
   {
     "id": 558,
     "name": {
-      "english": "Crustle",
-      "japanese": "イワパレス",
-      "chinese": "岩殿居蟹",
-      "french": "Crabaraque"
+      "EN": "Crustle",
+      "JP": "イワパレス",
+      "ZH": "岩殿居蟹",
+      "FR": "Crabaraque"
     },
     "type": ["Bug", "Rock"],
     "base": {
@@ -20462,10 +20462,10 @@ pokemon = [
   {
     "id": 559,
     "name": {
-      "english": "Scraggy",
-      "japanese": "ズルッグ",
-      "chinese": "滑滑小子",
-      "french": "Baggiguane"
+      "EN": "Scraggy",
+      "JP": "ズルッグ",
+      "ZH": "滑滑小子",
+      "FR": "Baggiguane"
     },
     "type": ["Dark", "Fighting"],
     "base": {
@@ -20499,10 +20499,10 @@ pokemon = [
   {
     "id": 560,
     "name": {
-      "english": "Scrafty",
-      "japanese": "ズルズキン",
-      "chinese": "头巾混混",
-      "french": "Baggaïd"
+      "EN": "Scrafty",
+      "JP": "ズルズキン",
+      "ZH": "头巾混混",
+      "FR": "Baggaïd"
     },
     "type": ["Dark", "Fighting"],
     "base": {
@@ -20536,10 +20536,10 @@ pokemon = [
   {
     "id": 561,
     "name": {
-      "english": "Sigilyph",
-      "japanese": "シンボラー",
-      "chinese": "象征鸟",
-      "french": "Cryptéro"
+      "EN": "Sigilyph",
+      "JP": "シンボラー",
+      "ZH": "象征鸟",
+      "FR": "Cryptéro"
     },
     "type": ["Psychic", "Flying"],
     "base": {
@@ -20573,10 +20573,10 @@ pokemon = [
   {
     "id": 562,
     "name": {
-      "english": "Yamask",
-      "japanese": "デスマス",
-      "chinese": "哭哭面具",
-      "french": "Tutafeh"
+      "EN": "Yamask",
+      "JP": "デスマス",
+      "ZH": "哭哭面具",
+      "FR": "Tutafeh"
     },
     "type": ["Ghost"],
     "base": {
@@ -20606,10 +20606,10 @@ pokemon = [
   {
     "id": 563,
     "name": {
-      "english": "Cofagrigus",
-      "japanese": "デスカーン",
-      "chinese": "死神棺",
-      "french": "Tutankafer"
+      "EN": "Cofagrigus",
+      "JP": "デスカーン",
+      "ZH": "死神棺",
+      "FR": "Tutankafer"
     },
     "type": ["Ghost"],
     "base": {
@@ -20639,10 +20639,10 @@ pokemon = [
   {
     "id": 564,
     "name": {
-      "english": "Tirtouga",
-      "japanese": "プロトーガ",
-      "chinese": "原盖海龟",
-      "french": "Carapagos"
+      "EN": "Tirtouga",
+      "JP": "プロトーガ",
+      "ZH": "原盖海龟",
+      "FR": "Carapagos"
     },
     "type": ["Water", "Rock"],
     "base": {
@@ -20676,10 +20676,10 @@ pokemon = [
   {
     "id": 565,
     "name": {
-      "english": "Carracosta",
-      "japanese": "アバゴーラ",
-      "chinese": "肋骨海龟",
-      "french": "Mégapagos"
+      "EN": "Carracosta",
+      "JP": "アバゴーラ",
+      "ZH": "肋骨海龟",
+      "FR": "Mégapagos"
     },
     "type": ["Water", "Rock"],
     "base": {
@@ -20713,10 +20713,10 @@ pokemon = [
   {
     "id": 566,
     "name": {
-      "english": "Archen",
-      "japanese": "アーケン",
-      "chinese": "始祖小鸟",
-      "french": "Arkéapti"
+      "EN": "Archen",
+      "JP": "アーケン",
+      "ZH": "始祖小鸟",
+      "FR": "Arkéapti"
     },
     "type": ["Rock", "Flying"],
     "base": {
@@ -20746,10 +20746,10 @@ pokemon = [
   {
     "id": 567,
     "name": {
-      "english": "Archeops",
-      "japanese": "アーケオス",
-      "chinese": "始祖大鸟",
-      "french": "Aéroptéryx"
+      "EN": "Archeops",
+      "JP": "アーケオス",
+      "ZH": "始祖大鸟",
+      "FR": "Aéroptéryx"
     },
     "type": ["Rock", "Flying"],
     "base": {
@@ -20779,10 +20779,10 @@ pokemon = [
   {
     "id": 568,
     "name": {
-      "english": "Trubbish",
-      "japanese": "ヤブクロン",
-      "chinese": "破破袋",
-      "french": "Miamiasme"
+      "EN": "Trubbish",
+      "JP": "ヤブクロン",
+      "ZH": "破破袋",
+      "FR": "Miamiasme"
     },
     "type": ["Poison"],
     "base": {
@@ -20816,10 +20816,10 @@ pokemon = [
   {
     "id": 569,
     "name": {
-      "english": "Garbodor",
-      "japanese": "ダストダス",
-      "chinese": "灰尘山",
-      "french": "Miasmax"
+      "EN": "Garbodor",
+      "JP": "ダストダス",
+      "ZH": "灰尘山",
+      "FR": "Miasmax"
     },
     "type": ["Poison"],
     "base": {
@@ -20853,10 +20853,10 @@ pokemon = [
   {
     "id": 570,
     "name": {
-      "english": "Zorua",
-      "japanese": "ゾロア",
-      "chinese": "索罗亚",
-      "french": "Zorua"
+      "EN": "Zorua",
+      "JP": "ゾロア",
+      "ZH": "索罗亚",
+      "FR": "Zorua"
     },
     "type": ["Dark"],
     "base": {
@@ -20886,10 +20886,10 @@ pokemon = [
   {
     "id": 571,
     "name": {
-      "english": "Zoroark",
-      "japanese": "ゾロアーク",
-      "chinese": "索罗亚克",
-      "french": "Zoroark"
+      "EN": "Zoroark",
+      "JP": "ゾロアーク",
+      "ZH": "索罗亚克",
+      "FR": "Zoroark"
     },
     "type": ["Dark"],
     "base": {
@@ -20919,10 +20919,10 @@ pokemon = [
   {
     "id": 572,
     "name": {
-      "english": "Minccino",
-      "japanese": "チラーミィ",
-      "chinese": "泡沫栗鼠",
-      "french": "Chinchidou"
+      "EN": "Minccino",
+      "JP": "チラーミィ",
+      "ZH": "泡沫栗鼠",
+      "FR": "Chinchidou"
     },
     "type": ["Normal"],
     "base": {
@@ -20956,10 +20956,10 @@ pokemon = [
   {
     "id": 573,
     "name": {
-      "english": "Cinccino",
-      "japanese": "チラチーノ",
-      "chinese": "奇诺栗鼠",
-      "french": "Pashmilla"
+      "EN": "Cinccino",
+      "JP": "チラチーノ",
+      "ZH": "奇诺栗鼠",
+      "FR": "Pashmilla"
     },
     "type": ["Normal"],
     "base": {
@@ -20993,10 +20993,10 @@ pokemon = [
   {
     "id": 574,
     "name": {
-      "english": "Gothita",
-      "japanese": "ゴチム",
-      "chinese": "哥德宝宝",
-      "french": "Scrutella"
+      "EN": "Gothita",
+      "JP": "ゴチム",
+      "ZH": "哥德宝宝",
+      "FR": "Scrutella"
     },
     "type": ["Psychic"],
     "base": {
@@ -21030,10 +21030,10 @@ pokemon = [
   {
     "id": 575,
     "name": {
-      "english": "Gothorita",
-      "japanese": "ゴチミル",
-      "chinese": "哥德小童",
-      "french": "Mesmérella"
+      "EN": "Gothorita",
+      "JP": "ゴチミル",
+      "ZH": "哥德小童",
+      "FR": "Mesmérella"
     },
     "type": ["Psychic"],
     "base": {
@@ -21067,10 +21067,10 @@ pokemon = [
   {
     "id": 576,
     "name": {
-      "english": "Gothitelle",
-      "japanese": "ゴチルゼル",
-      "chinese": "哥德小姐",
-      "french": "Sidérella"
+      "EN": "Gothitelle",
+      "JP": "ゴチルゼル",
+      "ZH": "哥德小姐",
+      "FR": "Sidérella"
     },
     "type": ["Psychic"],
     "base": {
@@ -21104,10 +21104,10 @@ pokemon = [
   {
     "id": 577,
     "name": {
-      "english": "Solosis",
-      "japanese": "ユニラン",
-      "chinese": "单卵细胞球",
-      "french": "Nucléos"
+      "EN": "Solosis",
+      "JP": "ユニラン",
+      "ZH": "单卵细胞球",
+      "FR": "Nucléos"
     },
     "type": ["Psychic"],
     "base": {
@@ -21141,10 +21141,10 @@ pokemon = [
   {
     "id": 578,
     "name": {
-      "english": "Duosion",
-      "japanese": "ダブラン",
-      "chinese": "双卵细胞球",
-      "french": "Méios"
+      "EN": "Duosion",
+      "JP": "ダブラン",
+      "ZH": "双卵细胞球",
+      "FR": "Méios"
     },
     "type": ["Psychic"],
     "base": {
@@ -21178,10 +21178,10 @@ pokemon = [
   {
     "id": 579,
     "name": {
-      "english": "Reuniclus",
-      "japanese": "ランクルス",
-      "chinese": "人造细胞卵",
-      "french": "Symbios"
+      "EN": "Reuniclus",
+      "JP": "ランクルス",
+      "ZH": "人造细胞卵",
+      "FR": "Symbios"
     },
     "type": ["Psychic"],
     "base": {
@@ -21215,10 +21215,10 @@ pokemon = [
   {
     "id": 580,
     "name": {
-      "english": "Ducklett",
-      "japanese": "コアルヒー",
-      "chinese": "鸭宝宝",
-      "french": "Couaneton"
+      "EN": "Ducklett",
+      "JP": "コアルヒー",
+      "ZH": "鸭宝宝",
+      "FR": "Couaneton"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -21252,10 +21252,10 @@ pokemon = [
   {
     "id": 581,
     "name": {
-      "english": "Swanna",
-      "japanese": "スワンナ",
-      "chinese": "舞天鹅",
-      "french": "Lakmécygne"
+      "EN": "Swanna",
+      "JP": "スワンナ",
+      "ZH": "舞天鹅",
+      "FR": "Lakmécygne"
     },
     "type": ["Water", "Flying"],
     "base": {
@@ -21289,10 +21289,10 @@ pokemon = [
   {
     "id": 582,
     "name": {
-      "english": "Vanillite",
-      "japanese": "バニプッチ",
-      "chinese": "迷你冰",
-      "french": "Sorbébé"
+      "EN": "Vanillite",
+      "JP": "バニプッチ",
+      "ZH": "迷你冰",
+      "FR": "Sorbébé"
     },
     "type": ["Ice"],
     "base": {
@@ -21326,10 +21326,10 @@ pokemon = [
   {
     "id": 583,
     "name": {
-      "english": "Vanillish",
-      "japanese": "バニリッチ",
-      "chinese": "多多冰",
-      "french": "Sorboul"
+      "EN": "Vanillish",
+      "JP": "バニリッチ",
+      "ZH": "多多冰",
+      "FR": "Sorboul"
     },
     "type": ["Ice"],
     "base": {
@@ -21363,10 +21363,10 @@ pokemon = [
   {
     "id": 584,
     "name": {
-      "english": "Vanilluxe",
-      "japanese": "バイバニラ",
-      "chinese": "双倍多多冰",
-      "french": "Sorbouboul"
+      "EN": "Vanilluxe",
+      "JP": "バイバニラ",
+      "ZH": "双倍多多冰",
+      "FR": "Sorbouboul"
     },
     "type": ["Ice"],
     "base": {
@@ -21400,10 +21400,10 @@ pokemon = [
   {
     "id": 585,
     "name": {
-      "english": "Deerling",
-      "japanese": "シキジカ",
-      "chinese": "四季鹿",
-      "french": "Vivaldaim"
+      "EN": "Deerling",
+      "JP": "シキジカ",
+      "ZH": "四季鹿",
+      "FR": "Vivaldaim"
     },
     "type": ["Normal", "Grass"],
     "base": {
@@ -21437,10 +21437,10 @@ pokemon = [
   {
     "id": 586,
     "name": {
-      "english": "Sawsbuck",
-      "japanese": "メブキジカ",
-      "chinese": "萌芽鹿",
-      "french": "Haydaim"
+      "EN": "Sawsbuck",
+      "JP": "メブキジカ",
+      "ZH": "萌芽鹿",
+      "FR": "Haydaim"
     },
     "type": ["Normal", "Grass"],
     "base": {
@@ -21474,10 +21474,10 @@ pokemon = [
   {
     "id": 587,
     "name": {
-      "english": "Emolga",
-      "japanese": "エモンガ",
-      "chinese": "电飞鼠",
-      "french": "Emolga"
+      "EN": "Emolga",
+      "JP": "エモンガ",
+      "ZH": "电飞鼠",
+      "FR": "Emolga"
     },
     "type": ["Electric", "Flying"],
     "base": {
@@ -21510,10 +21510,10 @@ pokemon = [
   {
     "id": 588,
     "name": {
-      "english": "Karrablast",
-      "japanese": "カブルモ",
-      "chinese": "盖盖虫",
-      "french": "Carabing"
+      "EN": "Karrablast",
+      "JP": "カブルモ",
+      "ZH": "盖盖虫",
+      "FR": "Carabing"
     },
     "type": ["Bug"],
     "base": {
@@ -21547,10 +21547,10 @@ pokemon = [
   {
     "id": 589,
     "name": {
-      "english": "Escavalier",
-      "japanese": "シュバルゴ",
-      "chinese": "骑士蜗牛",
-      "french": "Lançargot"
+      "EN": "Escavalier",
+      "JP": "シュバルゴ",
+      "ZH": "骑士蜗牛",
+      "FR": "Lançargot"
     },
     "type": ["Bug", "Steel"],
     "base": {
@@ -21584,10 +21584,10 @@ pokemon = [
   {
     "id": 590,
     "name": {
-      "english": "Foongus",
-      "japanese": "タマゲタケ",
-      "chinese": "哎呀球菇",
-      "french": "Trompignon"
+      "EN": "Foongus",
+      "JP": "タマゲタケ",
+      "ZH": "哎呀球菇",
+      "FR": "Trompignon"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -21620,10 +21620,10 @@ pokemon = [
   {
     "id": 591,
     "name": {
-      "english": "Amoonguss",
-      "japanese": "モロバレル",
-      "chinese": "败露球菇",
-      "french": "Gaulet"
+      "EN": "Amoonguss",
+      "JP": "モロバレル",
+      "ZH": "败露球菇",
+      "FR": "Gaulet"
     },
     "type": ["Grass", "Poison"],
     "base": {
@@ -21656,10 +21656,10 @@ pokemon = [
   {
     "id": 592,
     "name": {
-      "english": "Frillish",
-      "japanese": "プルリル",
-      "chinese": "轻飘飘",
-      "french": "Viskuse"
+      "EN": "Frillish",
+      "JP": "プルリル",
+      "ZH": "轻飘飘",
+      "FR": "Viskuse"
     },
     "type": ["Water", "Ghost"],
     "base": {
@@ -21693,10 +21693,10 @@ pokemon = [
   {
     "id": 593,
     "name": {
-      "english": "Jellicent",
-      "japanese": "ブルンゲル",
-      "chinese": "胖嘟嘟",
-      "french": "Moyade"
+      "EN": "Jellicent",
+      "JP": "ブルンゲル",
+      "ZH": "胖嘟嘟",
+      "FR": "Moyade"
     },
     "type": ["Water", "Ghost"],
     "base": {
@@ -21730,10 +21730,10 @@ pokemon = [
   {
     "id": 594,
     "name": {
-      "english": "Alomomola",
-      "japanese": "ママンボウ",
-      "chinese": "保姆曼波",
-      "french": "Mamanbo"
+      "EN": "Alomomola",
+      "JP": "ママンボウ",
+      "ZH": "保姆曼波",
+      "FR": "Mamanbo"
     },
     "type": ["Water"],
     "base": {
@@ -21767,10 +21767,10 @@ pokemon = [
   {
     "id": 595,
     "name": {
-      "english": "Joltik",
-      "japanese": "バチュル",
-      "chinese": "电电虫",
-      "french": "Statitik"
+      "EN": "Joltik",
+      "JP": "バチュル",
+      "ZH": "电电虫",
+      "FR": "Statitik"
     },
     "type": ["Bug", "Electric"],
     "base": {
@@ -21804,10 +21804,10 @@ pokemon = [
   {
     "id": 596,
     "name": {
-      "english": "Galvantula",
-      "japanese": "デンチュラ",
-      "chinese": "电蜘蛛",
-      "french": "Mygavolt"
+      "EN": "Galvantula",
+      "JP": "デンチュラ",
+      "ZH": "电蜘蛛",
+      "FR": "Mygavolt"
     },
     "type": ["Bug", "Electric"],
     "base": {
@@ -21841,10 +21841,10 @@ pokemon = [
   {
     "id": 597,
     "name": {
-      "english": "Ferroseed",
-      "japanese": "テッシード",
-      "chinese": "种子铁球",
-      "french": "Grindur"
+      "EN": "Ferroseed",
+      "JP": "テッシード",
+      "ZH": "种子铁球",
+      "FR": "Grindur"
     },
     "type": ["Grass", "Steel"],
     "base": {
@@ -21874,10 +21874,10 @@ pokemon = [
   {
     "id": 598,
     "name": {
-      "english": "Ferrothorn",
-      "japanese": "ナットレイ",
-      "chinese": "坚果哑铃",
-      "french": "Noacier"
+      "EN": "Ferrothorn",
+      "JP": "ナットレイ",
+      "ZH": "坚果哑铃",
+      "FR": "Noacier"
     },
     "type": ["Grass", "Steel"],
     "base": {
@@ -21910,10 +21910,10 @@ pokemon = [
   {
     "id": 599,
     "name": {
-      "english": "Klink",
-      "japanese": "ギアル",
-      "chinese": "齿轮儿",
-      "french": "Tic"
+      "EN": "Klink",
+      "JP": "ギアル",
+      "ZH": "齿轮儿",
+      "FR": "Tic"
     },
     "type": ["Steel"],
     "base": {
@@ -21947,10 +21947,10 @@ pokemon = [
   {
     "id": 600,
     "name": {
-      "english": "Klang",
-      "japanese": "ギギアル",
-      "chinese": "齿轮组",
-      "french": "Clic"
+      "EN": "Klang",
+      "JP": "ギギアル",
+      "ZH": "齿轮组",
+      "FR": "Clic"
     },
     "type": ["Steel"],
     "base": {
@@ -21984,10 +21984,10 @@ pokemon = [
   {
     "id": 601,
     "name": {
-      "english": "Klinklang",
-      "japanese": "ギギギアル",
-      "chinese": "齿轮怪",
-      "french": "Cliticlic"
+      "EN": "Klinklang",
+      "JP": "ギギギアル",
+      "ZH": "齿轮怪",
+      "FR": "Cliticlic"
     },
     "type": ["Steel"],
     "base": {
@@ -22021,10 +22021,10 @@ pokemon = [
   {
     "id": 602,
     "name": {
-      "english": "Tynamo",
-      "japanese": "シビシラス",
-      "chinese": "麻麻小鱼",
-      "french": "Anchwatt"
+      "EN": "Tynamo",
+      "JP": "シビシラス",
+      "ZH": "麻麻小鱼",
+      "FR": "Anchwatt"
     },
     "type": ["Electric"],
     "base": {
@@ -22054,10 +22054,10 @@ pokemon = [
   {
     "id": 603,
     "name": {
-      "english": "Eelektrik",
-      "japanese": "シビビール",
-      "chinese": "麻麻鳗",
-      "french": "Lampéroie"
+      "EN": "Eelektrik",
+      "JP": "シビビール",
+      "ZH": "麻麻鳗",
+      "FR": "Lampéroie"
     },
     "type": ["Electric"],
     "base": {
@@ -22090,10 +22090,10 @@ pokemon = [
   {
     "id": 604,
     "name": {
-      "english": "Eelektross",
-      "japanese": "シビルドン",
-      "chinese": "麻麻鳗鱼王",
-      "french": "Ohmassacre"
+      "EN": "Eelektross",
+      "JP": "シビルドン",
+      "ZH": "麻麻鳗鱼王",
+      "FR": "Ohmassacre"
     },
     "type": ["Electric"],
     "base": {
@@ -22123,10 +22123,10 @@ pokemon = [
   {
     "id": 605,
     "name": {
-      "english": "Elgyem",
-      "japanese": "リグレー",
-      "chinese": "小灰怪",
-      "french": "Lewsor"
+      "EN": "Elgyem",
+      "JP": "リグレー",
+      "ZH": "小灰怪",
+      "FR": "Lewsor"
     },
     "type": ["Psychic"],
     "base": {
@@ -22160,10 +22160,10 @@ pokemon = [
   {
     "id": 606,
     "name": {
-      "english": "Beheeyem",
-      "japanese": "オーベム",
-      "chinese": "大宇怪",
-      "french": "Neitram"
+      "EN": "Beheeyem",
+      "JP": "オーベム",
+      "ZH": "大宇怪",
+      "FR": "Neitram"
     },
     "type": ["Psychic"],
     "base": {
@@ -22197,10 +22197,10 @@ pokemon = [
   {
     "id": 607,
     "name": {
-      "english": "Litwick",
-      "japanese": "ヒトモシ",
-      "chinese": "烛光灵",
-      "french": "Funécire"
+      "EN": "Litwick",
+      "JP": "ヒトモシ",
+      "ZH": "烛光灵",
+      "FR": "Funécire"
     },
     "type": ["Ghost", "Fire"],
     "base": {
@@ -22234,10 +22234,10 @@ pokemon = [
   {
     "id": 608,
     "name": {
-      "english": "Lampent",
-      "japanese": "ランプラー",
-      "chinese": "灯火幽灵",
-      "french": "Mélancolux"
+      "EN": "Lampent",
+      "JP": "ランプラー",
+      "ZH": "灯火幽灵",
+      "FR": "Mélancolux"
     },
     "type": ["Ghost", "Fire"],
     "base": {
@@ -22274,10 +22274,10 @@ pokemon = [
   {
     "id": 609,
     "name": {
-      "english": "Chandelure",
-      "japanese": "シャンデラ",
-      "chinese": "水晶灯火灵",
-      "french": "Lugulabre"
+      "EN": "Chandelure",
+      "JP": "シャンデラ",
+      "ZH": "水晶灯火灵",
+      "FR": "Lugulabre"
     },
     "type": ["Ghost", "Fire"],
     "base": {
@@ -22311,10 +22311,10 @@ pokemon = [
   {
     "id": 610,
     "name": {
-      "english": "Axew",
-      "japanese": "キバゴ",
-      "chinese": "牙牙",
-      "french": "Coupenotte"
+      "EN": "Axew",
+      "JP": "キバゴ",
+      "ZH": "牙牙",
+      "FR": "Coupenotte"
     },
     "type": ["Dragon"],
     "base": {
@@ -22348,10 +22348,10 @@ pokemon = [
   {
     "id": 611,
     "name": {
-      "english": "Fraxure",
-      "japanese": "オノンド",
-      "chinese": "斧牙龙",
-      "french": "Incisache"
+      "EN": "Fraxure",
+      "JP": "オノンド",
+      "ZH": "斧牙龙",
+      "FR": "Incisache"
     },
     "type": ["Dragon"],
     "base": {
@@ -22385,10 +22385,10 @@ pokemon = [
   {
     "id": 612,
     "name": {
-      "english": "Haxorus",
-      "japanese": "オノノクス",
-      "chinese": "双斧战龙",
-      "french": "Tranchodon"
+      "EN": "Haxorus",
+      "JP": "オノノクス",
+      "ZH": "双斧战龙",
+      "FR": "Tranchodon"
     },
     "type": ["Dragon"],
     "base": {
@@ -22422,10 +22422,10 @@ pokemon = [
   {
     "id": 613,
     "name": {
-      "english": "Cubchoo",
-      "japanese": "クマシュン",
-      "chinese": "喷嚏熊",
-      "french": "Polarhume"
+      "EN": "Cubchoo",
+      "JP": "クマシュン",
+      "ZH": "喷嚏熊",
+      "FR": "Polarhume"
     },
     "type": ["Ice"],
     "base": {
@@ -22459,10 +22459,10 @@ pokemon = [
   {
     "id": 614,
     "name": {
-      "english": "Beartic",
-      "japanese": "ツンベアー",
-      "chinese": "冻原熊",
-      "french": "Polagriffe"
+      "EN": "Beartic",
+      "JP": "ツンベアー",
+      "ZH": "冻原熊",
+      "FR": "Polagriffe"
     },
     "type": ["Ice"],
     "base": {
@@ -22496,10 +22496,10 @@ pokemon = [
   {
     "id": 615,
     "name": {
-      "english": "Cryogonal",
-      "japanese": "フリージオ",
-      "chinese": "几何雪花",
-      "french": "Hexagel"
+      "EN": "Cryogonal",
+      "JP": "フリージオ",
+      "ZH": "几何雪花",
+      "FR": "Hexagel"
     },
     "type": ["Ice"],
     "base": {
@@ -22529,10 +22529,10 @@ pokemon = [
   {
     "id": 616,
     "name": {
-      "english": "Shelmet",
-      "japanese": "チョボマキ",
-      "chinese": "小嘴蜗",
-      "french": "Escargaume"
+      "EN": "Shelmet",
+      "JP": "チョボマキ",
+      "ZH": "小嘴蜗",
+      "FR": "Escargaume"
     },
     "type": ["Bug"],
     "base": {
@@ -22566,10 +22566,10 @@ pokemon = [
   {
     "id": 617,
     "name": {
-      "english": "Accelgor",
-      "japanese": "アギルダー",
-      "chinese": "敏捷虫",
-      "french": "Limaspeed"
+      "EN": "Accelgor",
+      "JP": "アギルダー",
+      "ZH": "敏捷虫",
+      "FR": "Limaspeed"
     },
     "type": ["Bug"],
     "base": {
@@ -22603,10 +22603,10 @@ pokemon = [
   {
     "id": 618,
     "name": {
-      "english": "Stunfisk",
-      "japanese": "マッギョ",
-      "chinese": "泥巴鱼",
-      "french": "Limonde"
+      "EN": "Stunfisk",
+      "JP": "マッギョ",
+      "ZH": "泥巴鱼",
+      "FR": "Limonde"
     },
     "type": ["Ground", "Electric"],
     "base": {
@@ -22640,10 +22640,10 @@ pokemon = [
   {
     "id": 619,
     "name": {
-      "english": "Mienfoo",
-      "japanese": "コジョフー",
-      "chinese": "功夫鼬",
-      "french": "Kungfouine"
+      "EN": "Mienfoo",
+      "JP": "コジョフー",
+      "ZH": "功夫鼬",
+      "FR": "Kungfouine"
     },
     "type": ["Fighting"],
     "base": {
@@ -22677,10 +22677,10 @@ pokemon = [
   {
     "id": 620,
     "name": {
-      "english": "Mienshao",
-      "japanese": "コジョンド",
-      "chinese": "师父鼬",
-      "french": "Shaofouine"
+      "EN": "Mienshao",
+      "JP": "コジョンド",
+      "ZH": "师父鼬",
+      "FR": "Shaofouine"
     },
     "type": ["Fighting"],
     "base": {
@@ -22714,10 +22714,10 @@ pokemon = [
   {
     "id": 621,
     "name": {
-      "english": "Druddigon",
-      "japanese": "クリムガン",
-      "chinese": "赤面龙",
-      "french": "Drakkarmin"
+      "EN": "Druddigon",
+      "JP": "クリムガン",
+      "ZH": "赤面龙",
+      "FR": "Drakkarmin"
     },
     "type": ["Dragon"],
     "base": {
@@ -22751,10 +22751,10 @@ pokemon = [
   {
     "id": 622,
     "name": {
-      "english": "Golett",
-      "japanese": "ゴビット",
-      "chinese": "泥偶小人",
-      "french": "Gringolem"
+      "EN": "Golett",
+      "JP": "ゴビット",
+      "ZH": "泥偶小人",
+      "FR": "Gringolem"
     },
     "type": ["Ground", "Ghost"],
     "base": {
@@ -22788,10 +22788,10 @@ pokemon = [
   {
     "id": 623,
     "name": {
-      "english": "Golurk",
-      "japanese": "ゴルーグ",
-      "chinese": "泥偶巨人",
-      "french": "Golemastoc"
+      "EN": "Golurk",
+      "JP": "ゴルーグ",
+      "ZH": "泥偶巨人",
+      "FR": "Golemastoc"
     },
     "type": ["Ground", "Ghost"],
     "base": {
@@ -22825,10 +22825,10 @@ pokemon = [
   {
     "id": 624,
     "name": {
-      "english": "Pawniard",
-      "japanese": "コマタナ",
-      "chinese": "驹刀小兵",
-      "french": "Scalpion"
+      "EN": "Pawniard",
+      "JP": "コマタナ",
+      "ZH": "驹刀小兵",
+      "FR": "Scalpion"
     },
     "type": ["Dark", "Steel"],
     "base": {
@@ -22862,10 +22862,10 @@ pokemon = [
   {
     "id": 625,
     "name": {
-      "english": "Bisharp",
-      "japanese": "キリキザン",
-      "chinese": "劈斩司令",
-      "french": "Scalproie"
+      "EN": "Bisharp",
+      "JP": "キリキザン",
+      "ZH": "劈斩司令",
+      "FR": "Scalproie"
     },
     "type": ["Dark", "Steel"],
     "base": {
@@ -22899,10 +22899,10 @@ pokemon = [
   {
     "id": 626,
     "name": {
-      "english": "Bouffalant",
-      "japanese": "バッフロン",
-      "chinese": "爆炸头水牛",
-      "french": "Frison"
+      "EN": "Bouffalant",
+      "JP": "バッフロン",
+      "ZH": "爆炸头水牛",
+      "FR": "Frison"
     },
     "type": ["Normal"],
     "base": {
@@ -22936,10 +22936,10 @@ pokemon = [
   {
     "id": 627,
     "name": {
-      "english": "Rufflet",
-      "japanese": "ワシボン",
-      "chinese": "毛头小鹰",
-      "french": "Furaiglon"
+      "EN": "Rufflet",
+      "JP": "ワシボン",
+      "ZH": "毛头小鹰",
+      "FR": "Furaiglon"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -22973,10 +22973,10 @@ pokemon = [
   {
     "id": 628,
     "name": {
-      "english": "Braviary",
-      "japanese": "ウォーグル",
-      "chinese": "勇士雄鹰",
-      "french": "Gueriaigle"
+      "EN": "Braviary",
+      "JP": "ウォーグル",
+      "ZH": "勇士雄鹰",
+      "FR": "Gueriaigle"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -23010,10 +23010,10 @@ pokemon = [
   {
     "id": 629,
     "name": {
-      "english": "Vullaby",
-      "japanese": "バルチャイ",
-      "chinese": "秃鹰丫头",
-      "french": "Vostourno"
+      "EN": "Vullaby",
+      "JP": "バルチャイ",
+      "ZH": "秃鹰丫头",
+      "FR": "Vostourno"
     },
     "type": ["Dark", "Flying"],
     "base": {
@@ -23047,10 +23047,10 @@ pokemon = [
   {
     "id": 630,
     "name": {
-      "english": "Mandibuzz",
-      "japanese": "バルジーナ",
-      "chinese": "秃鹰娜",
-      "french": "Vaututrice"
+      "EN": "Mandibuzz",
+      "JP": "バルジーナ",
+      "ZH": "秃鹰娜",
+      "FR": "Vaututrice"
     },
     "type": ["Dark", "Flying"],
     "base": {
@@ -23084,10 +23084,10 @@ pokemon = [
   {
     "id": 631,
     "name": {
-      "english": "Heatmor",
-      "japanese": "クイタラン",
-      "chinese": "熔蚁兽",
-      "french": "Aflamanoir"
+      "EN": "Heatmor",
+      "JP": "クイタラン",
+      "ZH": "熔蚁兽",
+      "FR": "Aflamanoir"
     },
     "type": ["Fire"],
     "base": {
@@ -23121,10 +23121,10 @@ pokemon = [
   {
     "id": 632,
     "name": {
-      "english": "Durant",
-      "japanese": "アイアント",
-      "chinese": "铁蚁",
-      "french": "Fermite"
+      "EN": "Durant",
+      "JP": "アイアント",
+      "ZH": "铁蚁",
+      "FR": "Fermite"
     },
     "type": ["Bug", "Steel"],
     "base": {
@@ -23158,10 +23158,10 @@ pokemon = [
   {
     "id": 633,
     "name": {
-      "english": "Deino",
-      "japanese": "モノズ",
-      "chinese": "单首龙",
-      "french": "Solochi"
+      "EN": "Deino",
+      "JP": "モノズ",
+      "ZH": "单首龙",
+      "FR": "Solochi"
     },
     "type": ["Dark", "Dragon"],
     "base": {
@@ -23191,10 +23191,10 @@ pokemon = [
   {
     "id": 634,
     "name": {
-      "english": "Zweilous",
-      "japanese": "ジヘッド",
-      "chinese": "双首暴龙",
-      "french": "Diamat"
+      "EN": "Zweilous",
+      "JP": "ジヘッド",
+      "ZH": "双首暴龙",
+      "FR": "Diamat"
     },
     "type": ["Dark", "Dragon"],
     "base": {
@@ -23224,10 +23224,10 @@ pokemon = [
   {
     "id": 635,
     "name": {
-      "english": "Hydreigon",
-      "japanese": "サザンドラ",
-      "chinese": "三首恶龙",
-      "french": "Trioxhydre"
+      "EN": "Hydreigon",
+      "JP": "サザンドラ",
+      "ZH": "三首恶龙",
+      "FR": "Trioxhydre"
     },
     "type": ["Dark", "Dragon"],
     "base": {
@@ -23257,10 +23257,10 @@ pokemon = [
   {
     "id": 636,
     "name": {
-      "english": "Larvesta",
-      "japanese": "メラルバ",
-      "chinese": "燃烧虫",
-      "french": "Pyronille"
+      "EN": "Larvesta",
+      "JP": "メラルバ",
+      "ZH": "燃烧虫",
+      "FR": "Pyronille"
     },
     "type": ["Bug", "Fire"],
     "base": {
@@ -23293,10 +23293,10 @@ pokemon = [
   {
     "id": 637,
     "name": {
-      "english": "Volcarona",
-      "japanese": "ウルガモス",
-      "chinese": "火神蛾",
-      "french": "Pyrax"
+      "EN": "Volcarona",
+      "JP": "ウルガモス",
+      "ZH": "火神蛾",
+      "FR": "Pyrax"
     },
     "type": ["Bug", "Fire"],
     "base": {
@@ -23329,10 +23329,10 @@ pokemon = [
   {
     "id": 638,
     "name": {
-      "english": "Cobalion",
-      "japanese": "コバルオン",
-      "chinese": "勾帕路翁",
-      "french": "Cobaltium"
+      "EN": "Cobalion",
+      "JP": "コバルオン",
+      "ZH": "勾帕路翁",
+      "FR": "Cobaltium"
     },
     "type": ["Steel", "Fighting"],
     "base": {
@@ -23362,10 +23362,10 @@ pokemon = [
   {
     "id": 639,
     "name": {
-      "english": "Terrakion",
-      "japanese": "テラキオン",
-      "chinese": "代拉基翁",
-      "french": "Terrakium"
+      "EN": "Terrakion",
+      "JP": "テラキオン",
+      "ZH": "代拉基翁",
+      "FR": "Terrakium"
     },
     "type": ["Rock", "Fighting"],
     "base": {
@@ -23395,10 +23395,10 @@ pokemon = [
   {
     "id": 640,
     "name": {
-      "english": "Virizion",
-      "japanese": "ビリジオン",
-      "chinese": "毕力吉翁",
-      "french": "Viridium"
+      "EN": "Virizion",
+      "JP": "ビリジオン",
+      "ZH": "毕力吉翁",
+      "FR": "Viridium"
     },
     "type": ["Grass", "Fighting"],
     "base": {
@@ -23428,10 +23428,10 @@ pokemon = [
   {
     "id": 641,
     "name": {
-      "english": "Tornadus",
-      "japanese": "トルネロス",
-      "chinese": "龙卷云",
-      "french": "Boréas"
+      "EN": "Tornadus",
+      "JP": "トルネロス",
+      "ZH": "龙卷云",
+      "FR": "Boréas"
     },
     "type": ["Flying"],
     "base": {
@@ -23464,10 +23464,10 @@ pokemon = [
   {
     "id": 642,
     "name": {
-      "english": "Thundurus",
-      "japanese": "ボルトロス",
-      "chinese": "雷电云",
-      "french": "Fulguris"
+      "EN": "Thundurus",
+      "JP": "ボルトロス",
+      "ZH": "雷电云",
+      "FR": "Fulguris"
     },
     "type": ["Electric", "Flying"],
     "base": {
@@ -23500,10 +23500,10 @@ pokemon = [
   {
     "id": 643,
     "name": {
-      "english": "Reshiram",
-      "japanese": "レシラム",
-      "chinese": "莱希拉姆",
-      "french": "Reshiram"
+      "EN": "Reshiram",
+      "JP": "レシラム",
+      "ZH": "莱希拉姆",
+      "FR": "Reshiram"
     },
     "type": ["Dragon", "Fire"],
     "base": {
@@ -23533,10 +23533,10 @@ pokemon = [
   {
     "id": 644,
     "name": {
-      "english": "Zekrom",
-      "japanese": "ゼクロム",
-      "chinese": "捷克罗姆",
-      "french": "Zekrom"
+      "EN": "Zekrom",
+      "JP": "ゼクロム",
+      "ZH": "捷克罗姆",
+      "FR": "Zekrom"
     },
     "type": ["Dragon", "Electric"],
     "base": {
@@ -23566,10 +23566,10 @@ pokemon = [
   {
     "id": 645,
     "name": {
-      "english": "Landorus",
-      "japanese": "ランドロス",
-      "chinese": "土地云",
-      "french": "Démétéros"
+      "EN": "Landorus",
+      "JP": "ランドロス",
+      "ZH": "土地云",
+      "FR": "Démétéros"
     },
     "type": ["Ground", "Flying"],
     "base": {
@@ -23602,10 +23602,10 @@ pokemon = [
   {
     "id": 646,
     "name": {
-      "english": "Kyurem",
-      "japanese": "キュレム",
-      "chinese": "酋雷姆",
-      "french": "Kyurem"
+      "EN": "Kyurem",
+      "JP": "キュレム",
+      "ZH": "酋雷姆",
+      "FR": "Kyurem"
     },
     "type": ["Dragon", "Ice"],
     "base": {
@@ -23635,10 +23635,10 @@ pokemon = [
   {
     "id": 647,
     "name": {
-      "english": "Keldeo",
-      "japanese": "ケルディオ",
-      "chinese": "凯路迪欧",
-      "french": "Keldeo"
+      "EN": "Keldeo",
+      "JP": "ケルディオ",
+      "ZH": "凯路迪欧",
+      "FR": "Keldeo"
     },
     "type": ["Water", "Fighting"],
     "base": {
@@ -23668,10 +23668,10 @@ pokemon = [
   {
     "id": 648,
     "name": {
-      "english": "Meloetta",
-      "japanese": "メロエッタ",
-      "chinese": "美洛耶塔",
-      "french": "Meloetta"
+      "EN": "Meloetta",
+      "JP": "メロエッタ",
+      "ZH": "美洛耶塔",
+      "FR": "Meloetta"
     },
     "type": ["Normal", "Psychic"],
     "base": {
@@ -23701,10 +23701,10 @@ pokemon = [
   {
     "id": 649,
     "name": {
-      "english": "Genesect",
-      "japanese": "ゲノセクト",
-      "chinese": "盖诺赛克特",
-      "french": "Genesect"
+      "EN": "Genesect",
+      "JP": "ゲノセクト",
+      "ZH": "盖诺赛克特",
+      "FR": "Genesect"
     },
     "type": ["Bug", "Steel"],
     "base": {
@@ -23734,10 +23734,10 @@ pokemon = [
   {
     "id": 650,
     "name": {
-      "english": "Chespin",
-      "japanese": "ハリマロン",
-      "chinese": "哈力栗",
-      "french": "Marisson"
+      "EN": "Chespin",
+      "JP": "ハリマロン",
+      "ZH": "哈力栗",
+      "FR": "Marisson"
     },
     "type": ["Grass"],
     "base": {
@@ -23770,10 +23770,10 @@ pokemon = [
   {
     "id": 651,
     "name": {
-      "english": "Quilladin",
-      "japanese": "ハリボーグ",
-      "chinese": "胖胖哈力",
-      "french": "Boguérisse"
+      "EN": "Quilladin",
+      "JP": "ハリボーグ",
+      "ZH": "胖胖哈力",
+      "FR": "Boguérisse"
     },
     "type": ["Grass"],
     "base": {
@@ -23806,10 +23806,10 @@ pokemon = [
   {
     "id": 652,
     "name": {
-      "english": "Chesnaught",
-      "japanese": "ブリガロン",
-      "chinese": "布里卡隆",
-      "french": "Blindépique"
+      "EN": "Chesnaught",
+      "JP": "ブリガロン",
+      "ZH": "布里卡隆",
+      "FR": "Blindépique"
     },
     "type": ["Grass", "Fighting"],
     "base": {
@@ -23842,10 +23842,10 @@ pokemon = [
   {
     "id": 653,
     "name": {
-      "english": "Fennekin",
-      "japanese": "フォッコ",
-      "chinese": "火狐狸",
-      "french": "Feunnec"
+      "EN": "Fennekin",
+      "JP": "フォッコ",
+      "ZH": "火狐狸",
+      "FR": "Feunnec"
     },
     "type": ["Fire"],
     "base": {
@@ -23878,10 +23878,10 @@ pokemon = [
   {
     "id": 654,
     "name": {
-      "english": "Braixen",
-      "japanese": "テールナー",
-      "chinese": "长尾火狐",
-      "french": "Roussil"
+      "EN": "Braixen",
+      "JP": "テールナー",
+      "ZH": "长尾火狐",
+      "FR": "Roussil"
     },
     "type": ["Fire"],
     "base": {
@@ -23914,10 +23914,10 @@ pokemon = [
   {
     "id": 655,
     "name": {
-      "english": "Delphox",
-      "japanese": "マフォクシー",
-      "chinese": "妖火红狐",
-      "french": "Goupelin"
+      "EN": "Delphox",
+      "JP": "マフォクシー",
+      "ZH": "妖火红狐",
+      "FR": "Goupelin"
     },
     "type": ["Fire", "Psychic"],
     "base": {
@@ -23950,10 +23950,10 @@ pokemon = [
   {
     "id": 656,
     "name": {
-      "english": "Froakie",
-      "japanese": "ケロマツ",
-      "chinese": "呱呱泡蛙",
-      "french": "Grenousse"
+      "EN": "Froakie",
+      "JP": "ケロマツ",
+      "ZH": "呱呱泡蛙",
+      "FR": "Grenousse"
     },
     "type": ["Water"],
     "base": {
@@ -23986,10 +23986,10 @@ pokemon = [
   {
     "id": 657,
     "name": {
-      "english": "Frogadier",
-      "japanese": "ゲコガシラ",
-      "chinese": "呱头蛙",
-      "french": "Croâporal"
+      "EN": "Frogadier",
+      "JP": "ゲコガシラ",
+      "ZH": "呱头蛙",
+      "FR": "Croâporal"
     },
     "type": ["Water"],
     "base": {
@@ -24022,10 +24022,10 @@ pokemon = [
   {
     "id": 658,
     "name": {
-      "english": "Greninja",
-      "japanese": "ゲッコウガ",
-      "chinese": "甲贺忍蛙",
-      "french": "Amphinobi"
+      "EN": "Greninja",
+      "JP": "ゲッコウガ",
+      "ZH": "甲贺忍蛙",
+      "FR": "Amphinobi"
     },
     "type": ["Water", "Dark"],
     "base": {
@@ -24058,10 +24058,10 @@ pokemon = [
   {
     "id": 659,
     "name": {
-      "english": "Bunnelby",
-      "japanese": "ホルビー",
-      "chinese": "掘掘兔",
-      "french": "Sapereau"
+      "EN": "Bunnelby",
+      "JP": "ホルビー",
+      "ZH": "掘掘兔",
+      "FR": "Sapereau"
     },
     "type": ["Normal"],
     "base": {
@@ -24095,10 +24095,10 @@ pokemon = [
   {
     "id": 660,
     "name": {
-      "english": "Diggersby",
-      "japanese": "ホルード",
-      "chinese": "掘地兔",
-      "french": "Excavarenne"
+      "EN": "Diggersby",
+      "JP": "ホルード",
+      "ZH": "掘地兔",
+      "FR": "Excavarenne"
     },
     "type": ["Normal", "Ground"],
     "base": {
@@ -24132,10 +24132,10 @@ pokemon = [
   {
     "id": 661,
     "name": {
-      "english": "Fletchling",
-      "japanese": "ヤヤコマ",
-      "chinese": "小箭雀",
-      "french": "Passerouge"
+      "EN": "Fletchling",
+      "JP": "ヤヤコマ",
+      "ZH": "小箭雀",
+      "FR": "Passerouge"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -24168,10 +24168,10 @@ pokemon = [
   {
     "id": 662,
     "name": {
-      "english": "Fletchinder",
-      "japanese": "ヒノヤコマ",
-      "chinese": "火箭雀",
-      "french": "Braisillon"
+      "EN": "Fletchinder",
+      "JP": "ヒノヤコマ",
+      "ZH": "火箭雀",
+      "FR": "Braisillon"
     },
     "type": ["Fire", "Flying"],
     "base": {
@@ -24204,10 +24204,10 @@ pokemon = [
   {
     "id": 663,
     "name": {
-      "english": "Talonflame",
-      "japanese": "ファイアロー",
-      "chinese": "烈箭鹰",
-      "french": "Flambusard"
+      "EN": "Talonflame",
+      "JP": "ファイアロー",
+      "ZH": "烈箭鹰",
+      "FR": "Flambusard"
     },
     "type": ["Fire", "Flying"],
     "base": {
@@ -24240,10 +24240,10 @@ pokemon = [
   {
     "id": 664,
     "name": {
-      "english": "Scatterbug",
-      "japanese": "コフキムシ",
-      "chinese": "粉蝶虫",
-      "french": "Lépidonille"
+      "EN": "Scatterbug",
+      "JP": "コフキムシ",
+      "ZH": "粉蝶虫",
+      "FR": "Lépidonille"
     },
     "type": ["Bug"],
     "base": {
@@ -24277,10 +24277,10 @@ pokemon = [
   {
     "id": 665,
     "name": {
-      "english": "Spewpa",
-      "japanese": "コフーライ",
-      "chinese": "粉蝶蛹",
-      "french": "Pérégrain"
+      "EN": "Spewpa",
+      "JP": "コフーライ",
+      "ZH": "粉蝶蛹",
+      "FR": "Pérégrain"
     },
     "type": ["Bug"],
     "base": {
@@ -24313,10 +24313,10 @@ pokemon = [
   {
     "id": 666,
     "name": {
-      "english": "Vivillon",
-      "japanese": "ビビヨン",
-      "chinese": "彩粉蝶",
-      "french": "Prismillon"
+      "EN": "Vivillon",
+      "JP": "ビビヨン",
+      "ZH": "彩粉蝶",
+      "FR": "Prismillon"
     },
     "type": ["Bug", "Flying"],
     "base": {
@@ -24350,10 +24350,10 @@ pokemon = [
   {
     "id": 667,
     "name": {
-      "english": "Litleo",
-      "japanese": "シシコ",
-      "chinese": "小狮狮",
-      "french": "Hélionceau"
+      "EN": "Litleo",
+      "JP": "シシコ",
+      "ZH": "小狮狮",
+      "FR": "Hélionceau"
     },
     "type": ["Fire", "Normal"],
     "base": {
@@ -24387,10 +24387,10 @@ pokemon = [
   {
     "id": 668,
     "name": {
-      "english": "Pyroar",
-      "japanese": "カエンジシ",
-      "chinese": "火炎狮",
-      "french": "Némélios"
+      "EN": "Pyroar",
+      "JP": "カエンジシ",
+      "ZH": "火炎狮",
+      "FR": "Némélios"
     },
     "type": ["Fire", "Normal"],
     "base": {
@@ -24424,10 +24424,10 @@ pokemon = [
   {
     "id": 669,
     "name": {
-      "english": "Flabébé",
-      "japanese": "フラベベ",
-      "chinese": "花蓓蓓",
-      "french": "Flabébé"
+      "EN": "Flabébé",
+      "JP": "フラベベ",
+      "ZH": "花蓓蓓",
+      "FR": "Flabébé"
     },
     "type": ["Fairy"],
     "base": {
@@ -24460,10 +24460,10 @@ pokemon = [
   {
     "id": 670,
     "name": {
-      "english": "Floette",
-      "japanese": "フラエッテ",
-      "chinese": "花叶蒂",
-      "french": "FLOETTE"
+      "EN": "Floette",
+      "JP": "フラエッテ",
+      "ZH": "花叶蒂",
+      "FR": "FLOETTE"
     },
     "type": ["Fairy"],
     "base": {
@@ -24499,10 +24499,10 @@ pokemon = [
   {
     "id": 671,
     "name": {
-      "english": "Florges",
-      "japanese": "フラージェス",
-      "chinese": "花洁夫人",
-      "french": "Florges"
+      "EN": "Florges",
+      "JP": "フラージェス",
+      "ZH": "花洁夫人",
+      "FR": "Florges"
     },
     "type": ["Fairy"],
     "base": {
@@ -24535,10 +24535,10 @@ pokemon = [
   {
     "id": 672,
     "name": {
-      "english": "Skiddo",
-      "japanese": "メェークル",
-      "chinese": "坐骑小羊",
-      "french": "Cabriolaine"
+      "EN": "Skiddo",
+      "JP": "メェークル",
+      "ZH": "坐骑小羊",
+      "FR": "Cabriolaine"
     },
     "type": ["Grass"],
     "base": {
@@ -24571,10 +24571,10 @@ pokemon = [
   {
     "id": 673,
     "name": {
-      "english": "Gogoat",
-      "japanese": "ゴーゴート",
-      "chinese": "坐骑山羊",
-      "french": "Chevroum"
+      "EN": "Gogoat",
+      "JP": "ゴーゴート",
+      "ZH": "坐骑山羊",
+      "FR": "Chevroum"
     },
     "type": ["Grass"],
     "base": {
@@ -24607,10 +24607,10 @@ pokemon = [
   {
     "id": 674,
     "name": {
-      "english": "Pancham",
-      "japanese": "ヤンチャム",
-      "chinese": "顽皮熊猫",
-      "french": "Pandespiègle"
+      "EN": "Pancham",
+      "JP": "ヤンチャム",
+      "ZH": "顽皮熊猫",
+      "FR": "Pandespiègle"
     },
     "type": ["Fighting"],
     "base": {
@@ -24644,10 +24644,10 @@ pokemon = [
   {
     "id": 675,
     "name": {
-      "english": "Pangoro",
-      "japanese": "ゴロンダ",
-      "chinese": "流氓熊猫",
-      "french": "Pandarbare"
+      "EN": "Pangoro",
+      "JP": "ゴロンダ",
+      "ZH": "流氓熊猫",
+      "FR": "Pandarbare"
     },
     "type": ["Fighting", "Dark"],
     "base": {
@@ -24681,10 +24681,10 @@ pokemon = [
   {
     "id": 676,
     "name": {
-      "english": "Furfrou",
-      "japanese": "トリミアン",
-      "chinese": "多丽米亚",
-      "french": "Couafarel"
+      "EN": "Furfrou",
+      "JP": "トリミアン",
+      "ZH": "多丽米亚",
+      "FR": "Couafarel"
     },
     "type": ["Normal"],
     "base": {
@@ -24714,10 +24714,10 @@ pokemon = [
   {
     "id": 677,
     "name": {
-      "english": "Espurr",
-      "japanese": "ニャスパー",
-      "chinese": "妙喵",
-      "french": "Psystigri"
+      "EN": "Espurr",
+      "JP": "ニャスパー",
+      "ZH": "妙喵",
+      "FR": "Psystigri"
     },
     "type": ["Psychic"],
     "base": {
@@ -24751,10 +24751,10 @@ pokemon = [
   {
     "id": 678,
     "name": {
-      "english": "Meowstic",
-      "japanese": "ニャオニクス",
-      "chinese": "超能妙喵",
-      "french": "Mistigrix"
+      "EN": "Meowstic",
+      "JP": "ニャオニクス",
+      "ZH": "超能妙喵",
+      "FR": "Mistigrix"
     },
     "type": ["Psychic"],
     "base": {
@@ -24788,10 +24788,10 @@ pokemon = [
   {
     "id": 679,
     "name": {
-      "english": "Honedge",
-      "japanese": "ヒトツキ",
-      "chinese": "独剑鞘",
-      "french": "Monorpale"
+      "EN": "Honedge",
+      "JP": "ヒトツキ",
+      "ZH": "独剑鞘",
+      "FR": "Monorpale"
     },
     "type": ["Steel", "Ghost"],
     "base": {
@@ -24821,10 +24821,10 @@ pokemon = [
   {
     "id": 680,
     "name": {
-      "english": "Doublade",
-      "japanese": "ニダンギル",
-      "chinese": "双剑鞘",
-      "french": "Dimoclès"
+      "EN": "Doublade",
+      "JP": "ニダンギル",
+      "ZH": "双剑鞘",
+      "FR": "Dimoclès"
     },
     "type": ["Steel", "Ghost"],
     "base": {
@@ -24857,10 +24857,10 @@ pokemon = [
   {
     "id": 681,
     "name": {
-      "english": "Aegislash",
-      "japanese": "ギルガルド",
-      "chinese": "坚盾剑怪",
-      "french": "Exagide"
+      "EN": "Aegislash",
+      "JP": "ギルガルド",
+      "ZH": "坚盾剑怪",
+      "FR": "Exagide"
     },
     "type": ["Steel", "Ghost"],
     "base": {
@@ -24890,10 +24890,10 @@ pokemon = [
   {
     "id": 682,
     "name": {
-      "english": "Spritzee",
-      "japanese": "シュシュプ",
-      "chinese": "粉香香",
-      "french": "Fluvetin"
+      "EN": "Spritzee",
+      "JP": "シュシュプ",
+      "ZH": "粉香香",
+      "FR": "Fluvetin"
     },
     "type": ["Fairy"],
     "base": {
@@ -24926,10 +24926,10 @@ pokemon = [
   {
     "id": 683,
     "name": {
-      "english": "Aromatisse",
-      "japanese": "フレフワン",
-      "chinese": "芳香精",
-      "french": "Cocotine"
+      "EN": "Aromatisse",
+      "JP": "フレフワン",
+      "ZH": "芳香精",
+      "FR": "Cocotine"
     },
     "type": ["Fairy"],
     "base": {
@@ -24962,10 +24962,10 @@ pokemon = [
   {
     "id": 684,
     "name": {
-      "english": "Swirlix",
-      "japanese": "ペロッパフ",
-      "chinese": "绵绵泡芙",
-      "french": "Sucroquin"
+      "EN": "Swirlix",
+      "JP": "ペロッパフ",
+      "ZH": "绵绵泡芙",
+      "FR": "Sucroquin"
     },
     "type": ["Fairy"],
     "base": {
@@ -24998,10 +24998,10 @@ pokemon = [
   {
     "id": 685,
     "name": {
-      "english": "Slurpuff",
-      "japanese": "ペロリーム",
-      "chinese": "胖甜妮",
-      "french": "Cupcanaille"
+      "EN": "Slurpuff",
+      "JP": "ペロリーム",
+      "ZH": "胖甜妮",
+      "FR": "Cupcanaille"
     },
     "type": ["Fairy"],
     "base": {
@@ -25034,10 +25034,10 @@ pokemon = [
   {
     "id": 686,
     "name": {
-      "english": "Inkay",
-      "japanese": "マーイーカ",
-      "chinese": "好啦鱿",
-      "french": "Sepiatop"
+      "EN": "Inkay",
+      "JP": "マーイーカ",
+      "ZH": "好啦鱿",
+      "FR": "Sepiatop"
     },
     "type": ["Dark", "Psychic"],
     "base": {
@@ -25071,10 +25071,10 @@ pokemon = [
   {
     "id": 687,
     "name": {
-      "english": "Malamar",
-      "japanese": "カラマネロ",
-      "chinese": "乌贼王",
-      "french": "Sepiatroce"
+      "EN": "Malamar",
+      "JP": "カラマネロ",
+      "ZH": "乌贼王",
+      "FR": "Sepiatroce"
     },
     "type": ["Dark", "Psychic"],
     "base": {
@@ -25108,10 +25108,10 @@ pokemon = [
   {
     "id": 688,
     "name": {
-      "english": "Binacle",
-      "japanese": "カメテテ",
-      "chinese": "龟脚脚",
-      "french": "Opermine"
+      "EN": "Binacle",
+      "JP": "カメテテ",
+      "ZH": "龟脚脚",
+      "FR": "Opermine"
     },
     "type": ["Rock", "Water"],
     "base": {
@@ -25145,10 +25145,10 @@ pokemon = [
   {
     "id": 689,
     "name": {
-      "english": "Barbaracle",
-      "japanese": "ガメノデス",
-      "chinese": "龟足巨铠",
-      "french": "Golgopathe"
+      "EN": "Barbaracle",
+      "JP": "ガメノデス",
+      "ZH": "龟足巨铠",
+      "FR": "Golgopathe"
     },
     "type": ["Rock", "Water"],
     "base": {
@@ -25182,10 +25182,10 @@ pokemon = [
   {
     "id": 690,
     "name": {
-      "english": "Skrelp",
-      "japanese": "クズモー",
-      "chinese": "垃垃藻",
-      "french": "Venalgue"
+      "EN": "Skrelp",
+      "JP": "クズモー",
+      "ZH": "垃垃藻",
+      "FR": "Venalgue"
     },
     "type": ["Poison", "Water"],
     "base": {
@@ -25219,10 +25219,10 @@ pokemon = [
   {
     "id": 691,
     "name": {
-      "english": "Dragalge",
-      "japanese": "ドラミドロ",
-      "chinese": "毒藻龙",
-      "french": "Kravarech"
+      "EN": "Dragalge",
+      "JP": "ドラミドロ",
+      "ZH": "毒藻龙",
+      "FR": "Kravarech"
     },
     "type": ["Poison", "Dragon"],
     "base": {
@@ -25256,10 +25256,10 @@ pokemon = [
   {
     "id": 692,
     "name": {
-      "english": "Clauncher",
-      "japanese": "ウデッポウ",
-      "chinese": "铁臂枪虾",
-      "french": "Flingouste"
+      "EN": "Clauncher",
+      "JP": "ウデッポウ",
+      "ZH": "铁臂枪虾",
+      "FR": "Flingouste"
     },
     "type": ["Water"],
     "base": {
@@ -25289,10 +25289,10 @@ pokemon = [
   {
     "id": 693,
     "name": {
-      "english": "Clawitzer",
-      "japanese": "ブロスター",
-      "chinese": "钢炮臂虾",
-      "french": "Gamblast"
+      "EN": "Clawitzer",
+      "JP": "ブロスター",
+      "ZH": "钢炮臂虾",
+      "FR": "Gamblast"
     },
     "type": ["Water"],
     "base": {
@@ -25322,10 +25322,10 @@ pokemon = [
   {
     "id": 694,
     "name": {
-      "english": "Helioptile",
-      "japanese": "エリキテル",
-      "chinese": "伞电蜥",
-      "french": "Galvaran"
+      "EN": "Helioptile",
+      "JP": "エリキテル",
+      "ZH": "伞电蜥",
+      "FR": "Galvaran"
     },
     "type": ["Electric", "Normal"],
     "base": {
@@ -25359,10 +25359,10 @@ pokemon = [
   {
     "id": 695,
     "name": {
-      "english": "Heliolisk",
-      "japanese": "エレザード",
-      "chinese": "光电伞蜥",
-      "french": "Iguolta"
+      "EN": "Heliolisk",
+      "JP": "エレザード",
+      "ZH": "光电伞蜥",
+      "FR": "Iguolta"
     },
     "type": ["Electric", "Normal"],
     "base": {
@@ -25396,10 +25396,10 @@ pokemon = [
   {
     "id": 696,
     "name": {
-      "english": "Tyrunt",
-      "japanese": "チゴラス",
-      "chinese": "宝宝暴龙",
-      "french": "Ptyranidur"
+      "EN": "Tyrunt",
+      "JP": "チゴラス",
+      "ZH": "宝宝暴龙",
+      "FR": "Ptyranidur"
     },
     "type": ["Rock", "Dragon"],
     "base": {
@@ -25432,10 +25432,10 @@ pokemon = [
   {
     "id": 697,
     "name": {
-      "english": "Tyrantrum",
-      "japanese": "ガチゴラス",
-      "chinese": "怪颚龙",
-      "french": "Rexillius"
+      "EN": "Tyrantrum",
+      "JP": "ガチゴラス",
+      "ZH": "怪颚龙",
+      "FR": "Rexillius"
     },
     "type": ["Rock", "Dragon"],
     "base": {
@@ -25468,10 +25468,10 @@ pokemon = [
   {
     "id": 698,
     "name": {
-      "english": "Amaura",
-      "japanese": "アマルス",
-      "chinese": "冰雪龙",
-      "french": "Amagara"
+      "EN": "Amaura",
+      "JP": "アマルス",
+      "ZH": "冰雪龙",
+      "FR": "Amagara"
     },
     "type": ["Rock", "Ice"],
     "base": {
@@ -25504,10 +25504,10 @@ pokemon = [
   {
     "id": 699,
     "name": {
-      "english": "Aurorus",
-      "japanese": "アマルルガ",
-      "chinese": "冰雪巨龙",
-      "french": "Dragmara"
+      "EN": "Aurorus",
+      "JP": "アマルルガ",
+      "ZH": "冰雪巨龙",
+      "FR": "Dragmara"
     },
     "type": ["Rock", "Ice"],
     "base": {
@@ -25540,10 +25540,10 @@ pokemon = [
   {
     "id": 700,
     "name": {
-      "english": "Sylveon",
-      "japanese": "ニンフィア",
-      "chinese": "仙子伊布",
-      "french": "Nymphali"
+      "EN": "Sylveon",
+      "JP": "ニンフィア",
+      "ZH": "仙子伊布",
+      "FR": "Nymphali"
     },
     "type": ["Fairy"],
     "base": {
@@ -25576,10 +25576,10 @@ pokemon = [
   {
     "id": 701,
     "name": {
-      "english": "Hawlucha",
-      "japanese": "ルチャブル",
-      "chinese": "摔角鹰人",
-      "french": "Brutalibré"
+      "EN": "Hawlucha",
+      "JP": "ルチャブル",
+      "ZH": "摔角鹰人",
+      "FR": "Brutalibré"
     },
     "type": ["Fighting", "Flying"],
     "base": {
@@ -25613,10 +25613,10 @@ pokemon = [
   {
     "id": 702,
     "name": {
-      "english": "Dedenne",
-      "japanese": "デデンネ",
-      "chinese": "咚咚鼠",
-      "french": "DEDENNE"
+      "EN": "Dedenne",
+      "JP": "デデンネ",
+      "ZH": "咚咚鼠",
+      "FR": "DEDENNE"
     },
     "type": ["Electric", "Fairy"],
     "base": {
@@ -25650,10 +25650,10 @@ pokemon = [
   {
     "id": 703,
     "name": {
-      "english": "Carbink",
-      "japanese": "メレシー",
-      "chinese": "小碎钻",
-      "french": "Strassie"
+      "EN": "Carbink",
+      "JP": "メレシー",
+      "ZH": "小碎钻",
+      "FR": "Strassie"
     },
     "type": ["Rock", "Fairy"],
     "base": {
@@ -25686,10 +25686,10 @@ pokemon = [
   {
     "id": 704,
     "name": {
-      "english": "Goomy",
-      "japanese": "ヌメラ",
-      "chinese": "黏黏宝",
-      "french": "Mucuscule"
+      "EN": "Goomy",
+      "JP": "ヌメラ",
+      "ZH": "黏黏宝",
+      "FR": "Mucuscule"
     },
     "type": ["Dragon"],
     "base": {
@@ -25723,10 +25723,10 @@ pokemon = [
   {
     "id": 705,
     "name": {
-      "english": "Sliggoo",
-      "japanese": "ヌメイル",
-      "chinese": "黏美儿",
-      "french": "Colimucus"
+      "EN": "Sliggoo",
+      "JP": "ヌメイル",
+      "ZH": "黏美儿",
+      "FR": "Colimucus"
     },
     "type": ["Dragon"],
     "base": {
@@ -25763,10 +25763,10 @@ pokemon = [
   {
     "id": 706,
     "name": {
-      "english": "Goodra",
-      "japanese": "ヌメルゴン",
-      "chinese": "黏美龙",
-      "french": "Muplodocus"
+      "EN": "Goodra",
+      "JP": "ヌメルゴン",
+      "ZH": "黏美龙",
+      "FR": "Muplodocus"
     },
     "type": ["Dragon"],
     "base": {
@@ -25800,10 +25800,10 @@ pokemon = [
   {
     "id": 707,
     "name": {
-      "english": "Klefki",
-      "japanese": "クレッフィ",
-      "chinese": "钥圈儿",
-      "french": "Trousselin"
+      "EN": "Klefki",
+      "JP": "クレッフィ",
+      "ZH": "钥圈儿",
+      "FR": "Trousselin"
     },
     "type": ["Steel", "Fairy"],
     "base": {
@@ -25836,10 +25836,10 @@ pokemon = [
   {
     "id": 708,
     "name": {
-      "english": "Phantump",
-      "japanese": "ボクレー",
-      "chinese": "小木灵",
-      "french": "Brocélôme"
+      "EN": "Phantump",
+      "JP": "ボクレー",
+      "ZH": "小木灵",
+      "FR": "Brocélôme"
     },
     "type": ["Ghost", "Grass"],
     "base": {
@@ -25873,10 +25873,10 @@ pokemon = [
   {
     "id": 709,
     "name": {
-      "english": "Trevenant",
-      "japanese": "オーロット",
-      "chinese": "朽木妖",
-      "french": "Desséliande"
+      "EN": "Trevenant",
+      "JP": "オーロット",
+      "ZH": "朽木妖",
+      "FR": "Desséliande"
     },
     "type": ["Ghost", "Grass"],
     "base": {
@@ -25910,10 +25910,10 @@ pokemon = [
   {
     "id": 710,
     "name": {
-      "english": "Pumpkaboo",
-      "japanese": "バケッチャ",
-      "chinese": "南瓜精",
-      "french": "Pitrouille"
+      "EN": "Pumpkaboo",
+      "JP": "バケッチャ",
+      "ZH": "南瓜精",
+      "FR": "Pitrouille"
     },
     "type": ["Ghost", "Grass"],
     "base": {
@@ -25947,10 +25947,10 @@ pokemon = [
   {
     "id": 711,
     "name": {
-      "english": "Gourgeist",
-      "japanese": "パンプジン",
-      "chinese": "南瓜怪人",
-      "french": "Banshitrouye"
+      "EN": "Gourgeist",
+      "JP": "パンプジン",
+      "ZH": "南瓜怪人",
+      "FR": "Banshitrouye"
     },
     "type": ["Ghost", "Grass"],
     "base": {
@@ -25984,10 +25984,10 @@ pokemon = [
   {
     "id": 712,
     "name": {
-      "english": "Bergmite",
-      "japanese": "カチコール",
-      "chinese": "冰宝",
-      "french": "Grelaçon"
+      "EN": "Bergmite",
+      "JP": "カチコール",
+      "ZH": "冰宝",
+      "FR": "Grelaçon"
     },
     "type": ["Ice"],
     "base": {
@@ -26021,10 +26021,10 @@ pokemon = [
   {
     "id": 713,
     "name": {
-      "english": "Avalugg",
-      "japanese": "クレベース",
-      "chinese": "冰岩怪",
-      "french": "Séracrawl"
+      "EN": "Avalugg",
+      "JP": "クレベース",
+      "ZH": "冰岩怪",
+      "FR": "Séracrawl"
     },
     "type": ["Ice"],
     "base": {
@@ -26058,10 +26058,10 @@ pokemon = [
   {
     "id": 714,
     "name": {
-      "english": "Noibat",
-      "japanese": "オンバット",
-      "chinese": "嗡蝠",
-      "french": "Sonistrelle"
+      "EN": "Noibat",
+      "JP": "オンバット",
+      "ZH": "嗡蝠",
+      "FR": "Sonistrelle"
     },
     "type": ["Flying", "Dragon"],
     "base": {
@@ -26095,10 +26095,10 @@ pokemon = [
   {
     "id": 715,
     "name": {
-      "english": "Noivern",
-      "japanese": "オンバーン",
-      "chinese": "音波龙",
-      "french": "Bruyverne"
+      "EN": "Noivern",
+      "JP": "オンバーン",
+      "ZH": "音波龙",
+      "FR": "Bruyverne"
     },
     "type": ["Flying", "Dragon"],
     "base": {
@@ -26132,10 +26132,10 @@ pokemon = [
   {
     "id": 716,
     "name": {
-      "english": "Xerneas",
-      "japanese": "ゼルネアス",
-      "chinese": "哲尔尼亚斯",
-      "french": "Xerneas"
+      "EN": "Xerneas",
+      "JP": "ゼルネアス",
+      "ZH": "哲尔尼亚斯",
+      "FR": "Xerneas"
     },
     "type": ["Fairy"],
     "base": {
@@ -26165,10 +26165,10 @@ pokemon = [
   {
     "id": 717,
     "name": {
-      "english": "Yveltal",
-      "japanese": "イベルタル",
-      "chinese": "伊裴尔塔尔",
-      "french": "Yveltal"
+      "EN": "Yveltal",
+      "JP": "イベルタル",
+      "ZH": "伊裴尔塔尔",
+      "FR": "Yveltal"
     },
     "type": ["Dark", "Flying"],
     "base": {
@@ -26198,10 +26198,10 @@ pokemon = [
   {
     "id": 718,
     "name": {
-      "english": "Zygarde",
-      "japanese": "ジガルデ",
-      "chinese": "基格尔德",
-      "french": "Zygarde"
+      "EN": "Zygarde",
+      "JP": "ジガルデ",
+      "ZH": "基格尔德",
+      "FR": "Zygarde"
     },
     "type": ["Dragon", "Ground"],
     "base": {
@@ -26231,10 +26231,10 @@ pokemon = [
   {
     "id": 719,
     "name": {
-      "english": "Diancie",
-      "japanese": "ディアンシー",
-      "chinese": "蒂安希",
-      "french": "Diancie"
+      "EN": "Diancie",
+      "JP": "ディアンシー",
+      "ZH": "蒂安希",
+      "FR": "Diancie"
     },
     "type": ["Rock", "Fairy"],
     "base": {
@@ -26264,10 +26264,10 @@ pokemon = [
   {
     "id": 720,
     "name": {
-      "english": "Hoopa",
-      "japanese": "フーパ",
-      "chinese": "胡帕",
-      "french": "Hoopa"
+      "EN": "Hoopa",
+      "JP": "フーパ",
+      "ZH": "胡帕",
+      "FR": "Hoopa"
     },
     "type": ["Psychic", "Ghost"],
     "base": {
@@ -26297,10 +26297,10 @@ pokemon = [
   {
     "id": 721,
     "name": {
-      "english": "Volcanion",
-      "japanese": "ボルケニオン",
-      "chinese": "波尔凯尼恩",
-      "french": "Volcanion"
+      "EN": "Volcanion",
+      "JP": "ボルケニオン",
+      "ZH": "波尔凯尼恩",
+      "FR": "Volcanion"
     },
     "type": ["Fire", "Water"],
     "base": {
@@ -26330,10 +26330,10 @@ pokemon = [
   {
     "id": 722,
     "name": {
-      "english": "Rowlet",
-      "japanese": "モクロー",
-      "chinese": "木木枭",
-      "french": "Brindibou"
+      "EN": "Rowlet",
+      "JP": "モクロー",
+      "ZH": "木木枭",
+      "FR": "Brindibou"
     },
     "type": ["Grass", "Flying"],
     "base": {
@@ -26366,10 +26366,10 @@ pokemon = [
   {
     "id": 723,
     "name": {
-      "english": "Dartrix",
-      "japanese": "フクスロー",
-      "chinese": "投羽枭",
-      "french": "Efflèche"
+      "EN": "Dartrix",
+      "JP": "フクスロー",
+      "ZH": "投羽枭",
+      "FR": "Efflèche"
     },
     "type": ["Grass", "Flying"],
     "base": {
@@ -26402,10 +26402,10 @@ pokemon = [
   {
     "id": 724,
     "name": {
-      "english": "Decidueye",
-      "japanese": "ジュナイパー",
-      "chinese": "狙射树枭",
-      "french": "Archéduc"
+      "EN": "Decidueye",
+      "JP": "ジュナイパー",
+      "ZH": "狙射树枭",
+      "FR": "Archéduc"
     },
     "type": ["Grass", "Ghost"],
     "base": {
@@ -26438,10 +26438,10 @@ pokemon = [
   {
     "id": 725,
     "name": {
-      "english": "Litten",
-      "japanese": "ニャビー",
-      "chinese": "火斑喵",
-      "french": "Flamiaou"
+      "EN": "Litten",
+      "JP": "ニャビー",
+      "ZH": "火斑喵",
+      "FR": "Flamiaou"
     },
     "type": ["Fire"],
     "base": {
@@ -26474,10 +26474,10 @@ pokemon = [
   {
     "id": 726,
     "name": {
-      "english": "Torracat",
-      "japanese": "ニャヒート",
-      "chinese": "炎热喵",
-      "french": "Matoufeu"
+      "EN": "Torracat",
+      "JP": "ニャヒート",
+      "ZH": "炎热喵",
+      "FR": "Matoufeu"
     },
     "type": ["Fire"],
     "base": {
@@ -26510,10 +26510,10 @@ pokemon = [
   {
     "id": 727,
     "name": {
-      "english": "Incineroar",
-      "japanese": "ガオガエン",
-      "chinese": "炽焰咆哮虎",
-      "french": "Félinferno"
+      "EN": "Incineroar",
+      "JP": "ガオガエン",
+      "ZH": "炽焰咆哮虎",
+      "FR": "Félinferno"
     },
     "type": ["Fire", "Dark"],
     "base": {
@@ -26546,10 +26546,10 @@ pokemon = [
   {
     "id": 728,
     "name": {
-      "english": "Popplio",
-      "japanese": "アシマリ",
-      "chinese": "球球海狮",
-      "french": "Otaquin"
+      "EN": "Popplio",
+      "JP": "アシマリ",
+      "ZH": "球球海狮",
+      "FR": "Otaquin"
     },
     "type": ["Water"],
     "base": {
@@ -26582,10 +26582,10 @@ pokemon = [
   {
     "id": 729,
     "name": {
-      "english": "Brionne",
-      "japanese": "オシャマリ",
-      "chinese": "花漾海狮",
-      "french": "Otarlette"
+      "EN": "Brionne",
+      "JP": "オシャマリ",
+      "ZH": "花漾海狮",
+      "FR": "Otarlette"
     },
     "type": ["Water"],
     "base": {
@@ -26618,10 +26618,10 @@ pokemon = [
   {
     "id": 730,
     "name": {
-      "english": "Primarina",
-      "japanese": "アシレーヌ",
-      "chinese": "西狮海壬",
-      "french": "Oratoria"
+      "EN": "Primarina",
+      "JP": "アシレーヌ",
+      "ZH": "西狮海壬",
+      "FR": "Oratoria"
     },
     "type": ["Water", "Fairy"],
     "base": {
@@ -26654,10 +26654,10 @@ pokemon = [
   {
     "id": 731,
     "name": {
-      "english": "Pikipek",
-      "japanese": "ツツケラ",
-      "chinese": "小笃儿",
-      "french": "Picassaut"
+      "EN": "Pikipek",
+      "JP": "ツツケラ",
+      "ZH": "小笃儿",
+      "FR": "Picassaut"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -26691,10 +26691,10 @@ pokemon = [
   {
     "id": 732,
     "name": {
-      "english": "Trumbeak",
-      "japanese": "ケララッパ",
-      "chinese": "喇叭啄鸟",
-      "french": "Piclairon"
+      "EN": "Trumbeak",
+      "JP": "ケララッパ",
+      "ZH": "喇叭啄鸟",
+      "FR": "Piclairon"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -26728,10 +26728,10 @@ pokemon = [
   {
     "id": 733,
     "name": {
-      "english": "Toucannon",
-      "japanese": "ドデカバシ",
-      "chinese": "铳嘴大鸟",
-      "french": "Bazoucan"
+      "EN": "Toucannon",
+      "JP": "ドデカバシ",
+      "ZH": "铳嘴大鸟",
+      "FR": "Bazoucan"
     },
     "type": ["Normal", "Flying"],
     "base": {
@@ -26765,10 +26765,10 @@ pokemon = [
   {
     "id": 734,
     "name": {
-      "english": "Yungoos",
-      "japanese": "ヤングース",
-      "chinese": "猫鼬少",
-      "french": "Manglouton"
+      "EN": "Yungoos",
+      "JP": "ヤングース",
+      "ZH": "猫鼬少",
+      "FR": "Manglouton"
     },
     "type": ["Normal"],
     "base": {
@@ -26802,10 +26802,10 @@ pokemon = [
   {
     "id": 735,
     "name": {
-      "english": "Gumshoos",
-      "japanese": "デカグース",
-      "chinese": "猫鼬探长",
-      "french": "Argouste"
+      "EN": "Gumshoos",
+      "JP": "デカグース",
+      "ZH": "猫鼬探长",
+      "FR": "Argouste"
     },
     "type": ["Normal"],
     "base": {
@@ -26839,10 +26839,10 @@ pokemon = [
   {
     "id": 736,
     "name": {
-      "english": "Grubbin",
-      "japanese": "アゴジムシ",
-      "chinese": "强颚鸡母虫",
-      "french": "Larvibule"
+      "EN": "Grubbin",
+      "JP": "アゴジムシ",
+      "ZH": "强颚鸡母虫",
+      "FR": "Larvibule"
     },
     "type": ["Bug"],
     "base": {
@@ -26872,10 +26872,10 @@ pokemon = [
   {
     "id": 737,
     "name": {
-      "english": "Charjabug",
-      "japanese": "デンヂムシ",
-      "chinese": "虫电宝",
-      "french": "Chrysapile"
+      "EN": "Charjabug",
+      "JP": "デンヂムシ",
+      "ZH": "虫电宝",
+      "FR": "Chrysapile"
     },
     "type": ["Bug", "Electric"],
     "base": {
@@ -26908,10 +26908,10 @@ pokemon = [
   {
     "id": 738,
     "name": {
-      "english": "Vikavolt",
-      "japanese": "クワガノン",
-      "chinese": "锹农炮虫",
-      "french": "Lucanon"
+      "EN": "Vikavolt",
+      "JP": "クワガノン",
+      "ZH": "锹农炮虫",
+      "FR": "Lucanon"
     },
     "type": ["Bug", "Electric"],
     "base": {
@@ -26946,10 +26946,10 @@ pokemon = [
   {
     "id": 739,
     "name": {
-      "english": "Crabrawler",
-      "japanese": "マケンカニ",
-      "chinese": "好胜蟹",
-      "french": "Crabagarre"
+      "EN": "Crabrawler",
+      "JP": "マケンカニ",
+      "ZH": "好胜蟹",
+      "FR": "Crabagarre"
     },
     "type": ["Fighting"],
     "base": {
@@ -26983,10 +26983,10 @@ pokemon = [
   {
     "id": 740,
     "name": {
-      "english": "Crabominable",
-      "japanese": "ケケンカニ",
-      "chinese": "好胜毛蟹",
-      "french": "Crabominable"
+      "EN": "Crabominable",
+      "JP": "ケケンカニ",
+      "ZH": "好胜毛蟹",
+      "FR": "Crabominable"
     },
     "type": ["Fighting", "Ice"],
     "base": {
@@ -27020,10 +27020,10 @@ pokemon = [
   {
     "id": 741,
     "name": {
-      "english": "Oricorio",
-      "japanese": "オドリドリ",
-      "chinese": "花舞鸟",
-      "french": "Plumeline"
+      "EN": "Oricorio",
+      "JP": "オドリドリ",
+      "ZH": "花舞鸟",
+      "FR": "Plumeline"
     },
     "type": ["Fire", "Flying"],
     "base": {
@@ -27053,10 +27053,10 @@ pokemon = [
   {
     "id": 742,
     "name": {
-      "english": "Cutiefly",
-      "japanese": "アブリー",
-      "chinese": "萌虻",
-      "french": "Bombydou"
+      "EN": "Cutiefly",
+      "JP": "アブリー",
+      "ZH": "萌虻",
+      "FR": "Bombydou"
     },
     "type": ["Bug", "Fairy"],
     "base": {
@@ -27090,10 +27090,10 @@ pokemon = [
   {
     "id": 743,
     "name": {
-      "english": "Ribombee",
-      "japanese": "アブリボン",
-      "chinese": "蝶结萌虻",
-      "french": "Rubombelle"
+      "EN": "Ribombee",
+      "JP": "アブリボン",
+      "ZH": "蝶结萌虻",
+      "FR": "Rubombelle"
     },
     "type": ["Bug", "Fairy"],
     "base": {
@@ -27127,10 +27127,10 @@ pokemon = [
   {
     "id": 744,
     "name": {
-      "english": "Rockruff",
-      "japanese": "イワンコ",
-      "chinese": "岩狗狗",
-      "french": "Rocabot"
+      "EN": "Rockruff",
+      "JP": "イワンコ",
+      "ZH": "岩狗狗",
+      "FR": "Rocabot"
     },
     "type": ["Rock"],
     "base": {
@@ -27164,10 +27164,10 @@ pokemon = [
   {
     "id": 745,
     "name": {
-      "english": "Lycanroc",
-      "japanese": "ルガルガン",
-      "chinese": "鬃岩狼人",
-      "french": "Lougaroc"
+      "EN": "Lycanroc",
+      "JP": "ルガルガン",
+      "ZH": "鬃岩狼人",
+      "FR": "Lougaroc"
     },
     "type": ["Rock"],
     "base": {
@@ -27201,10 +27201,10 @@ pokemon = [
   {
     "id": 746,
     "name": {
-      "english": "Wishiwashi",
-      "japanese": "ヨワシ",
-      "chinese": "弱丁鱼",
-      "french": "Froussardine"
+      "EN": "Wishiwashi",
+      "JP": "ヨワシ",
+      "ZH": "弱丁鱼",
+      "FR": "Froussardine"
     },
     "type": ["Water"],
     "base": {
@@ -27234,10 +27234,10 @@ pokemon = [
   {
     "id": 747,
     "name": {
-      "english": "Mareanie",
-      "japanese": "ヒドイデ",
-      "chinese": "好坏星",
-      "french": "Vorastérie"
+      "EN": "Mareanie",
+      "JP": "ヒドイデ",
+      "ZH": "好坏星",
+      "FR": "Vorastérie"
     },
     "type": ["Poison", "Water"],
     "base": {
@@ -27271,10 +27271,10 @@ pokemon = [
   {
     "id": 748,
     "name": {
-      "english": "Toxapex",
-      "japanese": "ドヒドイデ",
-      "chinese": "超坏星",
-      "french": "Prédastérie"
+      "EN": "Toxapex",
+      "JP": "ドヒドイデ",
+      "ZH": "超坏星",
+      "FR": "Prédastérie"
     },
     "type": ["Poison", "Water"],
     "base": {
@@ -27308,10 +27308,10 @@ pokemon = [
   {
     "id": 749,
     "name": {
-      "english": "Mudbray",
-      "japanese": "ドロバンコ",
-      "chinese": "泥驴仔",
-      "french": "Tiboudet"
+      "EN": "Mudbray",
+      "JP": "ドロバンコ",
+      "ZH": "泥驴仔",
+      "FR": "Tiboudet"
     },
     "type": ["Ground"],
     "base": {
@@ -27345,10 +27345,10 @@ pokemon = [
   {
     "id": 750,
     "name": {
-      "english": "Mudsdale",
-      "japanese": "バンバドロ",
-      "chinese": "重泥挽马",
-      "french": "Bourrinos"
+      "EN": "Mudsdale",
+      "JP": "バンバドロ",
+      "ZH": "重泥挽马",
+      "FR": "Bourrinos"
     },
     "type": ["Ground"],
     "base": {
@@ -27382,10 +27382,10 @@ pokemon = [
   {
     "id": 751,
     "name": {
-      "english": "Dewpider",
-      "japanese": "シズクモ",
-      "chinese": "滴蛛",
-      "french": "Araqua"
+      "EN": "Dewpider",
+      "JP": "シズクモ",
+      "ZH": "滴蛛",
+      "FR": "Araqua"
     },
     "type": ["Water", "Bug"],
     "base": {
@@ -27418,10 +27418,10 @@ pokemon = [
   {
     "id": 752,
     "name": {
-      "english": "Araquanid",
-      "japanese": "オニシズクモ",
-      "chinese": "滴蛛霸",
-      "french": "Tarenbulle"
+      "EN": "Araquanid",
+      "JP": "オニシズクモ",
+      "ZH": "滴蛛霸",
+      "FR": "Tarenbulle"
     },
     "type": ["Water", "Bug"],
     "base": {
@@ -27454,10 +27454,10 @@ pokemon = [
   {
     "id": 753,
     "name": {
-      "english": "Fomantis",
-      "japanese": "カリキリ",
-      "chinese": "伪螳草",
-      "french": "Mimantis"
+      "EN": "Fomantis",
+      "JP": "カリキリ",
+      "ZH": "伪螳草",
+      "FR": "Mimantis"
     },
     "type": ["Grass"],
     "base": {
@@ -27490,10 +27490,10 @@ pokemon = [
   {
     "id": 754,
     "name": {
-      "english": "Lurantis",
-      "japanese": "ラランテス",
-      "chinese": "兰螳花",
-      "french": "Floramantis"
+      "EN": "Lurantis",
+      "JP": "ラランテス",
+      "ZH": "兰螳花",
+      "FR": "Floramantis"
     },
     "type": ["Grass"],
     "base": {
@@ -27526,10 +27526,10 @@ pokemon = [
   {
     "id": 755,
     "name": {
-      "english": "Morelull",
-      "japanese": "ネマシュ",
-      "chinese": "睡睡菇",
-      "french": "Spododo"
+      "EN": "Morelull",
+      "JP": "ネマシュ",
+      "ZH": "睡睡菇",
+      "FR": "Spododo"
     },
     "type": ["Grass", "Fairy"],
     "base": {
@@ -27563,10 +27563,10 @@ pokemon = [
   {
     "id": 756,
     "name": {
-      "english": "Shiinotic",
-      "japanese": "マシェード",
-      "chinese": "灯罩夜菇",
-      "french": "Lampignon"
+      "EN": "Shiinotic",
+      "JP": "マシェード",
+      "ZH": "灯罩夜菇",
+      "FR": "Lampignon"
     },
     "type": ["Grass", "Fairy"],
     "base": {
@@ -27600,10 +27600,10 @@ pokemon = [
   {
     "id": 757,
     "name": {
-      "english": "Salandit",
-      "japanese": "ヤトウモリ",
-      "chinese": "夜盗火蜥",
-      "french": "Tritox"
+      "EN": "Salandit",
+      "JP": "ヤトウモリ",
+      "ZH": "夜盗火蜥",
+      "FR": "Tritox"
     },
     "type": ["Poison", "Fire"],
     "base": {
@@ -27636,10 +27636,10 @@ pokemon = [
   {
     "id": 758,
     "name": {
-      "english": "Salazzle",
-      "japanese": "エンニュート",
-      "chinese": "焰后蜥",
-      "french": "Malamandre"
+      "EN": "Salazzle",
+      "JP": "エンニュート",
+      "ZH": "焰后蜥",
+      "FR": "Malamandre"
     },
     "type": ["Poison", "Fire"],
     "base": {
@@ -27672,10 +27672,10 @@ pokemon = [
   {
     "id": 759,
     "name": {
-      "english": "Stufful",
-      "japanese": "ヌイコグマ",
-      "chinese": "童偶熊",
-      "french": "Nounourson"
+      "EN": "Stufful",
+      "JP": "ヌイコグマ",
+      "ZH": "童偶熊",
+      "FR": "Nounourson"
     },
     "type": ["Normal", "Fighting"],
     "base": {
@@ -27709,10 +27709,10 @@ pokemon = [
   {
     "id": 760,
     "name": {
-      "english": "Bewear",
-      "japanese": "キテルグマ",
-      "chinese": "穿着熊",
-      "french": "Chelours"
+      "EN": "Bewear",
+      "JP": "キテルグマ",
+      "ZH": "穿着熊",
+      "FR": "Chelours"
     },
     "type": ["Normal", "Fighting"],
     "base": {
@@ -27746,10 +27746,10 @@ pokemon = [
   {
     "id": 761,
     "name": {
-      "english": "Bounsweet",
-      "japanese": "アマカジ",
-      "chinese": "甜竹竹",
-      "french": "Croquine"
+      "EN": "Bounsweet",
+      "JP": "アマカジ",
+      "ZH": "甜竹竹",
+      "FR": "Croquine"
     },
     "type": ["Grass"],
     "base": {
@@ -27783,10 +27783,10 @@ pokemon = [
   {
     "id": 762,
     "name": {
-      "english": "Steenee",
-      "japanese": "アママイコ",
-      "chinese": "甜舞妮",
-      "french": "Candine"
+      "EN": "Steenee",
+      "JP": "アママイコ",
+      "ZH": "甜舞妮",
+      "FR": "Candine"
     },
     "type": ["Grass"],
     "base": {
@@ -27823,10 +27823,10 @@ pokemon = [
   {
     "id": 763,
     "name": {
-      "english": "Tsareena",
-      "japanese": "アマージョ",
-      "chinese": "甜冷美后",
-      "french": "Sucreine"
+      "EN": "Tsareena",
+      "JP": "アマージョ",
+      "ZH": "甜冷美后",
+      "FR": "Sucreine"
     },
     "type": ["Grass"],
     "base": {
@@ -27860,10 +27860,10 @@ pokemon = [
   {
     "id": 764,
     "name": {
-      "english": "Comfey",
-      "japanese": "キュワワー",
-      "chinese": "花疗环环",
-      "french": "Guérilande"
+      "EN": "Comfey",
+      "JP": "キュワワー",
+      "ZH": "花疗环环",
+      "FR": "Guérilande"
     },
     "type": ["Fairy"],
     "base": {
@@ -27897,10 +27897,10 @@ pokemon = [
   {
     "id": 765,
     "name": {
-      "english": "Oranguru",
-      "japanese": "ヤレユータン",
-      "chinese": "智挥猩",
-      "french": "Gouroutan"
+      "EN": "Oranguru",
+      "JP": "ヤレユータン",
+      "ZH": "智挥猩",
+      "FR": "Gouroutan"
     },
     "type": ["Normal", "Psychic"],
     "base": {
@@ -27934,10 +27934,10 @@ pokemon = [
   {
     "id": 766,
     "name": {
-      "english": "Passimian",
-      "japanese": "ナゲツケサル",
-      "chinese": "投掷猴",
-      "french": "Quartermac"
+      "EN": "Passimian",
+      "JP": "ナゲツケサル",
+      "ZH": "投掷猴",
+      "FR": "Quartermac"
     },
     "type": ["Fighting"],
     "base": {
@@ -27970,10 +27970,10 @@ pokemon = [
   {
     "id": 767,
     "name": {
-      "english": "Wimpod",
-      "japanese": "コソクムシ",
-      "chinese": "胆小虫",
-      "french": "Sovkipou"
+      "EN": "Wimpod",
+      "JP": "コソクムシ",
+      "ZH": "胆小虫",
+      "FR": "Sovkipou"
     },
     "type": ["Bug", "Water"],
     "base": {
@@ -28003,10 +28003,10 @@ pokemon = [
   {
     "id": 768,
     "name": {
-      "english": "Golisopod",
-      "japanese": "グソクムシャ",
-      "chinese": "具甲武者",
-      "french": "Sarmuraï"
+      "EN": "Golisopod",
+      "JP": "グソクムシャ",
+      "ZH": "具甲武者",
+      "FR": "Sarmuraï"
     },
     "type": ["Bug", "Water"],
     "base": {
@@ -28036,10 +28036,10 @@ pokemon = [
   {
     "id": 769,
     "name": {
-      "english": "Sandygast",
-      "japanese": "スナバァ",
-      "chinese": "沙丘娃",
-      "french": "Bacabouh"
+      "EN": "Sandygast",
+      "JP": "スナバァ",
+      "ZH": "沙丘娃",
+      "FR": "Bacabouh"
     },
     "type": ["Ghost", "Ground"],
     "base": {
@@ -28072,10 +28072,10 @@ pokemon = [
   {
     "id": 770,
     "name": {
-      "english": "Palossand",
-      "japanese": "シロデスナ",
-      "chinese": "噬沙堡爷",
-      "french": "Trépassable"
+      "EN": "Palossand",
+      "JP": "シロデスナ",
+      "ZH": "噬沙堡爷",
+      "FR": "Trépassable"
     },
     "type": ["Ghost", "Ground"],
     "base": {
@@ -28108,10 +28108,10 @@ pokemon = [
   {
     "id": 771,
     "name": {
-      "english": "Pyukumuku",
-      "japanese": "ナマコブシ",
-      "chinese": "拳海参",
-      "french": "Concombaffe"
+      "EN": "Pyukumuku",
+      "JP": "ナマコブシ",
+      "ZH": "拳海参",
+      "FR": "Concombaffe"
     },
     "type": ["Water"],
     "base": {
@@ -28144,10 +28144,10 @@ pokemon = [
   {
     "id": 772,
     "name": {
-      "english": "Type: Null",
-      "japanese": "タイプ：ヌル",
-      "chinese": "属性：空",
-      "french": "Silvallié"
+      "EN": "Type: Null",
+      "JP": "タイプ：ヌル",
+      "ZH": "属性：空",
+      "FR": "Silvallié"
     },
     "type": ["Normal"],
     "base": {
@@ -28177,10 +28177,10 @@ pokemon = [
   {
     "id": 773,
     "name": {
-      "english": "Silvally",
-      "japanese": "シルヴァディ",
-      "chinese": "银伴战兽",
-      "french": "Météno"
+      "EN": "Silvally",
+      "JP": "シルヴァディ",
+      "ZH": "银伴战兽",
+      "FR": "Météno"
     },
     "type": ["Normal"],
     "base": {
@@ -28210,10 +28210,10 @@ pokemon = [
   {
     "id": 774,
     "name": {
-      "english": "Minior",
-      "japanese": "メテノ",
-      "chinese": "小陨星",
-      "french": "Dodoala"
+      "EN": "Minior",
+      "JP": "メテノ",
+      "ZH": "小陨星",
+      "FR": "Dodoala"
     },
     "type": ["Rock", "Flying"],
     "base": {
@@ -28243,10 +28243,10 @@ pokemon = [
   {
     "id": 775,
     "name": {
-      "english": "Komala",
-      "japanese": "ネッコアラ",
-      "chinese": "树枕尾熊",
-      "french": "Boumata"
+      "EN": "Komala",
+      "JP": "ネッコアラ",
+      "ZH": "树枕尾熊",
+      "FR": "Boumata"
     },
     "type": ["Normal"],
     "base": {
@@ -28276,10 +28276,10 @@ pokemon = [
   {
     "id": 776,
     "name": {
-      "english": "Turtonator",
-      "japanese": "バクガメス",
-      "chinese": "爆焰龟兽",
-      "french": "Togedemaru"
+      "EN": "Turtonator",
+      "JP": "バクガメス",
+      "ZH": "爆焰龟兽",
+      "FR": "Togedemaru"
     },
     "type": ["Fire", "Dragon"],
     "base": {
@@ -28309,10 +28309,10 @@ pokemon = [
   {
     "id": 777,
     "name": {
-      "english": "Togedemaru",
-      "japanese": "トゲデマル",
-      "chinese": "托戈德玛尔",
-      "french": "Mimiqui"
+      "EN": "Togedemaru",
+      "JP": "トゲデマル",
+      "ZH": "托戈德玛尔",
+      "FR": "Mimiqui"
     },
     "type": ["Electric", "Steel"],
     "base": {
@@ -28346,10 +28346,10 @@ pokemon = [
   {
     "id": 778,
     "name": {
-      "english": "Mimikyu",
-      "japanese": "ミミッキュ",
-      "chinese": "谜拟Ｑ",
-      "french": "Denticrisse"
+      "EN": "Mimikyu",
+      "JP": "ミミッキュ",
+      "ZH": "谜拟Ｑ",
+      "FR": "Denticrisse"
     },
     "type": ["Ghost", "Fairy"],
     "base": {
@@ -28379,10 +28379,10 @@ pokemon = [
   {
     "id": 779,
     "name": {
-      "english": "Bruxish",
-      "japanese": "ハギギシリ",
-      "chinese": "磨牙彩皮鱼",
-      "french": "Draïeul"
+      "EN": "Bruxish",
+      "JP": "ハギギシリ",
+      "ZH": "磨牙彩皮鱼",
+      "FR": "Draïeul"
     },
     "type": ["Water", "Psychic"],
     "base": {
@@ -28416,10 +28416,10 @@ pokemon = [
   {
     "id": 780,
     "name": {
-      "english": "Drampa",
-      "japanese": "ジジーロン",
-      "chinese": "老翁龙",
-      "french": "Sinistrail"
+      "EN": "Drampa",
+      "JP": "ジジーロン",
+      "ZH": "老翁龙",
+      "FR": "Sinistrail"
     },
     "type": ["Normal", "Dragon"],
     "base": {
@@ -28453,10 +28453,10 @@ pokemon = [
   {
     "id": 781,
     "name": {
-      "english": "Dhelmise",
-      "japanese": "ダダリン",
-      "chinese": "破破舵轮",
-      "french": "Bébécaille"
+      "EN": "Dhelmise",
+      "JP": "ダダリン",
+      "ZH": "破破舵轮",
+      "FR": "Bébécaille"
     },
     "type": ["Ghost", "Grass"],
     "base": {
@@ -28486,10 +28486,10 @@ pokemon = [
   {
     "id": 782,
     "name": {
-      "english": "Jangmo-o",
-      "japanese": "ジャラコ",
-      "chinese": "心鳞宝",
-      "french": "Écaïd"
+      "EN": "Jangmo-o",
+      "JP": "ジャラコ",
+      "ZH": "心鳞宝",
+      "FR": "Écaïd"
     },
     "type": ["Dragon"],
     "base": {
@@ -28523,10 +28523,10 @@ pokemon = [
   {
     "id": 783,
     "name": {
-      "english": "Hakamo-o",
-      "japanese": "ジャランゴ",
-      "chinese": "鳞甲龙",
-      "french": "Ékaïser"
+      "EN": "Hakamo-o",
+      "JP": "ジャランゴ",
+      "ZH": "鳞甲龙",
+      "FR": "Ékaïser"
     },
     "type": ["Dragon", "Fighting"],
     "base": {
@@ -28560,10 +28560,10 @@ pokemon = [
   {
     "id": 784,
     "name": {
-      "english": "Kommo-o",
-      "japanese": "ジャラランガ",
-      "chinese": "杖尾鳞甲龙",
-      "french": "Tokorico"
+      "EN": "Kommo-o",
+      "JP": "ジャラランガ",
+      "ZH": "杖尾鳞甲龙",
+      "FR": "Tokorico"
     },
     "type": ["Dragon", "Fighting"],
     "base": {
@@ -28597,10 +28597,10 @@ pokemon = [
   {
     "id": 785,
     "name": {
-      "english": "Tapu Koko",
-      "japanese": "カプ・コケコ",
-      "chinese": "卡璞・鸣鸣",
-      "french": "Tokopiyon"
+      "EN": "Tapu Koko",
+      "JP": "カプ・コケコ",
+      "ZH": "卡璞・鸣鸣",
+      "FR": "Tokopiyon"
     },
     "type": ["Electric", "Fairy"],
     "base": {
@@ -28633,10 +28633,10 @@ pokemon = [
   {
     "id": 786,
     "name": {
-      "english": "Tapu Lele",
-      "japanese": "カプ・テテフ",
-      "chinese": "卡璞・蝶蝶",
-      "french": "Tokotoro"
+      "EN": "Tapu Lele",
+      "JP": "カプ・テテフ",
+      "ZH": "卡璞・蝶蝶",
+      "FR": "Tokotoro"
     },
     "type": ["Psychic", "Fairy"],
     "base": {
@@ -28669,10 +28669,10 @@ pokemon = [
   {
     "id": 787,
     "name": {
-      "english": "Tapu Bulu",
-      "japanese": "カプ・ブルル",
-      "chinese": "卡璞・哞哞",
-      "french": "Tokopisco"
+      "EN": "Tapu Bulu",
+      "JP": "カプ・ブルル",
+      "ZH": "卡璞・哞哞",
+      "FR": "Tokopisco"
     },
     "type": ["Grass", "Fairy"],
     "base": {
@@ -28705,10 +28705,10 @@ pokemon = [
   {
     "id": 788,
     "name": {
-      "english": "Tapu Fini",
-      "japanese": "カプ・レヒレ",
-      "chinese": "卡璞・鳍鳍",
-      "french": "Tokopisco"
+      "EN": "Tapu Fini",
+      "JP": "カプ・レヒレ",
+      "ZH": "卡璞・鳍鳍",
+      "FR": "Tokopisco"
     },
     "type": ["Water", "Fairy"],
     "base": {
@@ -28741,10 +28741,10 @@ pokemon = [
   {
     "id": 789,
     "name": {
-      "english": "Cosmog",
-      "japanese": "コスモッグ",
-      "chinese": "科斯莫古",
-      "french": "Cosmog"
+      "EN": "Cosmog",
+      "JP": "コスモッグ",
+      "ZH": "科斯莫古",
+      "FR": "Cosmog"
     },
     "type": ["Psychic"],
     "base": {
@@ -28774,10 +28774,10 @@ pokemon = [
   {
     "id": 790,
     "name": {
-      "english": "Cosmoem",
-      "japanese": "コスモウム",
-      "chinese": "科斯莫姆",
-      "french": "Cosmovum"
+      "EN": "Cosmoem",
+      "JP": "コスモウム",
+      "ZH": "科斯莫姆",
+      "FR": "Cosmovum"
     },
     "type": ["Psychic"],
     "base": {
@@ -28813,10 +28813,10 @@ pokemon = [
   {
     "id": 791,
     "name": {
-      "english": "Solgaleo",
-      "japanese": "ソルガレオ",
-      "chinese": "索尔迦雷欧",
-      "french": "Solgaleo"
+      "EN": "Solgaleo",
+      "JP": "ソルガレオ",
+      "ZH": "索尔迦雷欧",
+      "FR": "Solgaleo"
     },
     "type": ["Psychic", "Steel"],
     "base": {
@@ -28846,10 +28846,10 @@ pokemon = [
   {
     "id": 792,
     "name": {
-      "english": "Lunala",
-      "japanese": "ルナアーラ",
-      "chinese": "露奈雅拉",
-      "french": "Lunala"
+      "EN": "Lunala",
+      "JP": "ルナアーラ",
+      "ZH": "露奈雅拉",
+      "FR": "Lunala"
     },
     "type": ["Psychic", "Ghost"],
     "base": {
@@ -28879,10 +28879,10 @@ pokemon = [
   {
     "id": 793,
     "name": {
-      "english": "Nihilego",
-      "japanese": "ウツロイド",
-      "chinese": "虚吾伊德",
-      "french": "Zéroïd"
+      "EN": "Nihilego",
+      "JP": "ウツロイド",
+      "ZH": "虚吾伊德",
+      "FR": "Zéroïd"
     },
     "type": ["Rock", "Poison"],
     "base": {
@@ -28912,10 +28912,10 @@ pokemon = [
   {
     "id": 794,
     "name": {
-      "english": "Buzzwole",
-      "japanese": "マッシブーン",
-      "chinese": "爆肌蚊",
-      "french": "Mouscoto"
+      "EN": "Buzzwole",
+      "JP": "マッシブーン",
+      "ZH": "爆肌蚊",
+      "FR": "Mouscoto"
     },
     "type": ["Bug", "Fighting"],
     "base": {
@@ -28945,10 +28945,10 @@ pokemon = [
   {
     "id": 795,
     "name": {
-      "english": "Pheromosa",
-      "japanese": "フェローチェ",
-      "chinese": "费洛美螂",
-      "french": "Cancrelove"
+      "EN": "Pheromosa",
+      "JP": "フェローチェ",
+      "ZH": "费洛美螂",
+      "FR": "Cancrelove"
     },
     "type": ["Bug", "Fighting"],
     "base": {
@@ -28978,10 +28978,10 @@ pokemon = [
   {
     "id": 796,
     "name": {
-      "english": "Xurkitree",
-      "japanese": "デンジュモク",
-      "chinese": "电束木",
-      "french": "Câblifère"
+      "EN": "Xurkitree",
+      "JP": "デンジュモク",
+      "ZH": "电束木",
+      "FR": "Câblifère"
     },
     "type": ["Electric"],
     "base": {
@@ -29011,10 +29011,10 @@ pokemon = [
   {
     "id": 797,
     "name": {
-      "english": "Celesteela",
-      "japanese": "テッカグヤ",
-      "chinese": "铁火辉夜",
-      "french": "Bamboiselle"
+      "EN": "Celesteela",
+      "JP": "テッカグヤ",
+      "ZH": "铁火辉夜",
+      "FR": "Bamboiselle"
     },
     "type": ["Steel", "Flying"],
     "base": {
@@ -29044,10 +29044,10 @@ pokemon = [
   {
     "id": 798,
     "name": {
-      "english": "Kartana",
-      "japanese": "カミツルギ",
-      "chinese": "纸御剑",
-      "french": "Katagami"
+      "EN": "Kartana",
+      "JP": "カミツルギ",
+      "ZH": "纸御剑",
+      "FR": "Katagami"
     },
     "type": ["Grass", "Steel"],
     "base": {
@@ -29077,10 +29077,10 @@ pokemon = [
   {
     "id": 799,
     "name": {
-      "english": "Guzzlord",
-      "japanese": "アクジキング",
-      "chinese": "恶食大王",
-      "french": "Engloutyran"
+      "EN": "Guzzlord",
+      "JP": "アクジキング",
+      "ZH": "恶食大王",
+      "FR": "Engloutyran"
     },
     "type": ["Dark", "Dragon"],
     "base": {
@@ -29110,10 +29110,10 @@ pokemon = [
   {
     "id": 800,
     "name": {
-      "english": "Necrozma",
-      "japanese": "ネクロズマ",
-      "chinese": "奈克洛兹玛",
-      "french": "Necrozma"
+      "EN": "Necrozma",
+      "JP": "ネクロズマ",
+      "ZH": "奈克洛兹玛",
+      "FR": "Necrozma"
     },
     "type": ["Psychic"],
     "base": {
@@ -29143,10 +29143,10 @@ pokemon = [
   {
     "id": 801,
     "name": {
-      "english": "Magearna",
-      "japanese": "マギアナ",
-      "chinese": "玛机雅娜",
-      "french": "Magearna"
+      "EN": "Magearna",
+      "JP": "マギアナ",
+      "ZH": "玛机雅娜",
+      "FR": "Magearna"
     },
     "type": ["Steel", "Fairy"],
     "base": {
@@ -29176,10 +29176,10 @@ pokemon = [
   {
     "id": 802,
     "name": {
-      "english": "Marshadow",
-      "japanese": "マーシャドー",
-      "chinese": "玛夏多",
-      "french": "Marshadow"
+      "EN": "Marshadow",
+      "JP": "マーシャドー",
+      "ZH": "玛夏多",
+      "FR": "Marshadow"
     },
     "type": ["Fighting", "Ghost"],
     "base": {
@@ -29209,10 +29209,10 @@ pokemon = [
   {
     "id": 803,
     "name": {
-      "english": "Poipole",
-      "japanese": "ベベノム",
-      "chinese": "毒贝比",
-      "french": "Vémini"
+      "EN": "Poipole",
+      "JP": "ベベノム",
+      "ZH": "毒贝比",
+      "FR": "Vémini"
     },
     "type": ["Poison"],
     "base": {
@@ -29242,10 +29242,10 @@ pokemon = [
   {
     "id": 804,
     "name": {
-      "english": "Naganadel",
-      "japanese": "アーゴヨン",
-      "chinese": "四颚针龙",
-      "french": "Mandrillon"
+      "EN": "Naganadel",
+      "JP": "アーゴヨン",
+      "ZH": "四颚针龙",
+      "FR": "Mandrillon"
     },
     "type": ["Poison", "Dragon"],
     "base": {
@@ -29275,10 +29275,10 @@ pokemon = [
   {
     "id": 805,
     "name": {
-      "english": "Stakataka",
-      "japanese": "ツンデツンデ",
-      "chinese": "垒磊石",
-      "french": "Ama - Ama"
+      "EN": "Stakataka",
+      "JP": "ツンデツンデ",
+      "ZH": "垒磊石",
+      "FR": "Ama - Ama"
     },
     "type": ["Rock", "Steel"],
     "base": {
@@ -29308,10 +29308,10 @@ pokemon = [
   {
     "id": 806,
     "name": {
-      "english": "Blacephalon",
-      "japanese": "ズガドーン",
-      "chinese": "砰头小丑",
-      "french": "Pierroteknik"
+      "EN": "Blacephalon",
+      "JP": "ズガドーン",
+      "ZH": "砰头小丑",
+      "FR": "Pierroteknik"
     },
     "type": ["Fire", "Ghost"],
     "base": {
@@ -29341,10 +29341,10 @@ pokemon = [
   {
     "id": 807,
     "name": {
-      "english": "Zeraora",
-      "japanese": "ゼラオラ",
-      "chinese": "捷拉奥拉",
-      "french": "Zeraora"
+      "EN": "Zeraora",
+      "JP": "ゼラオラ",
+      "ZH": "捷拉奥拉",
+      "FR": "Zeraora"
     },
     "type": ["Electric"],
     "base": {
@@ -29374,10 +29374,10 @@ pokemon = [
   {
     "id": 808,
     "name": {
-      "english": "Meltan",
-      "japanese": "メルタン",
-      "chinese": "美录坦",
-      "french": "Meltan"
+      "EN": "Meltan",
+      "JP": "メルタン",
+      "ZH": "美录坦",
+      "FR": "Meltan"
     },
     "type": ["Steel"],
     "base": {
@@ -29407,10 +29407,10 @@ pokemon = [
   {
     "id": 809,
     "name": {
-      "english": "Melmetal",
-      "japanese": "メルメタル",
-      "chinese": "美录梅塔",
-      "french": "Melmetal"
+      "EN": "Melmetal",
+      "JP": "メルメタル",
+      "ZH": "美录梅塔",
+      "FR": "Melmetal"
     },
     "type": ["Steel"],
     "base": {
@@ -29440,10 +29440,10 @@ pokemon = [
   {
     "id": 810,
     "name": {
-      "english": "Grookey",
-      "japanese": "サルノリ",
-      "chinese": "敲音猴",
-      "french": "Ouistempo"
+      "EN": "Grookey",
+      "JP": "サルノリ",
+      "ZH": "敲音猴",
+      "FR": "Ouistempo"
     },
     "type": ["Grass"],
     "species": "Chimp Pokémon",
@@ -29467,10 +29467,10 @@ pokemon = [
   {
     "id": 811,
     "name": {
-      "english": "Thwackey",
-      "japanese": "バチンキー",
-      "chinese": "啪咚猴",
-      "french": "Badabouin"
+      "EN": "Thwackey",
+      "JP": "バチンキー",
+      "ZH": "啪咚猴",
+      "FR": "Badabouin"
     },
     "type": ["Grass"],
     "species": "Beat Pokémon",
@@ -29494,10 +29494,10 @@ pokemon = [
   {
     "id": 812,
     "name": {
-      "english": "Rillaboom",
-      "japanese": "ゴリランダー",
-      "chinese": "轰擂金刚猩",
-      "french": "Gorythmic"
+      "EN": "Rillaboom",
+      "JP": "ゴリランダー",
+      "ZH": "轰擂金刚猩",
+      "FR": "Gorythmic"
     },
     "type": ["Grass"],
     "species": "Drummer Pokémon",
@@ -29521,10 +29521,10 @@ pokemon = [
   {
     "id": 813,
     "name": {
-      "english": "Scorbunny",
-      "japanese": "ヒバニー",
-      "chinese": "炎兔儿",
-      "french": "Flambino"
+      "EN": "Scorbunny",
+      "JP": "ヒバニー",
+      "ZH": "炎兔儿",
+      "FR": "Flambino"
     },
     "type": ["Fire"],
     "species": "Rabbit Pokémon",
@@ -29548,10 +29548,10 @@ pokemon = [
   {
     "id": 814,
     "name": {
-      "english": "Raboot",
-      "japanese": "ラビフット",
-      "chinese": "腾蹴小将",
-      "french": "Lapyro"
+      "EN": "Raboot",
+      "JP": "ラビフット",
+      "ZH": "腾蹴小将",
+      "FR": "Lapyro"
     },
     "type": ["Fire"],
     "species": "Rabbit Pokémon",
@@ -29575,10 +29575,10 @@ pokemon = [
   {
     "id": 815,
     "name": {
-      "english": "Cinderace",
-      "japanese": "エースバーン",
-      "chinese": "闪焰王牌",
-      "french": "Pyrobut"
+      "EN": "Cinderace",
+      "JP": "エースバーン",
+      "ZH": "闪焰王牌",
+      "FR": "Pyrobut"
     },
     "type": ["Fire"],
     "species": "Striker Pokémon",
@@ -29602,10 +29602,10 @@ pokemon = [
   {
     "id": 816,
     "name": {
-      "english": "Sobble",
-      "japanese": "メッソン",
-      "chinese": "泪眼蜥",
-      "french": "Larméléon"
+      "EN": "Sobble",
+      "JP": "メッソン",
+      "ZH": "泪眼蜥",
+      "FR": "Larméléon"
     },
     "type": ["Water"],
     "species": "Water Lizard Pokémon",
@@ -29629,10 +29629,10 @@ pokemon = [
   {
     "id": 817,
     "name": {
-      "english": "Drizzile",
-      "japanese": "ジメレオン",
-      "chinese": "变涩蜥",
-      "french": "Arrozard"
+      "EN": "Drizzile",
+      "JP": "ジメレオン",
+      "ZH": "变涩蜥",
+      "FR": "Arrozard"
     },
     "type": ["Water"],
     "species": "Water lizard Pokémon",
@@ -29656,10 +29656,10 @@ pokemon = [
   {
     "id": 818,
     "name": {
-      "english": "Inteleon",
-      "japanese": "インテレオン",
-      "chinese": "千面避役",
-      "french": "Lézargus"
+      "EN": "Inteleon",
+      "JP": "インテレオン",
+      "ZH": "千面避役",
+      "FR": "Lézargus"
     },
     "type": ["Water"],
     "species": "Secret Agent Pokémon",
@@ -29683,10 +29683,10 @@ pokemon = [
   {
     "id": 819,
     "name": {
-      "english": "Skwovet",
-      "japanese": "ホシガリス",
-      "chinese": "贪心栗鼠",
-      "french": "Rongourmand"
+      "EN": "Skwovet",
+      "JP": "ホシガリス",
+      "ZH": "贪心栗鼠",
+      "FR": "Rongourmand"
     },
     "type": ["Normal"],
     "species": "Cheeky Pokémon",
@@ -29710,10 +29710,10 @@ pokemon = [
   {
     "id": 820,
     "name": {
-      "english": "Greedent",
-      "japanese": "ヨクバリス",
-      "chinese": "藏饱栗鼠",
-      "french": "Rongrigou"
+      "EN": "Greedent",
+      "JP": "ヨクバリス",
+      "ZH": "藏饱栗鼠",
+      "FR": "Rongrigou"
     },
     "type": ["Normal"],
     "species": "Greedy Pokémon",
@@ -29737,10 +29737,10 @@ pokemon = [
   {
     "id": 821,
     "name": {
-      "english": "Rookidee",
-      "japanese": "ココガラ",
-      "chinese": "稚山雀",
-      "french": "Minisange"
+      "EN": "Rookidee",
+      "JP": "ココガラ",
+      "ZH": "稚山雀",
+      "FR": "Minisange"
     },
     "type": ["Flying"],
     "species": "Tiny Bird Pokémon",
@@ -29765,10 +29765,10 @@ pokemon = [
   {
     "id": 822,
     "name": {
-      "english": "Corvisquire",
-      "japanese": "アオガラス",
-      "chinese": "蓝鸦",
-      "french": "Bleuseille"
+      "EN": "Corvisquire",
+      "JP": "アオガラス",
+      "ZH": "蓝鸦",
+      "FR": "Bleuseille"
     },
     "type": ["Flying"],
     "species": "Raven Pokémon",
@@ -29793,10 +29793,10 @@ pokemon = [
   {
     "id": 823,
     "name": {
-      "english": "Corviknight",
-      "japanese": "アーマーガア",
-      "chinese": "钢铠鸦",
-      "french": "Corvaillus"
+      "EN": "Corviknight",
+      "JP": "アーマーガア",
+      "ZH": "钢铠鸦",
+      "FR": "Corvaillus"
     },
     "type": ["Flying", "Steel"],
     "species": "Raven Pokémon",
@@ -29821,10 +29821,10 @@ pokemon = [
   {
     "id": 824,
     "name": {
-      "english": "Blipbug",
-      "japanese": "サッチムシ",
-      "chinese": "索侦虫",
-      "french": "Larvadar"
+      "EN": "Blipbug",
+      "JP": "サッチムシ",
+      "ZH": "索侦虫",
+      "FR": "Larvadar"
     },
     "type": ["Bug"],
     "species": "Larva Pokémon",
@@ -29849,10 +29849,10 @@ pokemon = [
   {
     "id": 825,
     "name": {
-      "english": "Dottler",
-      "japanese": "レドームシ",
-      "chinese": "天罩虫",
-      "french": "Coléodôme"
+      "EN": "Dottler",
+      "JP": "レドームシ",
+      "ZH": "天罩虫",
+      "FR": "Coléodôme"
     },
     "type": ["Bug", "Psychic"],
     "species": "Radome Pokémon",
@@ -29877,10 +29877,10 @@ pokemon = [
   {
     "id": 826,
     "name": {
-      "english": "Orbeetle",
-      "japanese": "イオルブ",
-      "chinese": "以欧路普",
-      "french": "Astronelle"
+      "EN": "Orbeetle",
+      "JP": "イオルブ",
+      "ZH": "以欧路普",
+      "FR": "Astronelle"
     },
     "type": ["Bug", "Psychic"],
     "species": "Seven Spot Pokémon",
@@ -29905,10 +29905,10 @@ pokemon = [
   {
     "id": 827,
     "name": {
-      "english": "Nickit",
-      "japanese": "クスネ",
-      "chinese": "偷儿狐",
-      "french": "Goupilou"
+      "EN": "Nickit",
+      "JP": "クスネ",
+      "ZH": "偷儿狐",
+      "FR": "Goupilou"
     },
     "type": ["Dark"],
     "species": "Fox Pokémon",
@@ -29933,10 +29933,10 @@ pokemon = [
   {
     "id": 828,
     "name": {
-      "english": "Thievul",
-      "japanese": "フォクスライ",
-      "chinese": "狐大盗",
-      "french": "Roublenard"
+      "EN": "Thievul",
+      "JP": "フォクスライ",
+      "ZH": "狐大盗",
+      "FR": "Roublenard"
     },
     "type": ["Dark"],
     "species": "Fox Pokémon",
@@ -29961,10 +29961,10 @@ pokemon = [
   {
     "id": 829,
     "name": {
-      "english": "Gossifleur",
-      "japanese": "ヒメンカ",
-      "chinese": "幼棉棉",
-      "french": "Tournicoton"
+      "EN": "Gossifleur",
+      "JP": "ヒメンカ",
+      "ZH": "幼棉棉",
+      "FR": "Tournicoton"
     },
     "type": ["Grass"],
     "species": "Flowering Pokémon",
@@ -29989,10 +29989,10 @@ pokemon = [
   {
     "id": 830,
     "name": {
-      "english": "Eldegoss",
-      "japanese": "ワタシラガ",
-      "chinese": "白蓬蓬",
-      "french": "Blancoton"
+      "EN": "Eldegoss",
+      "JP": "ワタシラガ",
+      "ZH": "白蓬蓬",
+      "FR": "Blancoton"
     },
     "type": ["Grass"],
     "species": "Cotton Bloom Pokémon",
@@ -30017,10 +30017,10 @@ pokemon = [
   {
     "id": 831,
     "name": {
-      "english": "Wooloo",
-      "japanese": "ウールー",
-      "chinese": "毛辫羊",
-      "french": "Moumouton"
+      "EN": "Wooloo",
+      "JP": "ウールー",
+      "ZH": "毛辫羊",
+      "FR": "Moumouton"
     },
     "type": ["Normal"],
     "species": "Sheep Pokémon",
@@ -30045,10 +30045,10 @@ pokemon = [
   {
     "id": 832,
     "name": {
-      "english": "Dubwool",
-      "japanese": "バイウールー",
-      "chinese": "毛毛角羊",
-      "french": "Moumouflon"
+      "EN": "Dubwool",
+      "JP": "バイウールー",
+      "ZH": "毛毛角羊",
+      "FR": "Moumouflon"
     },
     "type": ["Normal"],
     "species": "Sheep Pokémon",
@@ -30073,10 +30073,10 @@ pokemon = [
   {
     "id": 833,
     "name": {
-      "english": "Chewtle",
-      "japanese": "カムカメ",
-      "chinese": "咬咬龟 ",
-      "french": "Khélocrok"
+      "EN": "Chewtle",
+      "JP": "カムカメ",
+      "ZH": "咬咬龟 ",
+      "FR": "Khélocrok"
     },
     "type": ["Water"],
     "species": "Snapping Pokémon",
@@ -30101,10 +30101,10 @@ pokemon = [
   {
     "id": 834,
     "name": {
-      "english": "Drednaw",
-      "japanese": "カジリガメ",
-      "chinese": "暴噬龟",
-      "french": "Torgamord"
+      "EN": "Drednaw",
+      "JP": "カジリガメ",
+      "ZH": "暴噬龟",
+      "FR": "Torgamord"
     },
     "type": ["Water", "Rock"],
     "species": "Bite Pokémon",
@@ -30129,10 +30129,10 @@ pokemon = [
   {
     "id": 835,
     "name": {
-      "english": "Yamper",
-      "japanese": "ワンパチ",
-      "chinese": "来电汪",
-      "french": "Voltoutou"
+      "EN": "Yamper",
+      "JP": "ワンパチ",
+      "ZH": "来电汪",
+      "FR": "Voltoutou"
     },
     "type": ["Electric"],
     "species": "Puppy Pokémon",
@@ -30156,10 +30156,10 @@ pokemon = [
   {
     "id": 836,
     "name": {
-      "english": "Boltund",
-      "japanese": "パルスワン",
-      "chinese": "逐电犬",
-      "french": "Fulgudog"
+      "EN": "Boltund",
+      "JP": "パルスワン",
+      "ZH": "逐电犬",
+      "FR": "Fulgudog"
     },
     "type": ["Electric"],
     "species": "Dog Pokémon",
@@ -30183,10 +30183,10 @@ pokemon = [
   {
     "id": 837,
     "name": {
-      "english": "Rolycoly",
-      "japanese": "タンドン",
-      "chinese": "小炭仔",
-      "french": "Charbi"
+      "EN": "Rolycoly",
+      "JP": "タンドン",
+      "ZH": "小炭仔",
+      "FR": "Charbi"
     },
     "type": ["Rock"],
     "species": "Coal Pokémon",
@@ -30211,10 +30211,10 @@ pokemon = [
   {
     "id": 838,
     "name": {
-      "english": "Carkol",
-      "japanese": "トロッゴン",
-      "chinese": "大炭车",
-      "french": "Wagomine"
+      "EN": "Carkol",
+      "JP": "トロッゴン",
+      "ZH": "大炭车",
+      "FR": "Wagomine"
     },
     "type": ["Rock", "Fire"],
     "species": "Coal Pokémon",
@@ -30239,10 +30239,10 @@ pokemon = [
   {
     "id": 839,
     "name": {
-      "english": "Coalossal",
-      "japanese": "セキタンザン",
-      "chinese": "巨炭山",
-      "french": "Monthracite"
+      "EN": "Coalossal",
+      "JP": "セキタンザン",
+      "ZH": "巨炭山",
+      "FR": "Monthracite"
     },
     "type": ["Rock", "Fire"],
     "species": "Coal Pokémon",
@@ -30267,10 +30267,10 @@ pokemon = [
   {
     "id": 840,
     "name": {
-      "english": "Applin",
-      "japanese": "カジッチュ",
-      "chinese": "啃果虫",
-      "french": "Verpom"
+      "EN": "Applin",
+      "JP": "カジッチュ",
+      "ZH": "啃果虫",
+      "FR": "Verpom"
     },
     "type": ["Grass", "Dragon"],
     "species": "Apple Core Pokémon",
@@ -30300,10 +30300,10 @@ pokemon = [
   {
     "id": 841,
     "name": {
-      "english": "Flapple",
-      "japanese": "アップリュー",
-      "chinese": "苹裹龙",
-      "french": "Pomdrapi"
+      "EN": "Flapple",
+      "JP": "アップリュー",
+      "ZH": "苹裹龙",
+      "FR": "Pomdrapi"
     },
     "type": ["Grass", "Dragon"],
     "species": "Apple Wing Pokémon",
@@ -30328,10 +30328,10 @@ pokemon = [
   {
     "id": 842,
     "name": {
-      "english": "Appletun",
-      "japanese": "タルップル",
-      "chinese": "丰蜜龙",
-      "french": "Dratatin"
+      "EN": "Appletun",
+      "JP": "タルップル",
+      "ZH": "丰蜜龙",
+      "FR": "Dratatin"
     },
     "type": ["Grass", "Dragon"],
     "species": "Apple Nectar Pokémon",
@@ -30356,10 +30356,10 @@ pokemon = [
   {
     "id": 843,
     "name": {
-      "english": "Silicobra",
-      "japanese": "スナヘビ",
-      "chinese": "沙包蛇",
-      "french": "Dunaja"
+      "EN": "Silicobra",
+      "JP": "スナヘビ",
+      "ZH": "沙包蛇",
+      "FR": "Dunaja"
     },
     "type": ["Ground"],
     "species": "Sand Snake Pokémon",
@@ -30384,10 +30384,10 @@ pokemon = [
   {
     "id": 844,
     "name": {
-      "english": "Sandaconda",
-      "japanese": "サダイジャ",
-      "chinese": "沙螺蟒",
-      "french": "Dunaconda"
+      "EN": "Sandaconda",
+      "JP": "サダイジャ",
+      "ZH": "沙螺蟒",
+      "FR": "Dunaconda"
     },
     "type": ["Ground"],
     "species": "Sand Snake Pokémon",
@@ -30412,10 +30412,10 @@ pokemon = [
   {
     "id": 845,
     "name": {
-      "english": "Cramorant",
-      "japanese": "ウッウ",
-      "chinese": "古月鸟",
-      "french": "Nigosier"
+      "EN": "Cramorant",
+      "JP": "ウッウ",
+      "ZH": "古月鸟",
+      "FR": "Nigosier"
     },
     "type": ["Flying", "Water"],
     "species": "Gulp Pokémon",
@@ -30436,10 +30436,10 @@ pokemon = [
   {
     "id": 846,
     "name": {
-      "english": "Arrokuda",
-      "japanese": "サシカマス",
-      "chinese": "刺梭鱼",
-      "french": "Embrochet"
+      "EN": "Arrokuda",
+      "JP": "サシカマス",
+      "ZH": "刺梭鱼",
+      "FR": "Embrochet"
     },
     "type": ["Water"],
     "species": "Rush Pokémon",
@@ -30463,10 +30463,10 @@ pokemon = [
   {
     "id": 847,
     "name": {
-      "english": "Barraskewda",
-      "japanese": "カマスジョー",
-      "chinese": "戽斗尖梭",
-      "french": "Hastacuda"
+      "EN": "Barraskewda",
+      "JP": "カマスジョー",
+      "ZH": "戽斗尖梭",
+      "FR": "Hastacuda"
     },
     "type": ["Water"],
     "species": "Skewer Pokémon",
@@ -30490,10 +30490,10 @@ pokemon = [
   {
     "id": 848,
     "name": {
-      "english": "Toxel",
-      "japanese": "エレズン",
-      "chinese": "毒电婴",
-      "french": "Toxizap"
+      "EN": "Toxel",
+      "JP": "エレズン",
+      "ZH": "毒电婴",
+      "FR": "Toxizap"
     },
     "type": ["Electric", "Poison"],
     "species": "Baby Pokémon",
@@ -30518,10 +30518,10 @@ pokemon = [
   {
     "id": 849,
     "name": {
-      "english": "Toxtricity",
-      "japanese": "ストリンダー",
-      "chinese": "颤弦蝾螈",
-      "french": "Salarsen"
+      "EN": "Toxtricity",
+      "JP": "ストリンダー",
+      "ZH": "颤弦蝾螈",
+      "FR": "Salarsen"
     },
     "type": ["Electric", "Poison"],
     "species": "Punk Pokémon",
@@ -30546,10 +30546,10 @@ pokemon = [
   {
     "id": 850,
     "name": {
-      "english": "Sizzlipede",
-      "japanese": "ヤクデ",
-      "chinese": "烧火蚣",
-      "french": "Grillepattes"
+      "EN": "Sizzlipede",
+      "JP": "ヤクデ",
+      "ZH": "烧火蚣",
+      "FR": "Grillepattes"
     },
     "type": ["Fire", "Bug"],
     "species": "Radiator Pokémon",
@@ -30574,10 +30574,10 @@ pokemon = [
   {
     "id": 851,
     "name": {
-      "english": "Centiskorch",
-      "japanese": "マルヤクデ",
-      "chinese": "焚焰蚣",
-      "french": "Scolocendre"
+      "EN": "Centiskorch",
+      "JP": "マルヤクデ",
+      "ZH": "焚焰蚣",
+      "FR": "Scolocendre"
     },
     "type": ["Fire", "Bug"],
     "species": "Radiator Pokémon",
@@ -30602,10 +30602,10 @@ pokemon = [
   {
     "id": 852,
     "name": {
-      "english": "Clobbopus",
-      "japanese": "タタッコ",
-      "chinese": "拳拳蛸",
-      "french": "Poulpaf"
+      "EN": "Clobbopus",
+      "JP": "タタッコ",
+      "ZH": "拳拳蛸",
+      "FR": "Poulpaf"
     },
     "type": ["Fighting"],
     "species": "Tantrum Pokémon",
@@ -30629,10 +30629,10 @@ pokemon = [
   {
     "id": 853,
     "name": {
-      "english": "Grapploct",
-      "japanese": "オトスパス",
-      "chinese": "八爪武师",
-      "french": "Krakos"
+      "EN": "Grapploct",
+      "JP": "オトスパス",
+      "ZH": "八爪武师",
+      "FR": "Krakos"
     },
     "type": ["Fighting"],
     "species": "Tantrum Pokémon",
@@ -30656,10 +30656,10 @@ pokemon = [
   {
     "id": 854,
     "name": {
-      "english": "Sinistea",
-      "japanese": "ヤバチャ",
-      "chinese": "来悲茶",
-      "french": "Théffroi"
+      "EN": "Sinistea",
+      "JP": "ヤバチャ",
+      "ZH": "来悲茶",
+      "FR": "Théffroi"
     },
     "type": ["Ghost"],
     "species": "Black Tea Pokémon",
@@ -30683,10 +30683,10 @@ pokemon = [
   {
     "id": 855,
     "name": {
-      "english": "Polteageist",
-      "japanese": "ポットデス",
-      "chinese": "怖思壶",
-      "french": "Polthégeist"
+      "EN": "Polteageist",
+      "JP": "ポットデス",
+      "ZH": "怖思壶",
+      "FR": "Polthégeist"
     },
     "type": ["Ghost"],
     "species": "Black Tea Pokémon",
@@ -30710,10 +30710,10 @@ pokemon = [
   {
     "id": 856,
     "name": {
-      "english": "Hatenna",
-      "japanese": "ミブリム",
-      "chinese": "迷布莉姆",
-      "french": "Bibichut"
+      "EN": "Hatenna",
+      "JP": "ミブリム",
+      "ZH": "迷布莉姆",
+      "FR": "Bibichut"
     },
     "type": ["Psychic"],
     "species": "Calm Pokémon",
@@ -30738,10 +30738,10 @@ pokemon = [
   {
     "id": 857,
     "name": {
-      "english": "Hattrem",
-      "japanese": "テブリム",
-      "chinese": "提布莉姆",
-      "french": "Chapotus"
+      "EN": "Hattrem",
+      "JP": "テブリム",
+      "ZH": "提布莉姆",
+      "FR": "Chapotus"
     },
     "type": ["Psychic"],
     "species": "Serene Pokémon",
@@ -30766,10 +30766,10 @@ pokemon = [
   {
     "id": 858,
     "name": {
-      "english": "Hatterene",
-      "japanese": "ブリムオン",
-      "chinese": "布莉姆温",
-      "french": "Sorcilence"
+      "EN": "Hatterene",
+      "JP": "ブリムオン",
+      "ZH": "布莉姆温",
+      "FR": "Sorcilence"
     },
     "type": ["Psychic", "Fairy"],
     "species": "Silent Pokémon",
@@ -30794,10 +30794,10 @@ pokemon = [
   {
     "id": 859,
     "name": {
-      "english": "Impidimp",
-      "japanese": "ベロバー",
-      "chinese": "捣蛋小妖",
-      "french": "Grimalin"
+      "EN": "Impidimp",
+      "JP": "ベロバー",
+      "ZH": "捣蛋小妖",
+      "FR": "Grimalin"
     },
     "type": ["Dark", "Fairy"],
     "species": "Wily Pokémon",
@@ -30822,10 +30822,10 @@ pokemon = [
   {
     "id": 860,
     "name": {
-      "english": "Morgrem",
-      "japanese": "ギモー",
-      "chinese": "诈唬魔",
-      "french": "Fourbelin"
+      "EN": "Morgrem",
+      "JP": "ギモー",
+      "ZH": "诈唬魔",
+      "FR": "Fourbelin"
     },
     "type": ["Dark", "Fairy"],
     "species": "Devious Pokémon",
@@ -30850,10 +30850,10 @@ pokemon = [
   {
     "id": 861,
     "name": {
-      "english": "Grimmsnarl",
-      "japanese": "オーロンゲ",
-      "chinese": "长毛巨魔",
-      "french": "Angoliath"
+      "EN": "Grimmsnarl",
+      "JP": "オーロンゲ",
+      "ZH": "长毛巨魔",
+      "FR": "Angoliath"
     },
     "type": ["Dark", "Fairy"],
     "species": "Bulk Up Pokémon",
@@ -30878,10 +30878,10 @@ pokemon = [
   {
     "id": 862,
     "name": {
-      "english": "Obstagoon",
-      "japanese": "タチフサグマ",
-      "chinese": "堵拦熊",
-      "french": "Ixon"
+      "EN": "Obstagoon",
+      "JP": "タチフサグマ",
+      "ZH": "堵拦熊",
+      "FR": "Ixon"
     },
     "type": ["Dark", "Normal"],
     "species": "Blocking Pokémon",
@@ -30906,10 +30906,10 @@ pokemon = [
   {
     "id": 863,
     "name": {
-      "english": "Perrserker",
-      "japanese": "ニャイキング",
-      "chinese": "喵头目",
-      "french": "Berserkatt"
+      "EN": "Perrserker",
+      "JP": "ニャイキング",
+      "ZH": "喵头目",
+      "FR": "Berserkatt"
     },
     "type": ["Steel"],
     "species": "Viking Pokémon",
@@ -30934,10 +30934,10 @@ pokemon = [
   {
     "id": 864,
     "name": {
-      "english": "Cursola",
-      "japanese": "サニゴーン",
-      "chinese": "魔灵珊瑚",
-      "french": "Corayôme"
+      "EN": "Cursola",
+      "JP": "サニゴーン",
+      "ZH": "魔灵珊瑚",
+      "FR": "Corayôme"
     },
     "type": ["Ghost"],
     "species": "Coral Pokémon",
@@ -30961,10 +30961,10 @@ pokemon = [
   {
     "id": 865,
     "name": {
-      "english": "Sirfetch'd",
-      "japanese": "ネギガナイト",
-      "chinese": "葱游兵",
-      "french": "Palarticho"
+      "EN": "Sirfetch'd",
+      "JP": "ネギガナイト",
+      "ZH": "葱游兵",
+      "FR": "Palarticho"
     },
     "type": ["Fighting"],
     "species": "Wild Duck Pokémon",
@@ -30988,10 +30988,10 @@ pokemon = [
   {
     "id": 866,
     "name": {
-      "english": "Mr. Rime",
-      "japanese": "バリコオル",
-      "chinese": "踏冰人偶",
-      "french": "M. Glaquette"
+      "EN": "Mr. Rime",
+      "JP": "バリコオル",
+      "ZH": "踏冰人偶",
+      "FR": "M. Glaquette"
     },
     "type": ["Ice", "Psychic"],
     "species": "Comedian Pokémon",
@@ -31016,10 +31016,10 @@ pokemon = [
   {
     "id": 867,
     "name": {
-      "english": "Runerigus",
-      "japanese": "デスバーン",
-      "chinese": "死神板",
-      "french": "Tutétékri"
+      "EN": "Runerigus",
+      "JP": "デスバーン",
+      "ZH": "死神板",
+      "FR": "Tutétékri"
     },
     "type": ["Ground", "Ghost"],
     "species": "Grudge Pokémon",
@@ -31040,10 +31040,10 @@ pokemon = [
   {
     "id": 868,
     "name": {
-      "english": "Milcery",
-      "japanese": "マホミル",
-      "chinese": "小仙奶",
-      "french": "Crèmy"
+      "EN": "Milcery",
+      "JP": "マホミル",
+      "ZH": "小仙奶",
+      "FR": "Crèmy"
     },
     "type": ["Fairy"],
     "species": "Cream Pokémon",
@@ -31067,10 +31067,10 @@ pokemon = [
   {
     "id": 869,
     "name": {
-      "english": "Alcremie",
-      "japanese": "マホイップ",
-      "chinese": "霜奶仙",
-      "french": "Charmilly"
+      "EN": "Alcremie",
+      "JP": "マホイップ",
+      "ZH": "霜奶仙",
+      "FR": "Charmilly"
     },
     "type": ["Fairy"],
     "species": "Cream Pokémon",
@@ -31094,10 +31094,10 @@ pokemon = [
   {
     "id": 870,
     "name": {
-      "english": "Falinks",
-      "japanese": "タイレーツ",
-      "chinese": "列阵兵",
-      "french": "Hexadron"
+      "EN": "Falinks",
+      "JP": "タイレーツ",
+      "ZH": "列阵兵",
+      "FR": "Hexadron"
     },
     "type": ["Fighting"],
     "species": "Formation Pokémon",
@@ -31121,10 +31121,10 @@ pokemon = [
   {
     "id": 871,
     "name": {
-      "english": "Pincurchin",
-      "japanese": "バチンウニ",
-      "chinese": "啪嚓海胆",
-      "french": "Wattapik"
+      "EN": "Pincurchin",
+      "JP": "バチンウニ",
+      "ZH": "啪嚓海胆",
+      "FR": "Wattapik"
     },
     "type": ["Electric"],
     "species": "Sea Urchin Pokémon",
@@ -31148,10 +31148,10 @@ pokemon = [
   {
     "id": 872,
     "name": {
-      "english": "Snom",
-      "japanese": "ユキハミ",
-      "chinese": "雪吞虫",
-      "french": "Frissonille"
+      "EN": "Snom",
+      "JP": "ユキハミ",
+      "ZH": "雪吞虫",
+      "FR": "Frissonille"
     },
     "type": ["Ice", "Bug"],
     "species": "Worm Pokémon",
@@ -31175,10 +31175,10 @@ pokemon = [
   {
     "id": 873,
     "name": {
-      "english": "Frosmoth",
-      "japanese": "モスノウ",
-      "chinese": "雪绒蛾",
-      "french": "Beldeneige"
+      "EN": "Frosmoth",
+      "JP": "モスノウ",
+      "ZH": "雪绒蛾",
+      "FR": "Beldeneige"
     },
     "type": ["Ice", "Bug"],
     "species": "Frost Moth Pokémon",
@@ -31202,10 +31202,10 @@ pokemon = [
   {
     "id": 874,
     "name": {
-      "english": "Stonjourner",
-      "japanese": "イシヘンジン",
-      "chinese": "巨石丁",
-      "french": "Dolman"
+      "EN": "Stonjourner",
+      "JP": "イシヘンジン",
+      "ZH": "巨石丁",
+      "FR": "Dolman"
     },
     "type": ["Rock"],
     "species": "Big Rock Pokémon",
@@ -31226,10 +31226,10 @@ pokemon = [
   {
     "id": 875,
     "name": {
-      "english": "Eiscue",
-      "japanese": "コオリッポ",
-      "chinese": "冰砌鹅",
-      "french": "Bekaglaçon"
+      "EN": "Eiscue",
+      "JP": "コオリッポ",
+      "ZH": "冰砌鹅",
+      "FR": "Bekaglaçon"
     },
     "type": ["Ice"],
     "species": "Penguin Pokémon",
@@ -31250,10 +31250,10 @@ pokemon = [
   {
     "id": 876,
     "name": {
-      "english": "Indeedee",
-      "japanese": "イエッサン",
-      "chinese": "爱管侍",
-      "french": "Wimessir"
+      "EN": "Indeedee",
+      "JP": "イエッサン",
+      "ZH": "爱管侍",
+      "FR": "Wimessir"
     },
     "type": ["Psychic", "Normal"],
     "species": "Emotion Pokémon",
@@ -31278,10 +31278,10 @@ pokemon = [
   {
     "id": 877,
     "name": {
-      "english": "Morpeko",
-      "japanese": "モルペコ",
-      "chinese": "莫鲁贝可",
-      "french": "Morpeko"
+      "EN": "Morpeko",
+      "JP": "モルペコ",
+      "ZH": "莫鲁贝可",
+      "FR": "Morpeko"
     },
     "type": ["Electric", "Dark"],
     "species": "Two-Sided Pokémon",
@@ -31301,10 +31301,10 @@ pokemon = [
   {
     "id": 878,
     "name": {
-      "english": "Cufant",
-      "japanese": "ゾウドウ",
-      "chinese": "铜象",
-      "french": "Charibari"
+      "EN": "Cufant",
+      "JP": "ゾウドウ",
+      "ZH": "铜象",
+      "FR": "Charibari"
     },
     "type": ["Steel"],
     "species": "Copperderm Pokémon",
@@ -31328,10 +31328,10 @@ pokemon = [
   {
     "id": 879,
     "name": {
-      "english": "Copperajah",
-      "japanese": "ダイオウドウ",
-      "chinese": "大王铜象",
-      "french": "Pachyradjah"
+      "EN": "Copperajah",
+      "JP": "ダイオウドウ",
+      "ZH": "大王铜象",
+      "FR": "Pachyradjah"
     },
     "type": ["Steel"],
     "species": "Copperderm Pokémon",
@@ -31355,10 +31355,10 @@ pokemon = [
   {
     "id": 880,
     "name": {
-      "english": "Dracozolt",
-      "japanese": "パッチラゴン",
-      "chinese": "雷鸟龙",
-      "french": "Galvagon"
+      "EN": "Dracozolt",
+      "JP": "パッチラゴン",
+      "ZH": "雷鸟龙",
+      "FR": "Galvagon"
     },
     "type": ["Electric", "Dragon"],
     "species": "Fossil Pokémon",
@@ -31383,10 +31383,10 @@ pokemon = [
   {
     "id": 881,
     "name": {
-      "english": "Arctozolt",
-      "japanese": "パッチルドン",
-      "chinese": "雷鸟海兽",
-      "french": "Galvagla"
+      "EN": "Arctozolt",
+      "JP": "パッチルドン",
+      "ZH": "雷鸟海兽",
+      "FR": "Galvagla"
     },
     "type": ["Electric", "Ice"],
     "species": "Fossil Pokémon",
@@ -31411,10 +31411,10 @@ pokemon = [
   {
     "id": 882,
     "name": {
-      "english": "Dracovish",
-      "japanese": "ウオノラゴン",
-      "chinese": "鳃鱼龙",
-      "french": "Hydragon"
+      "EN": "Dracovish",
+      "JP": "ウオノラゴン",
+      "ZH": "鳃鱼龙",
+      "FR": "Hydragon"
     },
     "type": ["Water", "Dragon"],
     "species": "Fossil Pokémon",
@@ -31439,10 +31439,10 @@ pokemon = [
   {
     "id": 883,
     "name": {
-      "english": "Arctovish",
-      "japanese": "ウオチルドン",
-      "chinese": "鳃鱼海兽",
-      "french": "Hydragla"
+      "EN": "Arctovish",
+      "JP": "ウオチルドン",
+      "ZH": "鳃鱼海兽",
+      "FR": "Hydragla"
     },
     "type": ["Water", "Ice"],
     "species": "Fossil Pokémon",
@@ -31467,10 +31467,10 @@ pokemon = [
   {
     "id": 884,
     "name": {
-      "english": "Duraludon",
-      "japanese": "ジュラルドン",
-      "chinese": "铝钢龙",
-      "french": "Duralugon"
+      "EN": "Duraludon",
+      "JP": "ジュラルドン",
+      "ZH": "铝钢龙",
+      "FR": "Duralugon"
     },
     "type": ["Steel", "Dragon"],
     "species": "Alloy Pokémon",
@@ -31495,10 +31495,10 @@ pokemon = [
   {
     "id": 885,
     "name": {
-      "english": "Dreepy",
-      "japanese": "ドラメシヤ",
-      "chinese": "多龙梅西亚",
-      "french": "Fantyrm"
+      "EN": "Dreepy",
+      "JP": "ドラメシヤ",
+      "ZH": "多龙梅西亚",
+      "FR": "Fantyrm"
     },
     "type": ["Dragon", "Ghost"],
     "species": "Lingering Pokémon",
@@ -31523,10 +31523,10 @@ pokemon = [
   {
     "id": 886,
     "name": {
-      "english": "Drakloak",
-      "japanese": "ドロンチ",
-      "chinese": "多龙奇",
-      "french": "Dispareptil"
+      "EN": "Drakloak",
+      "JP": "ドロンチ",
+      "ZH": "多龙奇",
+      "FR": "Dispareptil"
     },
     "type": ["Dragon", "Ghost"],
     "species": "Caretaker Pokémon",
@@ -31551,10 +31551,10 @@ pokemon = [
   {
     "id": 887,
     "name": {
-      "english": "Dragapult",
-      "japanese": "ドラパルト",
-      "chinese": "多龙巴鲁托",
-      "french": "Lanssorien"
+      "EN": "Dragapult",
+      "JP": "ドラパルト",
+      "ZH": "多龙巴鲁托",
+      "FR": "Lanssorien"
     },
     "type": ["Dragon", "Ghost"],
     "species": "Stealth Pokémon",
@@ -31579,10 +31579,10 @@ pokemon = [
   {
     "id": 888,
     "name": {
-      "english": "Zacian",
-      "japanese": "ザシアン",
-      "chinese": "苍响",
-      "french": "Zacian"
+      "EN": "Zacian",
+      "JP": "ザシアン",
+      "ZH": "苍响",
+      "FR": "Zacian"
     },
     "type": ["Fairy"],
     "species": "Warrior Pokémon",
@@ -31603,10 +31603,10 @@ pokemon = [
   {
     "id": 889,
     "name": {
-      "english": "Zamazenta",
-      "japanese": "ザマゼンタ",
-      "chinese": "藏玛然特",
-      "french": "Zamazent"
+      "EN": "Zamazenta",
+      "JP": "ザマゼンタ",
+      "ZH": "藏玛然特",
+      "FR": "Zamazent"
     },
     "type": ["Fighting"],
     "species": "Warrior Pokémon",
@@ -31627,10 +31627,10 @@ pokemon = [
   {
     "id": 890,
     "name": {
-      "english": "Eternatus",
-      "japanese": "ムゲンダイナ",
-      "chinese": "无极汰那",
-      "french": "Éthernatos"
+      "EN": "Eternatus",
+      "JP": "ムゲンダイナ",
+      "ZH": "无极汰那",
+      "FR": "Éthernatos"
     },
     "type": ["Poison", "Dragon"],
     "species": "Gigantic Pokémon",
@@ -31651,10 +31651,10 @@ pokemon = [
   {
     "id": 891,
     "name": {
-      "english": "Kubfu",
-      "japanese": "ダクマ",
-      "chinese": "熊徒弟",
-      "french": "Wushours"
+      "EN": "Kubfu",
+      "JP": "ダクマ",
+      "ZH": "熊徒弟",
+      "FR": "Wushours"
     },
     "type": ["Fighting"],
     "species": "Wushu Pokémon",
@@ -31680,10 +31680,10 @@ pokemon = [
   {
     "id": 892,
     "name": {
-      "english": "Urshifu",
-      "japanese": "ウーラオス",
-      "chinese": "武道熊师",
-      "french": "Shifours"
+      "EN": "Urshifu",
+      "JP": "ウーラオス",
+      "ZH": "武道熊师",
+      "FR": "Shifours"
     },
     "type": ["Fighting", "Dark"],
     "species": "Wushu Pokémon",
@@ -31704,10 +31704,10 @@ pokemon = [
   {
     "id": 893,
     "name": {
-      "english": "Zarude",
-      "japanese": "ザルード",
-      "chinese": "萨戮德",
-      "french": "Zarude"
+      "EN": "Zarude",
+      "JP": "ザルード",
+      "ZH": "萨戮德",
+      "FR": "Zarude"
     },
     "type": ["Dark", "Grass"],
     "species": "Rogue Monkey Pokémon",
@@ -31728,10 +31728,10 @@ pokemon = [
   {
     "id": 894,
     "name": {
-      "english": "Regieleki",
-      "japanese": "レジエレキ",
-      "chinese": "雷吉艾勒奇",
-      "french": "Regieleki"
+      "EN": "Regieleki",
+      "JP": "レジエレキ",
+      "ZH": "雷吉艾勒奇",
+      "FR": "Regieleki"
     },
     "type": ["Electric"],
     "species": "Electron Pokémon",
@@ -31752,10 +31752,10 @@ pokemon = [
   {
     "id": 895,
     "name": {
-      "english": "Regidrago",
-      "japanese": "レジドラゴ",
-      "chinese": "雷吉铎拉戈",
-      "french": "Regidrago"
+      "EN": "Regidrago",
+      "JP": "レジドラゴ",
+      "ZH": "雷吉铎拉戈",
+      "FR": "Regidrago"
     },
     "type": ["Dragon"],
     "species": "Dragon Orb Pokémon",
@@ -31776,10 +31776,10 @@ pokemon = [
   {
     "id": 896,
     "name": {
-      "english": "Glastrier",
-      "japanese": "ブリザポス",
-      "chinese": "雪暴马",
-      "french": "Blizzeval"
+      "EN": "Glastrier",
+      "JP": "ブリザポス",
+      "ZH": "雪暴马",
+      "FR": "Blizzeval"
     },
     "type": ["Ice"],
     "species": "Wild Horse Pokémon",
@@ -31800,10 +31800,10 @@ pokemon = [
   {
     "id": 897,
     "name": {
-      "english": "Spectrier",
-      "japanese": "レイスポス",
-      "chinese": "灵幽马",
-      "french": "Spectreval"
+      "EN": "Spectrier",
+      "JP": "レイスポス",
+      "ZH": "灵幽马",
+      "FR": "Spectreval"
     },
     "type": ["Ghost"],
     "species": "Swift Horse Pokémon",
@@ -31824,10 +31824,10 @@ pokemon = [
   {
     "id": 898,
     "name": {
-      "english": "Calyrex",
-      "japanese": "バドレックス",
-      "chinese": "蕾冠王",
-      "french": "Sylveroy"
+      "EN": "Calyrex",
+      "JP": "バドレックス",
+      "ZH": "蕾冠王",
+      "FR": "Sylveroy"
     },
     "type": ["Psychic", "Grass"],
     "species": "King Pokémon",
@@ -31846,4 +31846,84 @@ pokemon = [
     }
   }
 ]
-
+"""
+pokemon = [
+  {
+    "id": 1,
+    "name": {
+      "EN": "Bulbasaur",
+      "JP": "フシギダネ",
+      "ZH": "妙蛙种子",
+      "FR": "Bulbizarre"
+    },
+    "type": ["Grass", "Poison"],
+    "base": {
+      "HP": 45,
+      "Attack": 49,
+      "Defense": 49,
+      "Sp. Attack": 65,
+      "Sp. Defense": 65,
+      "Speed": 45
+    },
+    "species": "Seed Pokémon",
+    "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
+    "evolution": { "next": [["2", "Level 16"]] },
+    "profile": {
+      "height": "0.7 m",
+      "weight": "6.9 kg",
+      "egg": ["Monster", "Grass"],
+      "ability": [
+        ["Overgrow", "false"],
+        ["Chlorophyll", "true"]
+      ],
+      "gender": "87.5:12.5"
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/001.png",
+      "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/001.png",
+      "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/001.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "EN": "Ivysaur",
+      "JP": "フシギソウ",
+      "ZH": "妙蛙草",
+      "FR": "Herbizarre"
+    },
+    "type": ["Grass", "Poison"],
+    "base": {
+      "HP": 60,
+      "Attack": 62,
+      "Defense": 63,
+      "Sp. Attack": 80,
+      "Sp. Defense": 80,
+      "Speed": 60
+    },
+    "species": "Seed Pokémon",
+    "description": "There is a bud on this Pokémon’s back. To support its weight, Ivysaur’s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it’s a sign that the bud will bloom into a large flower soon.",
+    "evolution": { "prev": ["1", "Level 16"], "next": [["3", "Level 32"]] },
+    "profile": {
+      "height": "1 m",
+      "weight": "13 kg",
+      "egg": ["Monster", "Grass"],
+      "ability": [
+        ["Overgrow", "false"],
+        ["Chlorophyll", "true"]
+      ],
+      "gender": "87.5:12.5"
+    },
+    "image": {
+      "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/002.png",
+      "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/002.png",
+      "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/002.png"
+    }
+  },
+"""
+locale = input("Select language / 言語を選択 / 选择语言 / langue selectionner (EN, JP, ZH, FR): ");
+userDesire = input("What pokemon would you like to view stats of? Enter name or ID: ");
+try:
+  print(f"[name][{locale}]");
+except:
+  pass
